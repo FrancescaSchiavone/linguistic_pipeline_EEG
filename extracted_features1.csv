@@ -1,0 +1,526 @@
+sentence_id,token_position,token,lemma,pos,morphology,dependency_relation,head_token,entity_type
+0,0,Un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,re,O
+0,1,re,re,NOUN,{'Gender': 'Masc'},nsubj,perduto,O
+0,2,aveva,avere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",aux,perduto,O
+0,3,perduto,perdere,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",ROOT,perduto,O
+0,4,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,anello,O
+0,5,anello,anello,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,perduto,O
+0,6,prezioso,prezioso,ADJ,"{'Gender': 'Masc', 'Number': 'Sing'}",amod,anello,O
+1,0,Cerca,cercare,VERB,"{'Mood': 'Imp', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",ROOT,Cerca,O
+1,1,qua,qua,ADV,{},advmod,Cerca,O
+1,3,cerca,cercare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",conj,Cerca,O
+1,4,là,là,ADV,{},advmod,cerca,O
+1,6,non,non,ADV,{'PronType': 'Neg'},advmod,trova,O
+1,7,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl,trova,O
+1,8,trova,trovare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",conj,Cerca,O
+2,0,Mise,mise,NOUN,{'Gender': 'Masc'},ROOT,Mise,LOC
+2,1,fuori,fuori,ADP,{},case,bando,O
+2,2,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,bando,O
+2,3,bando,bando,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nmod,Mise,O
+2,4,che,che,SCONJ,{},mark,fa,O
+2,5,se,se,SCONJ,{},mark,dire,O
+2,6,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,astrologo,O
+2,7,astrologo,astrologo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nsubj,dire,O
+2,8,gli,lo,PRON,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",iobj,dire,O
+2,9,sa,sapere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",aux,dire,O
+2,10,dire,dire,VERB,{'VerbForm': 'Inf'},advcl,fa,O
+2,11,dov',dove,ADV,{},advmod,è,O
+2,12,è,essere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",advcl,dire,O
+2,14,lo,lo,PRON,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",obj,fa,O
+2,15,fa,fare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",acl:relcl,bando,O
+2,16,ricco,ricco,ADJ,"{'Gender': 'Masc', 'Number': 'Sing'}",xcomp,fa,O
+2,17,per,per,ADP,{},case,vita,O
+2,18,tutta,tutto,DET,"{'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Tot'}",det:predet,vita,O
+2,19,la,il,DET,"{'Definite': 'Def', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Art'}",det,vita,O
+2,20,vita,vita,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obl,fa,O
+4,0,C',ci,PRON,"{'Clitic': 'Yes', 'PronType': 'Prs'}",expl,era,MISC
+4,1,era,essere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",ROOT,era,MISC
+4,2,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,contadino,MISC
+4,3,contadino,contadino,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nsubj,era,MISC
+4,4,senza,senza,ADP,{},case,soldo,MISC
+4,5,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,soldo,MISC
+4,6,soldo,soldo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,era,MISC
+4,8,che,che,PRON,{'PronType': 'Rel'},nsubj,sapeva,O
+4,9,non,non,ADV,{'PronType': 'Neg'},advmod,sapeva,O
+4,10,sapeva,sapere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",acl:relcl,soldo,O
+4,11,né,né,CCONJ,{},cc,leggere,O
+4,12,leggere,leggere,VERB,{'VerbForm': 'Inf'},conj,sapeva,O
+4,13,né,né,CCONJ,{},cc,scrivere,O
+4,14,scrivere,scrivere,VERB,{'VerbForm': 'Inf'},conj,leggere,O
+4,16,e,e,CCONJ,{},cc,chiamava,O
+4,17,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl,chiamava,O
+4,18,chiamava,chiamare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",conj,sapeva,O
+4,19,Gambara,Gambara,PROPN,{},xcomp,chiamava,LOC
+5,1,Sarà,essere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",cop,difficile,O
+5,2,tanto,tanto,ADV,{},advmod,difficile,O
+5,3,difficile,difficile,ADJ,{'Number': 'Sing'},ROOT,difficile,O
+5,4,fare,fare,VERB,{'VerbForm': 'Inf'},csubj,difficile,O
+5,5,l',il,DET,"{'Definite': 'Def', 'Number': 'Sing', 'PronType': 'Art'}",det,astrologo,O
+5,6,astrologo,astrologo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,fare,O
+6,1,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl,disse,O
+6,2,disse,dire,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,disse,O
+7,1,Mi,mi,PRON,"{'Clitic': 'Yes', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",expl,provare,O
+7,2,ci,ci,PRON,"{'Clitic': 'Yes', 'PronType': 'Prs'}",expl,provare,O
+7,3,voglio,volere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",aux,provare,O
+7,4,provare,provare,VERB,{'VerbForm': 'Inf'},ROOT,provare,O
+8,0,E,e,CCONJ,{},cc,andò,O
+8,1,andò,andare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,andò,O
+8,2,dal,da il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",case,Re,O
+8,3,Re,Re,PROPN,{},obl,andò,PER
+9,0,Il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,Re,O
+9,1,Re,Re,PROPN,{},nsubj,prese,PER
+9,2,lo,lo,PRON,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",obj,prese,O
+9,3,prese,prendere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,prese,O
+9,4,in,in,ADP,{},case,parola,O
+9,5,parola,parola,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obl,prese,O
+9,7,e,e,CCONJ,{},cc,chiuse,O
+9,8,lo,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,chiuse,O
+9,9,chiuse,chiuso,ADJ,"{'Gender': 'Fem', 'Number': 'Plur'}",conj,prese,O
+9,10,a,a,ADP,{},mark,studiare,O
+9,11,studiare,studiare,VERB,{'VerbForm': 'Inf'},acl,chiuse,O
+9,12,in,in,ADP,{},case,stanza,O
+9,13,una,uno,DET,"{'Definite': 'Ind', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Art'}",det,stanza,O
+9,14,stanza,stanza,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obl,studiare,O
+9,15,dove,dove,ADV,{},advmod,erano,O
+9,16,c',ci,PRON,"{'Clitic': 'Yes', 'PronType': 'Prs'}",expl,erano,O
+9,17,erano,essere,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",acl:relcl,stanza,O
+9,18,solo,solo,ADV,{},advmod,letto,O
+9,19,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,letto,O
+9,20,letto,letto,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nsubj,erano,O
+9,21,e,e,CCONJ,{},cc,tavolo,O
+9,22,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,tavolo,O
+9,23,tavolo,tavolo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",conj,letto,O
+9,24,con,con,ADP,{},case,libraccio,O
+9,25,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,libraccio,O
+9,26,gran,grande,ADJ,{'Number': 'Sing'},amod,libraccio,O
+9,27,libraccio,libraccio,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nmod,tavolo,O
+9,28,d',di,ADP,{},case,astrologia,O
+9,29,astrologia,astrologia,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",nmod,libraccio,O
+9,31,e,e,CCONJ,{},cc,penna,O
+9,32,penna,penno,ADJ,"{'Gender': 'Fem', 'Number': 'Sing'}",conj,libraccio,O
+9,33,carta,carta,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",compound,penna,O
+9,34,e,e,CCONJ,{},cc,calamaio,O
+9,35,calamaio,calamaio,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",conj,carta,O
+10,0,Gambara,Gambara,PROPN,{},nsubj,sedette,LOC
+10,1,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl,sedette,O
+10,2,sedette,sedere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,sedette,O
+10,3,al,a il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",case,tavolo,O
+10,4,tavolo,tavolo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,sedette,O
+10,5,e,e,CCONJ,{},cc,cominciò,O
+10,6,cominciò,cominciare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",conj,sedette,O
+10,7,a,a,ADP,{},mark,scartabellare,O
+10,8,scartabellare,scartabellare,VERB,{'VerbForm': 'Inf'},xcomp,cominciò,O
+10,9,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,libro,O
+10,10,libro,libro,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,scartabellare,O
+10,11,senza,senza,ADP,{},mark,capirci,O
+10,12,capirci,capire ci,VERB,"{'Clitic': 'Yes', 'PronType': 'Prs', 'VerbForm': 'Inf'}",xcomp,cominciò,O
+10,13,niente,niente,PRON,"{'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Ind'}",obj,capirci,O
+10,14,e,e,CCONJ,{},cc,farci,O
+10,15,a,a,ADP,{},mark,farci,O
+10,16,farci,fare ci,AUX,"{'Clitic': 'Yes', 'Number': 'Plur', 'Person': '1', 'PronType': 'Prs', 'VerbForm': 'Inf'}",conj,niente,O
+10,17,dei,di il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Plur', 'PronType': 'Art'}",case,segni,O
+10,18,segni,segno,NOUN,"{'Gender': 'Masc', 'Number': 'Plur'}",nmod,niente,O
+10,19,con,con,ADP,{},case,penna,O
+10,20,la,il,DET,"{'Definite': 'Def', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Art'}",det,penna,O
+10,21,penna,penna,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obl,capirci,O
+11,0,Siccome,siccome,SCONJ,{},mark,sapeva,O
+11,1,non,non,ADV,{'PronType': 'Neg'},advmod,sapeva,O
+11,2,sapeva,sapere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",advcl,fecero,O
+11,3,scrivere,scrivere,VERB,{'VerbForm': 'Inf'},xcomp,sapeva,O
+11,5,venivano,venire,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",conj,sapeva,O
+11,6,fuori,fuori,ADV,{},case,segni,O
+11,7,dei,di il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Plur', 'PronType': 'Art'}",det,segni,O
+11,8,segni,segno,NOUN,"{'Gender': 'Masc', 'Number': 'Plur'}",obl,venivano,O
+11,9,ben,bene,ADV,{},advmod,strani,O
+11,10,strani,strano,ADJ,"{'Gender': 'Masc', 'Number': 'Plur'}",amod,segni,O
+11,12,e,e,CCONJ,{},cc,servi,O
+11,13,i,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Plur', 'PronType': 'Art'}",det,servi,O
+11,14,servi,servo,NOUN,"{'Gender': 'Masc', 'Number': 'Plur'}",dep,sapeva,O
+11,15,che,che,PRON,{'PronType': 'Rel'},nsubj,entravano,O
+11,16,entravano,entrare,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",acl:relcl,servi,O
+11,17,due,due,NUM,{'NumType': 'Card'},nummod,volte,O
+11,18,volte,volta,NOUN,"{'Gender': 'Fem', 'Number': 'Plur'}",obl,entravano,O
+11,19,al,a il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",case,giorno,O
+11,20,giorno,giorno,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,entravano,O
+11,21,a,a,ADP,{},mark,portargli,O
+11,22,portargli,portare lo,VERB,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs', 'VerbForm': 'Inf'}",xcomp,entravano,O
+11,23,da,da,ADP,{},mark,mangiare,O
+11,24,mangiare,mangiare,VERB,{'VerbForm': 'Inf'},xcomp,portargli,O
+11,26,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl,fecero,O
+11,27,fecero,fare,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,fecero,O
+11,28,l',il,DET,"{'Definite': 'Def', 'Number': 'Sing', 'PronType': 'Art'}",det,idea,O
+11,29,idea,idea,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obj,fecero,O
+11,30,che,che,SCONJ,{},mark,astrologo,O
+11,31,fosse,essere,AUX,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",cop,astrologo,O
+11,32,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,astrologo,O
+11,33,astrologo,astrologo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",advcl,idea,O
+11,34,sapiente,sapiente,ADJ,{'Number': 'Sing'},amod,astrologo,O
+12,0,Questi,questo,DET,"{'Gender': 'Masc', 'Number': 'Plur', 'PronType': 'Dem'}",det,servi,O
+12,1,servi,servo,NOUN,"{'Gender': 'Masc', 'Number': 'Plur'}",nsubj,loro,O
+12,2,erano,essere,AUX,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",aux,loro,O
+12,3,stati,essere,AUX,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",cop,loro,O
+12,4,loro,loro,PRON,"{'Number': 'Plur', 'Person': '3', 'PronType': 'Prs'}",ROOT,loro,O
+12,5,a,a,ADP,{},mark,rubare,O
+12,6,rubare,rubare,VERB,{'VerbForm': 'Inf'},advcl,loro,O
+12,7,l',il,DET,"{'Definite': 'Def', 'Number': 'Sing', 'PronType': 'Art'}",det,anello,O
+12,8,anello,anello,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,rubare,O
+12,10,e,e,CCONJ,{},cc,coscienza,O
+12,11,con,con,ADP,{},case,coscienza,O
+12,12,la,il,DET,"{'Definite': 'Def', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Art'}",det,coscienza,O
+12,13,coscienza,coscienza,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",conj,anello,O
+12,14,sporca,sporco,ADJ,"{'Gender': 'Fem', 'Number': 'Sing'}",amod,coscienza,O
+12,15,che,che,PRON,{'PronType': 'Rel'},nsubj,avevano,O
+12,16,avevano,avere,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",acl:relcl,coscienza,O
+12,18,le,il,DET,"{'Definite': 'Def', 'Gender': 'Fem', 'Number': 'Plur', 'PronType': 'Art'}",det,occhiatacce,O
+12,19,occhiatacce,occhiataccia,NOUN,"{'Gender': 'Fem', 'Number': 'Plur'}",appos,loro,O
+12,20,che,che,PRON,{'PronType': 'Rel'},nsubj,rivolgeva,O
+12,21,rivolgeva,rivolgere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",acl:relcl,occhiatacce,O
+12,22,loro,loro,PRON,"{'Number': 'Plur', 'Person': '3', 'PronType': 'Prs'}",dep,rivolgeva,O
+12,23,Gambara,Gambara,PROPN,{},obj,rivolgeva,LOC
+12,24,ogni,ogni,DET,"{'Number': 'Sing', 'PronType': 'Ind'}",det,volta,O
+12,25,volta,volta,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obl,rivolgeva,O
+12,26,che,che,SCONJ,{},mark,entravano,O
+12,27,entravano,entrare,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",acl,volta,O
+12,29,per,per,ADP,{},mark,darsi,O
+12,30,darsi,dare si,VERB,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs', 'VerbForm': 'Inf'}",advcl,entravano,O
+12,31,aria,aria,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obj,darsi,O
+12,32,d',di,ADP,{},case,uomo,O
+12,33,uomo,uomo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nmod,aria,O
+12,34,d',di,ADP,{},case,autorità,O
+12,35,autorità,autorità,NOUN,{'Gender': 'Fem'},nmod,uomo,O
+12,37,parevano,parere,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",advcl,entravano,O
+12,38,loro,loro,DET,"{'Poss': 'Yes', 'PronType': 'Prs'}",det:poss,occhiate,O
+12,39,occhiate,occhiata,NOUN,"{'Gender': 'Fem', 'Number': 'Plur'}",obj,parevano,O
+12,40,di,di,ADP,{},case,sospetto,O
+12,41,sospetto,sospetto,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,parevano,O
+13,0,Cominciarono,Cominciarono,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,Cominciarono,O
+13,1,ad,a,ADP,{},mark,aver,O
+13,2,aver,avere,VERB,{'VerbForm': 'Inf'},xcomp,Cominciarono,O
+13,3,paura,paura,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obj,aver,O
+13,4,d',di,ADP,{},mark,scoperti,O
+13,5,essere,essere,AUX,{'VerbForm': 'Inf'},aux,scoperti,O
+13,6,scoperti,scoprire,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",acl,paura,O
+13,7,e,e,CCONJ,{},cc,finivano,O
+13,9,non,non,ADV,{'PronType': 'Neg'},advmod,finivano,O
+13,10,la,la,PRON,"{'Clitic': 'Yes', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",obj,finivano,O
+13,11,finivano,finire,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",conj,Cominciarono,O
+13,12,più,più,ADV,{},advmod,finivano,O
+13,13,con,con,ADP,{},case,riverenze,O
+13,14,le,il,DET,"{'Definite': 'Def', 'Gender': 'Fem', 'Number': 'Plur', 'PronType': 'Art'}",det,riverenze,O
+13,15,riverenze,riverenza,NOUN,"{'Gender': 'Fem', 'Number': 'Plur'}",obl,finivano,O
+13,18,Gambara,Gambara,PROPN,{},nsubj,Cominciarono,PER
+13,20,che,che,DET,{'PronType': 'Exc'},det,astrologo,O
+13,21,astrologo,astrologo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",ccomp,Cominciarono,O
+13,22,non,non,ADV,{'PronType': 'Neg'},advmod,era,O
+13,23,era,essere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",cop,astrologo,O
+13,25,ma,ma,CCONJ,{},cc,contadino,O
+13,26,contadino,contadino,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",conj,astrologo,O
+13,28,e,e,CCONJ,{},cc,malizioso,O
+13,29,perciò,perciò,ADV,{},advmod,malizioso,O
+13,30,malizioso,malizioso,ADJ,"{'Gender': 'Masc', 'Number': 'Sing'}",conj,Cominciarono,O
+13,32,subito,subito,ADV,{},advmod,pensato,O
+13,33,aveva,avere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",aux,pensato,O
+13,34,pensato,pensare,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",advcl,Cominciarono,O
+13,35,che,che,SCONJ,{},mark,saperne,O
+13,36,i,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Plur', 'PronType': 'Art'}",det,servi,O
+13,37,servi,servo,NOUN,"{'Gender': 'Masc', 'Number': 'Plur'}",nsubj,saperne,O
+13,38,dovessero,dovere,AUX,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",aux,saperne,O
+13,39,saperne,sapere ne,VERB,"{'Clitic': 'Yes', 'PronType': 'Prs', 'VerbForm': 'Inf'}",ccomp,pensato,O
+13,40,qualcosa,qualcosa,PRON,"{'Number': 'Sing', 'PronType': 'Ind'}",obj,saperne,O
+13,42,e,e,CCONJ,{},cc,pensò,O
+13,43,pensò,pensare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",conj,saperne,O
+13,44,di,di,ADP,{},mark,farli,O
+13,45,farli,fare li,VERB,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Plur', 'Person': '3', 'PronType': 'Prs', 'VerbForm': 'Inf'}",xcomp,pensò,O
+13,46,cascare,cascare,VERB,{'VerbForm': 'Inf'},ccomp,farli,O
+13,47,in,in,ADP,{},case,inganno,O
+13,48,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,inganno,O
+13,49,inganno,inganno,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,cascare,O
+14,0,Un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,giorno,O
+14,1,giorno,giorno,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,nascose,O
+14,3,all',a il,ADP,"{'Definite': 'Def', 'Number': 'Sing', 'PronType': 'Art'}",case,ora,O
+14,4,ora,ora,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obl,nascose,O
+14,5,in,in,ADP,{},case,cui,O
+14,6,cui,cui,PRON,{'PronType': 'Rel'},obl,portavano,O
+14,7,gli,lo,PRON,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",iobj,portavano,O
+14,8,portavano,portare,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",acl:relcl,ora,O
+14,9,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,pranzo,O
+14,10,pranzo,pranzo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,portavano,O
+14,12,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl:pass,nascose,O
+14,13,nascose,nascodere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,nascose,O
+14,14,sotto,sotto,ADP,{},case,letto,O
+14,15,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,letto,O
+14,16,letto,letto,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,nascose,O
+15,0,Entrò,Entrò,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,Entrò,O
+15,1,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,primo,O
+15,2,primo,primo,ADJ,"{'Gender': 'Masc', 'NumType': 'Ord', 'Number': 'Sing'}",nsubj,Entrò,O
+15,3,dei,di il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Plur', 'PronType': 'Art'}",case,servi,O
+15,4,servi,servo,NOUN,"{'Gender': 'Masc', 'Number': 'Plur'}",obl,primo,O
+15,5,e,e,CCONJ,{},cc,vide,O
+15,6,non,non,ADV,{'PronType': 'Neg'},advmod,vide,O
+15,7,vide,vedere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",conj,Entrò,O
+15,8,nessuno,nessuno,PRON,"{'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Ind'}",obj,vide,O
+16,0,Di,di,ADP,{},case,letto,O
+16,1,sotto,sotto,ADP,{},case,letto,O
+16,2,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,letto,O
+16,3,letto,letto,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,disse,O
+16,4,Gambara,Gambara,PROPN,{},nmod,letto,LOC
+16,5,disse,dire,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,disse,O
+16,6,forte,forte,ADJ,{'Number': 'Sing'},xcomp,disse,O
+17,1,E,e,CCONJ,{},cc,uno!-,O
+17,2,uno!-,uno!-,ADJ,{'Number': 'Plur'},advcl,lasciò,O
+17,3,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,servo,O
+17,4,servo,servo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nsubj,lasciò,O
+17,5,lasciò,lasciare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,lasciò,O
+17,6,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,piatto,O
+17,7,piatto,piatto,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,lasciò,O
+17,8,e,e,CCONJ,{},cc,ritirò,O
+17,9,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl,ritirò,O
+17,10,ritirò,ritirare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",conj,lasciò,O
+17,11,spaventato,spaventare,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",xcomp,ritirò,O
+18,0,Entrò,Entrare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,Entrò,O
+18,1,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,servo,O
+18,2,secondo,secondo,ADJ,"{'Gender': 'Masc', 'NumType': 'Ord', 'Number': 'Sing'}",amod,servo,O
+18,3,servo,servo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,Entrò,O
+19,1,E,e,CCONJ,{},cc,due,O
+19,2,due,due,NUM,{'NumType': 'Card'},ROOT,due,O
+20,1,e,e,CCONJ,{},cc,scappò,O
+20,2,scappò,scappare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,scappò,O
+20,3,via,via,ADV,{},advmod,scappò,O
+20,4,anche,anche,ADV,{},advmod,lui,O
+20,5,lui,lui,PRON,"{'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",obl,scappò,O
+21,0,Entrò,Entrò,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",advcl,consultarono,O
+21,1,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,terzo,O
+21,2,terzo,terzo,ADJ,"{'Gender': 'Masc', 'NumType': 'Ord', 'Number': 'Sing'}",obj,Entrò,O
+21,5,E,e,CCONJ,{},cc,servi,O
+21,6,tre,tre,NUM,{'NumType': 'Card'},nummod,E,O
+21,9,I,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Plur', 'PronType': 'Art'}",det,servi,O
+21,10,servi,servo,NOUN,"{'Gender': 'Masc', 'Number': 'Plur'}",nsubj,consultarono,O
+21,11,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl,consultarono,O
+21,12,consultarono,consultare,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,consultarono,O
+22,1,Ormai,ormai,ADV,{},advmod,scoperti,O
+22,2,siamo,essere,AUX,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",aux,scoperti,O
+22,3,scoperti,scoprire,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",advcl,spacciati,O
+22,5,se,se,SCONJ,{},mark,accusa,O
+22,6,l',il,DET,"{'Definite': 'Def', 'Number': 'Sing', 'PronType': 'Art'}",det,astrologo,O
+22,7,astrologo,astrologo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nsubj,accusa,O
+22,8,ci,ci,PRON,"{'Clitic': 'Yes', 'Number': 'Plur', 'Person': '1', 'PronType': 'Prs'}",obj,accusa,O
+22,9,accusa,accusare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",advcl,spacciati,O
+22,10,al,a il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",case,Re,O
+22,11,Re,Re,PROPN,{},obl,accusa,PER
+22,13,siamo,essere,AUX,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",aux:pass,spacciati,O
+22,14,spacciati,spacciare,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",ROOT,spacciati,O
+23,0,Cosi,cosi,PROPN,{},nsubj,decisero,O
+23,1,decisero,decisero,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,decisero,O
+23,2,d',di,ADP,{},mark,andare,O
+23,3,andare,andare,VERB,{'VerbForm': 'Inf'},xcomp,decisero,O
+23,4,dall',da il,ADP,"{'Definite': 'Def', 'Number': 'Sing', 'PronType': 'Art'}",case,astrologo,O
+23,5,astrologo,astrologo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,andare,O
+23,6,e,e,CCONJ,{},cc,confessargli,O
+23,7,confessargli,confessarge li,VERB,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs', 'VerbForm': 'Inf'}",conj,decisero,O
+23,8,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,furto,O
+23,9,furto,furto,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,confessargli,O
+24,1,Noi,noi,PRON,"{'Number': 'Plur', 'Person': '1', 'PronType': 'Prs'}",nsubj,gente,MISC
+24,2,siamo,essere,AUX,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",cop,gente,MISC
+24,3,povera,povero,ADJ,"{'Gender': 'Fem', 'Number': 'Sing'}",amod,gente,MISC
+24,4,gente,gente,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",ROOT,gente,MISC
+24,7,gli,lo,PRON,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",iobj,fecero,O
+24,8,fecero,fare,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",parataxis,gente,O
+24,11,e,e,CCONJ,{},cc,dite,O
+24,12,se,se,SCONJ,{},mark,dite,O
+24,13,dite,dire,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",conj,fecero,O
+24,14,al,a il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",case,Re,O
+24,15,Re,Re,PROPN,{},obl,dite,PER
+24,16,quello,quello,PRON,"{'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Dem'}",obj,dite,O
+24,17,che,che,PRON,{'PronType': 'Rel'},nsubj,scoperto,O
+24,18,avete,avere,AUX,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",aux,scoperto,O
+24,19,scoperto,scoprire,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",acl:relcl,quello,O
+24,21,siamo,essere,AUX,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",cop,perduti,O
+24,22,perduti,perduto,ADJ,"{'Gender': 'Masc', 'Number': 'Plur'}",conj,fecero,O
+24,25,lo,lo,PRON,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",obj,tradirò,O
+24,26,non,non,ADV,{'PronType': 'Neg'},advmod,tradirò,O
+24,27,vi,vi,PRON,"{'Clitic': 'Yes', 'Number': 'Plur', 'Person': '2', 'PronType': 'Prs'}",obj,tradirò,O
+24,28,tradirò,tradirò,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Fut', 'VerbForm': 'Fin'}",conj,fecero,O
+24,30,però,però,ADV,{},advmod,fate,O
+24,31,voi,voi,PRON,"{'Number': 'Plur', 'Person': '2', 'PronType': 'Prs'}",nsubj,fate,O
+24,32,fate,fare,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",conj,fecero,O
+24,33,quel,quello,PRON,"{'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Dem'}",obj,fate,O
+24,34,che,che,PRON,{'PronType': 'Rel'},obj,dico,O
+24,35,vi,vi,PRON,"{'Clitic': 'Yes', 'Number': 'Plur', 'Person': '2', 'PronType': 'Prs'}",iobj,dico,O
+24,36,dico,dire,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",acl:relcl,quel,O
+25,0,Prendete,Prendete,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Fut', 'VerbForm': 'Fin'}",ROOT,Prendete,O
+25,1,l',il,DET,"{'Definite': 'Def', 'Number': 'Sing', 'PronType': 'Art'}",det,anello,O
+25,2,anello,anello,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,Prendete,O
+25,3,e,e,CCONJ,{},cc,fatelo,O
+25,4,fatelo,fatelo,VERB,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs', 'VerbForm': 'Ger'}",conj,Prendete,O
+25,5,inghiottire,inghiottire,VERB,{'VerbForm': 'Inf'},xcomp,fatelo,O
+25,6,a,a,ADP,{},case,tacchino,O
+25,7,quel,quello,DET,"{'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Dem'}",det,tacchino,O
+25,8,tacchino,tacchino,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,inghiottire,O
+25,9,che,che,PRON,{'PronType': 'Rel'},nsubj,è,O
+25,10,c',ci,PRON,"{'Clitic': 'Yes', 'PronType': 'Prs'}",expl,è,O
+25,11,è,essere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",acl:relcl,tacchino,O
+25,12,laggiù,laggiù,ADV,{},advmod,è,O
+25,13,in,in,ADP,{},case,cortile,O
+25,14,cortile,cortile,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,è,O
+26,0,Poi,poi,ADV,{},advmod,lasciate,O
+26,1,lasciate,lasciare,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",ROOT,lasciate,O
+26,2,fare,fare,VERB,{'VerbForm': 'Inf'},ccomp,lasciate,O
+26,3,a,a,ADP,{},case,me,O
+26,4,me,me,PRON,"{'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",obl,fare,O
+27,0,Il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,giorno,O
+27,1,giorno,giorno,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,presentò,O
+27,2,dopo,dopo,ADV,{},advmod,giorno,O
+27,3,Gambara,Gambara,PROPN,{},nsubj,presentò,PER
+27,4,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl,presentò,O
+27,5,presentò,presentare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,presentò,O
+27,6,al,a il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",case,Re,O
+27,7,Re,Re,PROPN,{},obl,presentò,PER
+27,8,e,e,CCONJ,{},cc,disse,O
+27,9,gli,lo,PRON,"{'Clitic': 'Yes', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",iobj,disse,O
+27,10,disse,dire,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",conj,presentò,O
+27,11,che,che,SCONJ,{},mark,riuscito,O
+27,12,dopo,dopo,ADP,{},case,studi,O
+27,13,lunghi,lungo,ADJ,"{'Gender': 'Masc', 'Number': 'Plur'}",amod,studi,O
+27,14,studi,studio,NOUN,"{'Gender': 'Masc', 'Number': 'Plur'}",obl,riuscito,O
+27,15,era,essere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",aux,riuscito,O
+27,16,riuscito,riuscire,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",ccomp,disse,O
+27,17,a,a,ADP,{},mark,sapere,O
+27,18,sapere,sapere,VERB,{'VerbForm': 'Inf'},xcomp,riuscito,O
+27,19,dov',dove,ADV,{},advmod,era,O
+27,20,era,essere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",ccomp,sapere,O
+27,21,l',il,DET,"{'Definite': 'Def', 'Number': 'Sing', 'PronType': 'Art'}",det,anello,O
+27,22,anello,anello,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nsubj,era,O
+28,1,E,e,CCONJ,{},cc,è,MISC
+28,2,dov',dove,ADV,{},advmod,è,MISC
+28,3,è,essere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",ROOT,è,MISC
+29,3,L',Lo,PRON,"{'Clitic': 'Yes', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",obj,inghiottito,O
+29,4,ha,avere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",aux,inghiottito,O
+29,5,inghiottito,inghiottire,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",ROOT,inghiottito,O
+29,6,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,tacchino,O
+29,7,tacchino,tacchino,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,inghiottito,O
+30,2,Fu,essere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",aux:pass,sventrato,O
+30,3,sventrato,sventrare,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",ROOT,sventrato,O
+30,4,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,tacchino,O
+30,5,tacchino,tacchino,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nsubj:pass,sventrato,O
+30,6,e,e,CCONJ,{},cc,trovò,O
+30,7,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl,trovò,O
+30,8,trovò,trovare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",conj,sventrato,O
+30,9,l',il,DET,"{'Definite': 'Def', 'Number': 'Sing', 'PronType': 'Art'}",det,anello,O
+30,10,anello,anello,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,trovò,O
+31,0,Il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,Re,O
+31,1,Re,Re,PROPN,{},nsubj,colmò,PER
+31,2,colmò,colmò,VERB,"{'Mood': 'Imp', 'Number': 'Plur', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",ROOT,colmò,O
+31,3,di,di,ADP,{},case,ricchezze,O
+31,4,ricchezze,ricchezza,NOUN,"{'Gender': 'Fem', 'Number': 'Plur'}",obl,colmò,O
+31,5,l',il,DET,"{'Definite': 'Def', 'Number': 'Sing', 'PronType': 'Art'}",det,astrologo,O
+31,6,astrologo,astrologo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,colmò,O
+31,7,e,e,CCONJ,{},cc,diede,O
+31,8,diede,dare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",conj,colmò,O
+31,9,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,pranzo,O
+31,10,pranzo,pranzo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,diede,O
+31,11,in,in,ADP,{},case,onore,O
+31,12,suo,suo,DET,"{'Gender': 'Masc', 'Number': 'Sing', 'Poss': 'Yes', 'PronType': 'Prs'}",det:poss,onore,O
+31,13,onore,onore,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,diede,O
+32,0,Fra,fra,ADP,{},case,pietanze,MISC
+32,1,le,il,DET,"{'Definite': 'Def', 'Gender': 'Fem', 'Number': 'Plur', 'PronType': 'Art'}",det,pietanze,O
+32,2,tante,tanto,ADJ,"{'Gender': 'Fem', 'Number': 'Plur'}",det,pietanze,O
+32,3,pietanze,pietanza,NOUN,"{'Gender': 'Fem', 'Number': 'Plur'}",obl,portato,O
+32,4,fu,essere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",aux:pass,portato,O
+32,5,portato,portare,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",ROOT,portato,O
+32,6,in,in,ADP,{},case,tavola,O
+32,7,tavola,tavola,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obl,portato,O
+32,8,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,piatto,O
+32,9,piatto,piatto,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nsubj:pass,portato,O
+32,10,di,di,ADP,{},case,gamberi,O
+32,11,gamberi,gambero,NOUN,"{'Gender': 'Masc', 'Number': 'Plur'}",nmod,piatto,O
+33,0,Bisogna,bisognare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",ROOT,Bisogna,O
+33,1,sapere,sapere,VERB,{'VerbForm': 'Inf'},ccomp,Bisogna,O
+33,2,che,che,SCONJ,{},mark,volta,O
+33,3,in,in,ADP,{},case,paese,O
+33,4,quel,quello,DET,"{'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Dem'}",det,paese,O
+33,5,paese,paese,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obl,volta,O
+33,6,era,essere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",cop,volta,O
+33,7,la,il,DET,"{'Definite': 'Def', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Art'}",det,volta,O
+33,8,prima,primo,ADJ,"{'Gender': 'Fem', 'NumType': 'Ord', 'Number': 'Sing'}",amod,volta,O
+33,9,volta,volta,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",ccomp,sapere,O
+33,10,che,che,SCONJ,{},mark,vedevano,O
+33,11,se,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl:impers,vedevano,O
+33,12,ne,ne,PRON,"{'Clitic': 'Yes', 'PronType': 'Prs'}",iobj,vedevano,O
+33,13,vedevano,vedere,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",advcl,volta,O
+33,15,regalo,regalo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,vedevano,O
+33,16,di,di,ADP,{},case,re,O
+33,17,un,uno,DET,"{'Definite': 'Ind', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,re,O
+33,18,re,re,NOUN,{'Gender': 'Masc'},nmod,regalo,O
+33,19,d',di,ADP,{},case,paese,O
+33,20,altro,altro,ADJ,"{'Gender': 'Masc', 'Number': 'Sing'}",amod,paese,O
+33,21,paese,paese,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nmod,re,O
+36,0,Tu,tu,PRON,"{'Number': 'Sing', 'Person': '2', 'PronType': 'Prs'}",nsubj,dire,MISC
+36,1,che,che,PRON,{'PronType': 'Rel'},nsubj,astrologo,MISC
+36,2,sei,sei,NUM,{'NumType': 'Card'},nummod,astrologo,MISC
+36,3,astrologo,astrologo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",acl:relcl,Tu,MISC
+36,6,disse,dire,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",parataxis,sapermi,O
+36,7,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,Re,O
+36,8,Re,Re,PROPN,{},obj,disse,PER
+36,9,al,a il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",case,contadino,O
+36,10,contadino,contadino,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nmod,Re,O
+36,13,dovresti,dovresti,AUX,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",aux,sapermi,O
+36,14,sapermi,sapere mi,VERB,"{'Clitic': 'Yes', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs', 'VerbForm': 'Inf'}",aux,dire,O
+36,15,dire,dire,VERB,{'VerbForm': 'Inf'},ROOT,dire,O
+36,16,come,come,SCONJ,{},mark,chiamano,O
+36,17,si,si,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",expl,chiamano,O
+36,18,chiamano,chiamare,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",ccomp,dire,O
+36,19,questi,questo,PRON,"{'Gender': 'Masc', 'Number': 'Plur', 'PronType': 'Dem'}",nsubj,chiamano,O
+36,20,che,che,PRON,{'PronType': 'Rel'},nsubj,piatto,O
+36,21,sono,essere,AUX,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",cop,piatto,O
+36,22,qui,qui,ADV,{},advmod,piatto,O
+36,23,nel,in il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",case,piatto,O
+36,24,piatto,piatto,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",acl:relcl,questi,O
+37,0,Il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,poveretto,MISC
+37,1,poveretto,poveretto,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nsubj,viste,MISC
+37,2,di,di,ADP,{},case,bestie,MISC
+37,3,bestie,bestia,NOUN,"{'Gender': 'Fem', 'Number': 'Plur'}",nmod,poveretto,MISC
+37,4,così,così,ADV,{},advmod,viste,O
+37,5,non,non,ADV,{'PronType': 'Neg'},advmod,viste,O
+37,6,ne,ne,PRON,"{'Clitic': 'Yes', 'PronType': 'Prs'}",iobj,viste,O
+37,7,aveva,avere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",aux,viste,O
+37,8,mai,mai,ADV,{},advmod,viste,O
+37,9,viste,vedere,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",ROOT,viste,O
+38,0,E,e,CCONJ,{},cc,disse,O
+38,1,disse,dire,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,disse,O
+38,2,tra,tra,ADP,{},case,sé,O
+38,3,sé,sé,PRON,"{'Clitic': 'Yes', 'Person': '3', 'PronType': 'Prs'}",obl,disse,O
+38,5,a,a,ADP,{},case,voce,O
+38,6,mezza,mezzo,ADJ,"{'Gender': 'Fem', 'Number': 'Sing'}",amod,voce,O
+38,7,voce,voce,NOUN,"{'Gender': 'Fem', 'Number': 'Sing'}",obl,disse,O
+39,1,Ah,ah,INTJ,{},advmod,finito,PER
+39,3,Gambara,Gambara,PROPN,{},obl,finito,LOC
+39,5,Gambara,Gambara,PROPN,{},appos,Gambara,LOC
+39,7,sei,essere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",aux,finito,O
+39,8,finito,finire,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",ROOT,finito,O
+39,9,male,male,ADV,{},advmod,finito,O
+40,1,Bravo,Bravo,PROPN,{},ROOT,Bravo,O
+41,1,disse,dire,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",ROOT,disse,O
+41,2,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,Re,O
+41,3,Re,Re,PROPN,{},nsubj,disse,PER
+41,4,che,che,PRON,{'PronType': 'Rel'},nsubj,sapeva,O
+41,5,non,non,ADV,{'PronType': 'Neg'},advmod,sapeva,O
+41,6,sapeva,sapere,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",acl:relcl,Re,O
+41,7,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,nome,O
+41,8,vero,vero,ADJ,"{'Gender': 'Masc', 'Number': 'Sing'}",amod,nome,O
+41,9,nome,nome,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",obj,sapeva,O
+41,10,del,di il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",case,contadino,O
+41,11,contadino,contadino,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nmod,nome,O
+42,1,Hai,Hai,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",aux,indovinato,O
+42,2,indovinato,indovinare,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",ROOT,indovinato,O
+43,0,quello,quello,PRON,"{'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Dem'}",nsubj,nome,O
+43,1,è,essere,AUX,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",cop,nome,O
+43,2,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,nome,O
+43,3,nome,nome,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",ROOT,nome,O
+44,0,gamberi,gambero,NOUN,"{'Gender': 'Masc', 'Number': 'Plur'}",ROOT,gamberi,O
+45,0,Sei,sei,NUM,{'NumType': 'Card'},cop,astrologo,O
+45,1,il,il,DET,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Art'}",det,astrologo,O
+45,2,più,più,ADV,{},advmod,grande,O
+45,3,grande,grande,ADJ,{'Number': 'Sing'},amod,astrologo,O
+45,4,astrologo,astrologo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",ROOT,astrologo,O
+45,5,dei,di il,ADP,"{'Definite': 'Def', 'Gender': 'Masc', 'Number': 'Plur', 'PronType': 'Art'}",case,mondo,O
+45,6,mondo,mondo,NOUN,"{'Gender': 'Masc', 'Number': 'Sing'}",nmod,astrologo,O
