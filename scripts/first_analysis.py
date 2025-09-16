@@ -49,6 +49,6 @@ df = pd.DataFrame({
 
 df.head()
 
-df.to_csv("extracted_features1.csv", index=False)
+df.to_csv("output\\extracted_features1.csv", index=False)
 
 
