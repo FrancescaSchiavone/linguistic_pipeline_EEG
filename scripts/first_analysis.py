@@ -1,11 +1,17 @@
 import spacy
 import pandas as pd
+import matplotlib.pyplot as plt
+from collections import Counter
+import numpy as np
+
+#da aggiungere: ciclo for per leggere file in una cartella e fare lo stesso per tutti
+#aggiungere una funzione che nomina il file csv in base al nome del file in input
 
 with open ("data\\Il contadino astrologo.txt", "r", encoding="utf-8") as infile: 
     text = infile.read()
 
 nlp = spacy.load("it_core_news_lg") 
-doc = nlp(text)
+doc = nlp(text.lower())
 tokens = []
 lemmas = []
 pos_tags = []
@@ -44,4 +50,5 @@ df = pd.DataFrame({
 df.head()
 
 df.to_csv("extracted_features1.csv", index=False)
-print("Estrazione completata, file salvato.")
+
+
