@@ -1,5 +1,7 @@
 import stanza
 import pandas as pd
+from collections import Counter
+import matplotlib.pyplot as plt
 
 nlp = stanza.Pipeline("it") #modello per l'italiano
 
@@ -43,7 +45,6 @@ df.head()
         
 df.to_csv("output\\extracted_features_stanza1.csv", index=False)
 
-from collections import Counter
 
 lemma_freq = Counter(lemma)
 
@@ -53,7 +54,6 @@ for lem, freq in sorted_lemma:
     print(f"{lem}: {freq}")
 
 
-import matplotlib.pyplot as plt
 
 top_lemmi = dict(sorted_lemma)
 labels, values = zip(*sorted_lemma)
@@ -69,4 +69,4 @@ plt.xticks([])
 plt.xlabel("Lemma")
 plt.ylabel("Frequenza")
 plt.tight_layout()
-plt.show()
+plt.savefig("output\\Zip's.png")
