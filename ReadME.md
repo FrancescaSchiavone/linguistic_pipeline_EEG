@@ -1,14 +1,12 @@
 # **Linguistic Features Extraction Pipeline for EEG Analysis**
-This repository provides a Python-based pipeline for extracting linguistic features from texts, tailored for integraTion with EEG experiments. 
+This repository provides a Python-based pipeline for extracting linguistic features from texts, tailored for integration with EEG experiments. 
 
 ## **Repository Structure**
 
 - **\datasets**
 Contains two datasets used in the pipeline:
-    - `ItAoA.xlsx`= Italian Age of Acquisition norms (*Montefinese M, Vinson D, Vigliocco G. and Ambrosini E. (2019) Italian Age of Acquisition Norms for a Large Set of Words (ItAoA). Front. Psychol. 10:278. doi: 10.3389/fpsyg.2019.00278*).
-      Download: https://osf.io/3trg2/overview
-    - `subtlex-it.csv` = Frequency database for Italian words based on movie subtitles.
-      Downdload: https://osf.io/zg7sc/overview
+    - `ItAoA.xlsx`= Italian Age of Acquisition norms. Download: https://osf.io/3trg2/overview
+    - `subtlex-it.csv` = Frequency database for Italian words based on movie subtitles. Download: https://osf.io/zg7sc/overview
 
 - **\doc**
 Contains documentation files:
@@ -19,12 +17,12 @@ Contains documentation files:
 - **\data**
 Contains all the experimental data:
     - *\phoneme_onset** = .xlsx files with phoneme onsets (in samples) for each story.
-    - *\texts** = texts files of the stories in .txt formats.
+    - *\texts** = text files of the stories in .txt formats.
     - *\word_onset** = .csv files with word onsets (in samples) for each story.
 
 - **\nlp_pipeline**
-Python modules that implement the features extraction:
-    - `processor.py`: Processes a single text file using the Stanza NLP pipeline and extracts the following linguistic features: *sentence ID, token, lemma, PoS, dependency relation, head, constituency (if available),cleaned token/lemma, AoA (age of acquisition), and SUBTLEX-IT frequency*. For each text file is created a .json file containing aggregated statistics for the whole text, including:
+Python modules that implement the feature extraction:
+    - `processor.py`: Processes a single text file using the Stanza NLP pipeline and extracts the following linguistic features: *sentence ID, token, lemma, PoS, dependency relation, head, constituency (if available),cleaned token/lemma, AoA (age of acquisition), and SUBTLEX-IT frequency*. For each text file, a .*json* fileis created, it contains aggregated statistics for the whole text, including:
     *number of tokens, sentences, lemmas, and types, type-token ratio (TTR), average sentence length, frequency statistics (Zipf mean ± std, % of rare words), Gulpease readability index, distribution of PoS categories(function vs content words, verbs, adjectives, nouns), top 20 most frequent lemmas, top 10 most frequent bigrams.*
     For each input file, a dedicated subfolder is created (named after the file, e.g. '01_03') 
     where all outputs are saved.
@@ -33,13 +31,12 @@ Python modules that implement the features extraction:
     embedding of a preceding window of tokens (default 20 tokens).
     - `surprisal_entropy.py`: Calculates token-level surprisal and entropy values for a text file using the GePpeTto Italian language model (a GPT-based causal language model).
     Surprisal is computed as the negative log2 probability of each token, Entropy is computed as the negative sum over all possible next tokens of their predicted probabilities multiplied by their log2 probabilities. 
-    The value of surprisal and entropy for each token is then aggregated at the word level thanks to the function
-    'reconstrucred_words' from `utils.py`.
+    The value of surprisal and entropy for each token is then aggregated at the word level thanks to the function 'reconstrucred_words' from `utils.py`.
     - `utils.py`: Reconstructs words and aggregates token-level values (e.g., surprisal or dissimilarity)
     at the word level. The function merges subword tokens (e.g., SentencePiece or BPE fragments) back into full words, computes the aggregated value for each word (mean or sum), and removes punctuation.
 
 - **\output**
-All the subfolders in 'output' folder are structured in the following way: one subfolder for each group of age stories and one subfolder for each story of the group that cointains the following files:
+All the subfolders in 'output' folder are structured in the following way: one subfolder for each group of age stories and one subfolder for each story of the group that contains the following files:
     - `<story_id>_summary.json`
     - `<story_id>.csv`
     - `dissimilarity_<story_id>.csv`
@@ -47,11 +44,11 @@ All the subfolders in 'output' folder are structured in the following way: one s
 
 - **Other files**
     - `main.py` = Main script to run the pipeline
-    - `ReadME.md`= This file
+    - `README.md`= This file
 
 
-All the stories, stored into the 'data' forlder, are diveded into four groups based on the age.
-Titles and correponding codes are listed below.
+All the stories, stored in the 'data' forlder, are divided into four groups based on the age.
+Titles and corresponding codes are listed below.
 
 ### **0 - 3 years**
 - 01_03 Il fatto è. St01_A
@@ -61,8 +58,8 @@ Titles and correponding codes are listed below.
 - 05_03 Cinque minuti di pace. St05_A
 - 06_03 Il bruco molto affamato. St06_A
 - 07_03 Il ciuccio di Nina. St07_A
-- 08_03 Una casa per il mostro.  St08_A
-- 09_03 Chi me l'ha fatta in testa!  St09_A
+- 08_03 Una casa per il mostro. St08_A
+- 09_03 Chi me l'ha fatta in testa! St09_A
 - 10_03 Orso buco. St10_A
 
 ### **3 - 7 years**
@@ -85,9 +82,9 @@ Titles and correponding codes are listed below.
 - 05_711 Giacomo di cristallo. St05_C
 - 06_711 Promosso più due. St06_C
 - 07_711 Il paese dei cani. St07_C
-- 08_711 L'Apollonia della marmellata.  St08_C
-- 09_711 Il muratore della Valtellina.  St09_C
-- 10_711 Il re Mida.  St10_C
+- 08_711 L'Apollonia della marmellata. St08_C
+- 09_711 Il muratore della Valtellina. St09_C
+- 10_711 Il re Mida. St10_C
 
 ### **11-15 years**
 - 01_1115 Il contadino astrologo. St01_D
@@ -97,8 +94,8 @@ Titles and correponding codes are listed below.
 - 05_1115 Una goccia. St03_D
 - 06_1115 Le precauzioni inutili contro le frodi. St05_D
 - 07_1115 L'incantesimo della volpe. St07_D
-- 08_1115 I tacchini non ringraziano.  St08_D
-- 09_1115 Racconto per bambini cattivi.  St09_D
+- 08_1115 I tacchini non ringraziano. St08_D
+- 09_1115 Racconto per bambini cattivi. St09_D
 - 10_1115 Apocalisse. St10_D
 
 
