@@ -11,9 +11,9 @@ from nltk import bigrams
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 stanza.download("it")
-nlp = stanza.Pipeline("it", processors="tokenize,mwt,pos,lemma,depparse,constituency", use_gpu=False)
+nlp = stanza.Pipeline("it", processors="tokenize, pos, lemma, depparse, constituency", use_gpu=False)
 
-def process_text_file(filepath, output_dir):
+def process_text_file(filepath, output_dir): 
     """
     Processes a single text file using the Stanza NLP pipeline and extracts linguistic features.
 
@@ -186,3 +186,4 @@ def process_text_file(filepath, output_dir):
     logging.info(f"Saved summary JSON: {json_path}")
 
     
+

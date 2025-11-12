@@ -43,8 +43,9 @@ All the subfolders in 'output' folder are structured in the following way: one s
     - `surprisal_entropy_<story_id>.csv`
 
 - **Other files**
-    - `main.py` = Main script to run the pipeline
-    - `README.md`= This file
+    - `main.py` = Main script to run the pipeline.
+    - `README.md`= This file.
+    - `requirements.txt`= file lists all Python packages and their versions needed to run this project.
 
 
 All the stories, stored in the 'data' forlder, are divided into four groups based on the age.
