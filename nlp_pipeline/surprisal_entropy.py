@@ -101,4 +101,3 @@ def calculate_surprisal_entropy(filepath: str, output_dir: str):
     logging.info(f"Saved CSV: {csv_path}")
 
 
-calculate_surprisal_entropy("data\\texts_1115\\01_1115.txt", "output\\provette")

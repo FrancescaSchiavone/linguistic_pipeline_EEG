@@ -3,8 +3,9 @@ import unicodedata
 import string
 from typing import List, Tuple
 
+APOSTROPHE_VARIANTS = {"'", "\u2019", "\u2018", "\u02BC", "\uFF07"}  
 UNICODE_PUNCT = {chr(i) for i in range(0x110000) if unicodedata.category(chr(i)).startswith("P")}
-STRIP_CHARS = "".join(UNICODE_PUNCT - {"'"})
+STRIP_CHARS = "".join(UNICODE_PUNCT - APOSTROPHE_VARIANTS)
 
 def normalize_text(text: str) -> str:
     """
@@ -15,8 +16,12 @@ def normalize_text(text: str) -> str:
     Parameters: 
     - text (str): Input text to normalize. Non-string inputs are converted to strings.
     
-    Returns: str: A normalized string with consistent Unicode encoding and composition. 
-    
+    Returns:
+    A normalized string where:
+        - All apostrophe variants (e.g., ’, ‘, ʼ, ＇) are replaced with the ASCII apostrophe (').
+        - Unicode normalization (NFC) is applied to ensure consistent character composition.
+
+
     Notes: 
     - This helps avoid inconsistencies due to mixed encodings or decomposed characters. 
     - NFC normalization ensures that visually identical characters (e.g., accented letters)
@@ -25,8 +30,11 @@ def normalize_text(text: str) -> str:
     
     if not isinstance(text, str):
         text = str(text)
-    return unicodedata.normalize("NFC", text)
-
+    s = unicodedata.normalize("NFC", text)
+    for v in APOSTROPHE_VARIANTS:
+        if v!= "'":
+            s = s.replace(v, "'")
+    return s
 
 def reconstruct_words(tokens: List[str],
                       values: List[float],
