@@ -52,7 +52,7 @@ def reconstruct_words(tokens: List[str],
         values (List[float]): List of token-level numeric values (e.g., surprisal or similarity).
         tokenizer: Hugging Face tokenizer used to decode subword tokens back into strings.
         agg (str, optional): Aggregation method for token-level values within a word.
-            Supported: 'mean' or 'sum'. Default is 'mean'.
+            Supported: 'mean', 'sum' or 'product'. Default is 'mean'.
 
     Returns:
         Tuple[List[str], List[float]]:
@@ -68,8 +68,8 @@ def reconstruct_words(tokens: List[str],
           with category starting with 'P', ensuring language-independent cleanup.
     """
    
-    if agg not in {"mean", "sum"}:
-        raise ValueError("agg must be 'mean' o 'sum'")
+    if agg not in {"mean", "sum", "product"}:
+        raise ValueError("agg must be 'mean', 'sum' or 'product'")
 
     markers = ("▁", "Ġ") # '_' for SentencePiece, 'Ġ' for BPE
     words: List[str] = []
@@ -77,9 +77,17 @@ def reconstruct_words(tokens: List[str],
     current_tokens: List[str] = []
     current_vals: List[float] = []
     
-    
+    def _aggregate_from_vals(vals: List[float]) -> float:
+        t = torch.tensor(vals, dtype=torch.float32)
+        if agg == "mean":
+            return float(torch.nanmean(t))
+        elif agg == "sum":
+            return float(torch.nansum(t))
+        else:  # product
+            t_nonan = torch.nan_to_num(t, nan=1.0)  # NaN -> 1.0 
+            return float(torch.prod(t_nonan))
+
     for tok_raw, val in zip(tokens, values):
-       
         tok = normalize_text(tok_raw)
 
         # marker at the beginning of token
@@ -92,14 +100,13 @@ def reconstruct_words(tokens: List[str],
                 break
 
         if starts_with_marker:
-            
             if current_tokens:
                 word = tokenizer.convert_tokens_to_string(current_tokens).strip()
                 if word:
-                    t = torch.tensor(current_vals, dtype=torch.float32)
-                    agg_val = float(torch.nanmean(t)) if agg == "mean" else float(torch.nansum(t))
+                    agg_val = _aggregate_from_vals(current_vals)
                     words.append(word)
                     agg_values.append(agg_val)
+
 
             tok_without_marker = tok[len(marker):]
             current_tokens = []
@@ -111,14 +118,10 @@ def reconstruct_words(tokens: List[str],
         elif tok == "'":
             if current_tokens:
                 current_tokens[-1] = current_tokens[-1] + "'"
-                if current_vals:
-                    current_vals[-1] = float(current_vals[-1]) + float(val)
-                else:
-                    current_vals.append(float(val))
+                current_vals.append(float(val))
                 word = tokenizer.convert_tokens_to_string(current_tokens).strip()
                 if word:
-                    t = torch.tensor(current_vals, dtype=torch.float32)
-                    agg_val = float(torch.nanmean(t)) if agg == "mean" else float(torch.nansum(t))
+                    agg_val = _aggregate_from_vals(current_vals)
                     words.append(word)
                     agg_values.append(agg_val)
                 current_tokens = []
@@ -133,8 +136,7 @@ def reconstruct_words(tokens: List[str],
     if current_tokens:
         word = tokenizer.convert_tokens_to_string(current_tokens).strip()
         if word:
-            t = torch.tensor(current_vals, dtype=torch.float32)
-            agg_val = float(torch.nanmean(t)) if agg == "mean" else float(torch.nansum(t))
+            agg_val = _aggregate_from_vals(current_vals)
             words.append(word)
             agg_values.append(agg_val)
 

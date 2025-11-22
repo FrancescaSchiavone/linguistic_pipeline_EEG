@@ -19,4 +19,8 @@ word_onset.py
 
 # prova
 prova.py
+prova_pos.py
+word_onset_features.py
 
+#egg_pipeline
+eeg_pipeline/

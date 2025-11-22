@@ -55,36 +55,53 @@ def calculate_semantic_dissimilarity(filepath: str, output_dir:str):
         truncation=True,
         padding=True,
         max_length=512,
-        stride=0,
+        stride=128,
         return_overflowing_tokens=True,
+        return_offsets_mapping=True,
         add_special_tokens=False
     )
 
     all_tokens = []
     all_dissimilarities = []
+    seen_offsets = set() #for overlap tokens
 
     # process each chunck of tokens
     for i in range(len(encodings["input_ids"])):
         #extract toknes IDs and attention mask for the corrent chunk
         input_ids = encodings["input_ids"][i].unsqueeze(0).to(device)
         attention_mask = encodings["attention_mask"][i].unsqueeze(0).to(device) #important for padding
+        offsets = encodings["offset_mapping"][i] 
 
-        #get embeddings from the model without computin gradient
+        #get embeddings from the model without computing the gradient
         with torch.no_grad():
             outputs = model(input_ids, attention_mask=attention_mask)
-            hidden_states = outputs.hidden_states[-1][0] 
+            hidden_states_list = outputs.hidden_states
+            last4 = hidden_states_list[-4:]
+            hidden_states = torch.stack(last4, dim=0).mean(dim=0)[0]
+
 
         chunk_tokens = tokenizer.convert_ids_to_tokens(input_ids[0].tolist())
 
         dissimilarities = []
+
         for t in range(hidden_states.size(0)):
             if attention_mask[0, t] == 0:
                 continue
+
+            start_char, end_char = offsets[t].tolist()
+
+            #removing duplicates from overlap
+            if (start_char, end_char) in seen_offsets:
+                continue
+            seen_offsets.add((start_char, end_char))
+
             #no dissimilarity for the first token 
             if t == 0:
-                dissimilarities.append(float("nan"))
+                all_tokens.append(chunk_tokens[t])
+                all_dissimilarities.append(float("nan"))
                 continue
 
+             
             start = max(0, t - 20) #window size of 20
             context = hidden_states[start:t].mean(dim=0, keepdim=True) #Mean embedding of context window
             token_vec = hidden_states[t].unsqueeze(0)
@@ -96,8 +113,8 @@ def calculate_semantic_dissimilarity(filepath: str, output_dir:str):
             dissim = (1.0 - sim).item()
             dissimilarities.append(dissim)
 
-        all_tokens.extend(chunk_tokens)
-        all_dissimilarities.extend(dissimilarities)
+            all_tokens.append(chunk_tokens[t])
+            all_dissimilarities.append(dissim)
     
     # Aggregate token-level scores into word-level ones 
     words, values = reconstruct_words(all_tokens, all_dissimilarities, tokenizer, agg="mean")    
@@ -115,6 +132,8 @@ def calculate_semantic_dissimilarity(filepath: str, output_dir:str):
 
     df.to_csv(csv_path, index=False)
     logging.info(f"Saved CSV: {csv_path}")
+
+
 
 
 

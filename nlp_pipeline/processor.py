@@ -11,7 +11,7 @@ from nltk import bigrams
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 stanza.download("it")
-nlp = stanza.Pipeline("it", processors="tokenize, pos, lemma, depparse, constituency", use_gpu=False)
+nlp = stanza.Pipeline("it", processors="tokenize, mwt, pos, lemma, depparse, constituency", use_gpu=False)
 
 def process_text_file(filepath, output_dir): 
     """
@@ -27,7 +27,7 @@ def process_text_file(filepath, output_dir):
     Outputs:
         - A CSV file containing token-level linguistic features:
           sentence ID, token, lemma, PoS, dependency relation, head, constituency (if available),
-          cleaned token/lemma, AoA (age of acquisition), and SUBTLEX-IT frequency.
+          cleaned token/lemma, AoA (age of acquisition), and SUBTLEX-IT Zipf frequency.
         - JSON file (summary-level) containing aggregated statistics for the whole text, including:
           number of tokens, sentences, lemmas, and types, type-token ratio (TTR), average sentence length,
           requency statistics (Zipf mean ± std, % of rare words), Gulpease readability index,
@@ -51,11 +51,12 @@ def process_text_file(filepath, output_dir):
     sentence_ids, tokens, PoS, lemma, clean_tokens, clean_lemmas, depparse, head, constituency, raw_tokens = [], [], [], [], [], [], [], [], [], []
 
     for sent_id, sentence in enumerate(doc.sentences):
-        for word in sentence.words: 
+        for token in sentence.tokens:
+            word = token.words[0]
             if word.pos != "PUNCT":
                 sentence_ids.append(sent_id)
-                raw_token = word.text
-                raw_lemma = word.lemma
+                raw_token = token.text
+                raw_lemma = word.lemma        
                 clean_token = raw_token.lower().translate(str.maketrans("","", string.punctuation)) 
                 clean_lemma = raw_lemma.translate(str.maketrans("","",string.punctuation))
                 clean_tokens.append(clean_token)
@@ -86,6 +87,7 @@ def process_text_file(filepath, output_dir):
         "constituency": constituency
     })
     
+
     function_pos = {"ADP", "AUX", "CCONJ", "SCONJ", "DET", "PRON", "PART", "INTJ"}
     content_pos = {"NOUN", "VERB", "ADJ", "ADV", "PROPN"}
 
@@ -184,6 +186,9 @@ def process_text_file(filepath, output_dir):
         json.dump(summary_stats, f, ensure_ascii=False, indent=2)
 
     logging.info(f"Saved summary JSON: {json_path}")
+
+
+
 
     
 

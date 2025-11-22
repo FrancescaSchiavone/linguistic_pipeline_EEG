@@ -54,7 +54,8 @@ def calculate_surprisal_entropy(filepath: str, output_dir: str):
    
    #tokenize the text without adding special tokens 
     inputs = tokenizer(text, return_tensors="pt", add_special_tokens=False)
-    input_ids = inputs["input_ids"].to(device)
+    inputs = {k: v.to(device) for k, v in inputs.items()}
+    input_ids = inputs["input_ids"]
 
     #compute model output
     with torch.no_grad(): #disable gradient computation 
