@@ -15,7 +15,7 @@ Thumbs.db
 .vscode/
 
 #word_onset
-word_onset.py
+word_onset
 # prova
 prova.py
 prova_pos.py
