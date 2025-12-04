@@ -20,7 +20,8 @@ Thumbs.db
 prova.py
 prova_pos.py
 word_OnsetOffsetBHL.py
-word_onset
+
+word_onset.py
 
 #egg_pipeline
 eeg_pipeline/
