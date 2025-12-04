@@ -43,7 +43,7 @@ All the subfolders in 'output' folder are structured in the following way: one s
     - `surprisal_entropy_<story_id>.csv`
 
 - **Other files**
-    - `main.py` = Main script to run the pipeline.
+    - `mainNLP.py` = Main script to run the pipeline.
     - `README.md`= This file.
     - `requirements.txt`= file lists all Python packages and their versions needed to run this project.
 
