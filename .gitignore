@@ -15,11 +15,17 @@ Thumbs.db
 .vscode/
 
 #word_onset
-word_onset
+
 # prova
 prova.py
 prova_pos.py
-word_onset_features.py
+word_OnsetOffsetBHL.py
+word_onset
 
 #egg_pipeline
 eeg_pipeline/
+mainEEG.py
+
+provetteEEG/
+
+predittore_eeg.txt

@@ -88,8 +88,8 @@ def process_text_file(filepath, output_dir):
     })
     
 
-    function_pos = {"ADP", "AUX", "CCONJ", "SCONJ", "DET", "PRON", "PART", "INTJ"}
-    content_pos = {"NOUN", "VERB", "ADJ", "ADV", "PROPN"}
+    function_pos = {"ADP", "AUX", "CCONJ", "SCONJ", "DET", "PRON", "PART", "INTJ", "ADV"}
+    content_pos = {"NOUN", "VERB", "ADJ", "PROPN"}
 
     df["type_of_words"] = df["PoS"].apply(lambda x: "function" if x in function_pos else ("content" if x in content_pos else 'NaN'))
     df["AoA(m+sd)"] = df["lemma_no_punct"].map(aoa_dict)
