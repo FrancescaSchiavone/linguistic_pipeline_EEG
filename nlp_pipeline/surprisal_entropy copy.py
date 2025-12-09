@@ -110,5 +110,3 @@ import pandas as pd
 
 df= pd.read_csv("C:\\Users\\schia\\OneDrive - Alma Mater Studiorum Università di Bologna\\Desktop\\first_chapter\\suprisal_entropyfirst_chapter.csv")
 
-plt.plot(df["surprisal"])
-plt.show()
