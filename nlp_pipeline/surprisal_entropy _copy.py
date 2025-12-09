@@ -110,3 +110,8 @@ import pandas as pd
 
 df= pd.read_csv("C:\\Users\\schia\\OneDrive - Alma Mater Studiorum Università di Bologna\\Desktop\\first_chapter\\suprisal_entropyfirst_chapter.csv")
 
+from transformers import AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained("GroNLP/gpt2-small-italian")
+subtokens = tokenizer.tokenize("inghiottire")
+print(subtokens)
