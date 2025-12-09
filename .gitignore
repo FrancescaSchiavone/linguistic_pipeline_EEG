@@ -31,6 +31,6 @@ provetteEEG/
 
 predittore_eeg.txt
 
-/nlp_pipeline/*.surprisal_entropy_copy.py
+/nlp_pipeline/*.surprisal_entropy _copy.py
 
 /provette/
