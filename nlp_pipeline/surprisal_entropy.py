@@ -39,9 +39,11 @@ def calculate_surprisal_entropy(filepath: str, output_dir: str):
 
     logging.info(f"Processing file: {filepath}")
 
-    model_name = "LorenzoDeMattei/GePpeTto"
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name)
+    # model_name = "LorenzoDeMattei/GePpeTto"
+    # tokenizer = AutoTokenizer.from_pretrained(model_name)
+    # model = AutoModelForCausalLM.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained("GroNLP/gpt2-small-italian")
+    model = AutoModelForCausalLM.from_pretrained("GroNLP/gpt2-small-italian")
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
@@ -96,7 +98,7 @@ def calculate_surprisal_entropy(filepath: str, output_dir: str):
     name_base = os.path.splitext(os.path.basename(filepath))[0]
     file_output_dir = os.path.join (output_dir, name_base)
     os.makedirs(file_output_dir, exist_ok=True)
-    csv_path = os.path.join(file_output_dir, f"suprisal_entropy{name_base}.csv")
+    csv_path = os.path.join(file_output_dir, f"suprisal_entropyN_{name_base}.csv")
     df.to_csv(csv_path, index=False)
    
     logging.info(f"Saved CSV: {csv_path}")
