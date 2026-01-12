@@ -24,7 +24,6 @@ word_OnsetOffsetBHL.py
 word_onset.py
 
 #egg_pipeline
-eeg_pipeline/
 mainEEG.py
 
 provetteEEG/
