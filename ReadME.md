@@ -18,7 +18,7 @@ Contains all the experimental data folder (both for nlp_pipeline and eeg_pipelin
     - *\phoneme_onset* = .xlsx files with phoneme onsets (in samples) for each group and each story.
     - *\texts* = text files of the stories in .txt formats.
     - *\word_onset* = .csv files with word onsets (in samples) for each story.
-    - *\word_onset+featutres* = .csv files containing word onset times (in samples) and the linguistic features (extracted using the `nlp_pipeline` code) for each story in each group.
+    - *\word_onset+featutres* = .csv files with word onsets (in samples) and each linguistic features (extracted with the nlp_pipeline code) for each story of each group.
 
 - **\nlp_pipeline**
 Python modules that implement the feature extraction:
@@ -36,19 +36,15 @@ Python modules that implement the feature extraction:
     at the word level. The function merges subword tokens (e.g., SentencePiece or BPE fragments) back into full words, computes the aggregated value for each word (mean or sum), and removes punctuation.
 
 - **\eeg_pipeline**
+-*\Predictors*: this folder contains:
+    - `predictors.py` = code to create the weighted predictors from the linguistic features for each story.
+    - `predictorsxSubject.py` = code to create a single predictors for participants by summying all the stories each participants listent to. (the order is avaiable on the file `stories_order_A.xlsx`present in *\doc* folder). The code also cut each stories and create 15 trials of 1 minute 
+    - `word_onset.py` = code that create .csv files with word onset from the phoneme onset files
+    - `word_onset+features` = code that aggragate each stories linguistic features to the word onsets.
 
-    - *\Predictors*: this folder contains:
-    - `predictors.py` = code to create weighted predictors from the linguistic features for each story.
-    - `predictorsxSubject.py` = code to create a single predictor for each participant by summing all the stories each participant listened to.  
-        The presentation order is available in the file `stories_order.xlsx` in the *\doc* folder.  
-        The code also segments each story and creates 15 one-minute trials (the reference cut points are available in `first_and_last_words_stories_D.xlsx` in the *\doc* folder).
-    - `word_onset.py` = code that creates `.csv` files with word onsets from the phoneme onset files.
-    - `word_onset+features` = code that aggregates each story’s linguistic features with the word onsets.
+    -*\TRF* = TO ADD
 
 
-        -*\TRF* = TO ADD
-
-    
 - **\output**
 All the subfolders in 'output' folder are structured in the following way: one subfolder for each group of age stories and one subfolder for each story of the group that contains the following files:
     - `<story_id>_summary.json`
@@ -65,7 +61,7 @@ All the subfolders in 'output' folder are structured in the following way: one s
 All the stories, stored in the 'data' forlder, are divided into four groups based on the age.
 Titles and corresponding codes are listed below.
 
-### **0 - 3 years`Group A`**
+### **0 - 3 years `Group A`**
 - Il fatto è. St01_A
 - Il piccolo ragno tesse e tace. St02_A
 - Arrabbiato come un orso. St03_A
@@ -101,7 +97,7 @@ Titles and corresponding codes are listed below.
 - Il muratore della Valtellina. St09_C
 - Il re Mida. St10_C
 
-### **11-15 years `Group D'**
+### **11-15 years `Group D`**
 - Il contadino astrologo. St01_D
 - La camicia dell'uomo contento.St02_D
 - Una goccia. St03_D
