@@ -1,0 +1,1084 @@
+BEGIN;TOKEN;MAU;MAS;ORT;KAN;TRO;MRP;KAS;SPK;TRN;SPD;VAD;Modo di articolazione;Luogo di articolazione;Sonorit�;Modo di articolazione;Luogo di articolazione;Sonorit�
+0;-1;<p:>;;;;;;;;;;;;;;;;
+88465;0;i;;Il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+94991;0;l;;Il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+100813;-1;<p:>;;;;;;;;;;;;;;;;
+104782;1;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+106413;1;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+111220;1;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+123215;1;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+123877;1;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+125817;1;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+130051;2;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+132653;2;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+138650;2;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+152145;2;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+156026;-1;<p:>;;;;;;;;;;;;;;;;
+174283;3;t;;tesse;t E ss e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+175430;3;E;;tesse;t E ss e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+183721;3;ss;;tesse;t E ss e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+194922;3;e;;tesse;t E ss e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+200523;-1;<p:>;;;;;;;;;;;;;;;;
+210092;4;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+216487;-1;<p:>;;;;;;;;;;;;;;;;
+221779;5;t;;tace;t a tS e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+223146;5;a;;tace;t a tS e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+231349;5;tS;;tace;t a tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+237743;5;e;;tace;t a tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+243829;-1;<p:>;;;;;;;;;;;;;;;;
+314257;6;s;;Splende;s p l E n d e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+321930;6;p;;Splende;s p l E n d e;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+330441;6;l;;Splende;s p l E n d e;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+331588;6;E;;Splende;s p l E n d e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+334146;6;n;;Splende;s p l E n d e;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+344377;6;d;;Splende;s p l E n d e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+348390;7;e;;il;i l;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+350198;7;i;;il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+354344;7;l;;il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+361047;8;s;;sole;s o l e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+369602;8;o;;sole;s o l e;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+377761;8;l;;sole;s o l e;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+381553;8;e;;sole;s o l e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+384199;9;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+388080;10;s;;soffia;s o ff j a;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+396274;10;o;;soffia;s o ff j a;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+403515;10;ff;;soffia;s o ff j a;;;;;;;;fricativa;labiodentale;sorda;fricativa;labiodentale;sorda
+410483;10;j;;soffia;s o ff j a;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+412467;10;a;;soffia;s o ff j a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+415025;11;i;;il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+416657;11;l;;il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+422875;12;v;;vento;v E n t o;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+426050;12;E;;vento;v E n t o;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+435796;12;n;;vento;v E n t o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+443205;12;t;;vento;v E n t o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+447218;12;o;;vento;v E n t o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+451319;-1;<p:>;;;;;;;;;;;;;;;;
+472576;13;s;;Soffia;s o ff j a;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+480381;13;o;;Soffia;s o ff j a;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+484968;13;ff;;Soffia;s o ff j a;;;;;;;;fricativa;labiodentale;sorda;fricativa;labiodentale;sorda
+490877;13;j;;Soffia;s o ff j a;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+493964;13;a;;Soffia;s o ff j a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+497845;14;dZ;;già;dZ a;;;;;;;;affricata;postalveolare;sonora;affricata;postalveolare;sonora
+502784;14;a;;già;dZ a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+508076;15;d;;di;d i;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+511384;15;i;;di;d i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+515573;16;b;;buon;b w O n;;;;;;;;occlusiva;bilabiale;sonora;occlusiva;bilabiale;sonora
+518837;16;w;;buon;b w O n;;;;;;;;approssimante;labio-velare;sonora;approssimante;labio-velare;sonora
+522673;16;O;;buon;b w O n;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+526466;16;n;;buon;b w O n;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+528803;17;m;;mattino;m a tt i n o;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+529862;17;a;;mattino;m a tt i n o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+534492;17;tt;;mattino;m a tt i n o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+542739;17;i;;mattino;m a tt i n o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+552529;17;n;;mattino;m a tt i n o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+556013;17;o;;mattino;m a tt i n o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+560996;-1;<p:>;;;;;;;;;;;;;;;;
+578945;18;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+584501;19;p;;porta;p O r t a;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+585826;19;O;;porta;p O r t a;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+593410;19;r;;porta;p O r t a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+600201;19;t;;porta;p O r t a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+602935;19;a;;porta;p O r t a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+608007;20;k;;con;k o n;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+609638;20;O;;con;k o n;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+613255;20;n;;con;k o n;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+616253;21;s;;sé;s e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+624324;21;e;;sé;s e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+632085;-1;<p:>;;;;;;;;;;;;;;;;
+636804;22;s;;sopra;s o p r a;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+643992;22;o;;sopra;s o p r a;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+649108;22;p;;sopra;s o p r a;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+651092;22;r;;sopra;s o p r a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+653253;22;a;;sopra;s o p r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+655899;23;i;;i;i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+659604;24;k;;campi;k a m p i;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+662338;24;a;;campi;k a m p i;;;;;;;;bassa;centrale;v;bassa;centrale;v
+669438;24;m;;campi;k a m p i;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+676097;24;p;;campi;k a m p i;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+680331;24;i;;campi;k a m p i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+684079;-1;<p:>;;;;;;;;;;;;;;;;
+692061;25;i;;il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+744496;25;l;;il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+706614;26;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+708378;26;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+717816;26;kk;;piccolo;p i kk o l o;;717815;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+677508;26;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+724960;26;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+687475;26;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+732810;27;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+735941;27;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+740395;27;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+756359;27;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+802488;-1;<p:>;;;;;;;;;;;;;;;;
+808309;28;k;;Con;k o n;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+809147;28;o;;Con;k o n;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+812366;28;n;;Con;k o n;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+813733;29;l;;l’;l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+819202;30;a;;argenteo;a r dZ E n t e o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+818540;30;r;;argenteo;a r dZ E n t e o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+830271;30;dZ;;argenteo;a r dZ E n t e o;;;;;;;;affricata;postalveolare;sonora;affricata;postalveolare;sonora
+832211;30;E;;argenteo;a r dZ E n t e o;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+837856;30;n;;argenteo;a r dZ E n t e o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+846764;30;t;;argenteo;a r dZ E n t e o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+848396;30;e;;argenteo;a r dZ E n t e o;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+850689;30;o;;argenteo;a r dZ E n t e o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+855143;31;f;;filo;f i l o;;;;;;;;fricativa;labiodentale;sorda;fricativa;labiodentale;sorda
+861582;31;i;;filo;f i l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+865992;31;l;;filo;f i l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+871328;31;o;;filo;f i l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+874371;32;s;;sottile;s o tt i l e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+877811;32;o;;sottile;s o tt i l e;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+889365;32;tt;;sottile;s o tt i l e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+890952;32;i;;sottile;s o tt i l e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+898846;32;l;;sottile;s o tt i l e;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+901625;32;e;;sottile;s o tt i l e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+907093;-1;<p:>;;;;;;;;;;;;;;;;
+924601;33;i;;il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+930113;33;l;;il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+937169;34;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+940874;34;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+949385;34;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+950355;34;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+953354;34;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+955823;34;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+956794;35;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+961336;35;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+968304;35;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+980387;35;O;;ragno;r a JJ o;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+982636;-1;<p:>;;;;;;;;;;;;;;;;
+989780;36;r;;rimane;r i m a n e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+998645;36;i;;rimane;r i m a n e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1001291;36;m;;rimane;r i m a n e;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+1001291;36;a;;rimane;r i m a n e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1008038;36;n;;rimane;r i m a n e;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+1012845;36;e;;rimane;r i m a n e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1015976;37;i;;impigliato;i m p i LL a t o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1019813;37;m;;impigliato;i m p i LL a t o;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+1024619;37;p;;impigliato;i m p i LL a t o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+1026516;37;i;;impigliato;i m p i LL a t o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1030397;37;LL;;impigliato;i m p i LL a t o;;;;;;;;approssimante laterale;velare;sonora;approssimante laterale;velare;sonora
+1039437;37;a;;impigliato;i m p i LL a t o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1050991;37;t;;impigliato;i m p i LL a t o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+1052932;37;o;;impigliato;i m p i LL a t o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+1056548;-1;<p:>;;;;;;;;;;;;;;;;
+1111188;38;f;;fra;f r a;;;;;;;;fricativa;labiodentale;sorda;fricativa;labiodentale;sorda
+1070131;38;r;;fra;f r a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+1073129;38;a;;fra;f r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1075423;39;i;;i;i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1082876;40;p;;pali;p a l i;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+1084022;40;a;;pali;p a l i;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1089182;40;l;;pali;p a l i;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+1094474;40;i;;pali;p a l i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1101574;41;d;;di;d i;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+1102853;41;i;;di;d i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1104573;42;u;;un;u n;;;;;;;;alta;posteriore;v;alta;posteriore;v
+1106072;42;n;;un;u n;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+1109380;43;r;;recinto;r e tS i n t o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+1114098;43;e;;recinto;r e tS i n t o;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1119567;43;tS;;recinto;r e tS i n t o;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+1125653;43;i;;recinto;r e tS i n t o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1129313;43;n;;recinto;r e tS i n t o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+1140382;43;t;;recinto;r e tS i n t o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+1142146;43;o;;recinto;r e tS i n t o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+1146424;-1;<p:>;;;;;;;;;;;;;;;;
+1185761;44;E;;E;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+1194845;45;k;;comincia;k o m i n tS a;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+1198682;45;o;;comincia;k o m i n tS a;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+1246001;45;m;;comincia;k o m i n tS a;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+1205562;45;i;;comincia;k o m i n tS a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1211427;45;n;;comincia;k o m i n tS a;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+1215617;45;tS;;comincia;k o m i n tS a;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+1222276;45;a;;comincia;k o m i n tS a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1225980;46;s;;subito;s u b i t o;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+1234094;46;u;;subito;s u b i t o;;;;;;;;alta;posteriore;v;alta;posteriore;v
+1237711;46;b;;subito;s u b i t o;;;;;;;;occlusiva;bilabiale;sonora;occlusiva;bilabiale;sonora
+1241195;46;i;;subito;s u b i t o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1249485;46;t;;subito;s u b i t o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+1249485;46;o;;subito;s u b i t o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+1252396;-1;<p:>;;;;;;;;;;;;;;;;
+1267743;47;a;;a;a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1279076;48;t;;tessere;t E ss e r e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+1280576;48;E;;tessere;t E ss e r e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+1286662;48;ss;;tessere;t E ss e r e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+1294511;48;e;;tessere;t E ss e r e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1296275;48;r;;tessere;t E ss e r e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+1298789;48;e;;tessere;t E ss e r e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1301700;49;l;;la;l a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+1303861;49;a;;la;l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1307609;50;s;;sua;s u a;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+1313871;50;u;;sua;s u a;;;;;;;;alta;posteriore;v;alta;posteriore;v
+1317620;50;a;;sua;s u a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1322030;51;t;;tela;t e l a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+1328292;51;e;;tela;t e l a;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1326881;51;l;;tela;t e l a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+1332393;51;a;;tela;t e l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1337156;-1;<p:>;;;;;;;;;;;;;;;;
+1403527;52;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1409877;52;r;;Arriva;a rr i v a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+1415301;52;i;;Arriva;a rr i v a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1420329;52;v;;Arriva;a rr i v a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+1421872;52;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1423989;53;i;;il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1426459;53;l;;il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+1432456;54;k;;cavallo;k a v a ll o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+1434749;54;a;;cavallo;k a v a ll o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1438763;54;v;;cavallo;k a v a ll o;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+1442246;54;a;;cavallo;k a v a ll o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1450581;54;ll;;cavallo;k a v a ll o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+1459622;54;o;;cavallo;k a v a ll o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+1463238;-1;<p:>;;;;;;;;;;;;;;;;
+1482598;55;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+1486214;56;L;;gli;L i;;;;;;;;approssimante laterale;velare;sonora;approssimante laterale;velare;sonora
+1489963;56;i;;gli;L i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1494020;57;d;;dice;d i tS e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+1495740;57;i;;dice;d i tS e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1497196;57;tS;;dice;d i tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+1505398;57;e;;dice;d i tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1512057;-1;<p:>;;;;;;;;;;;;;;;;
+1523831;58;j;;Hiii;j j i;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+1531108;58;j;;Hiii;j j i;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+1536047;58;i;;Hiii;j j i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1561978;59;j;;Hiii;j j i;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+1568108;59;j;;Hiii;j j i;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+1576575;59;i;;Hiii;j j i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1596685;-1;<p:>;;;;;;;;;;;;;;;;
+1619087;60;v;;Vuoi;v w O i;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+1620146;60;w;;Vuoi;v w O i;;;;;;;;approssimante;labio-velare;sonora;approssimante;labio-velare;sonora
+1622395;60;O;;Vuoi;v w O i;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+1623762;60;i;;Vuoi;v w O i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1627334;61;v;;venire;v e n i r e;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+1628437;61;e;;venire;v e n i r e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1632582;61;n;;venire;v e n i r e;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+1635669;61;i;;venire;v e n i r e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1641799;61;r;;venire;v e n i r e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+1643828;61;e;;venire;v e n i r e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1648370;62;a;;a;a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1654412;63;k;;cavalcare;k a v a l k a r e;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+1656969;63;a;;cavalcare;k a v a l k a r e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1660497;63;v;;cavalcare;k a v a l k a r e;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+1662526;63;a;;cavalcare;k a v a l k a r e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1664687;63;l;;cavalcare;k a v a l k a r e;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+1673904;63;k;;cavalcare;k a v a l k a r e;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+1675050;63;a;;cavalcare;k a v a l k a r e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1681577;63;r;;cavalcare;k a v a l k a r e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+1686516;63;e;;cavalcare;k a v a l k a r e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1691279;-1;<p:>;;;;;;;;;;;;;;;;
+1686031;64;i;;Il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1731895;64;l;;Il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+1742082;65;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+1746977;65;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1750285;65;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+1753196;65;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+1756194;65;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+1761178;65;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+1762589;66;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+1766205;66;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1770659;66;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+1778994;66;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+1782787;-1;<p:>;;;;;;;;;;;;;;;;
+1798751;67;t;;tesse;t E ss e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+1800691;67;E;;tesse;t E ss e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+1806468;67;ss;;tesse;t E ss e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+1815773;67;e;;tesse;t E ss e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1819919;68;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+1828210;69;t;;tace;t a tS e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+1829312;69;a;;tace;t a tS e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1838485;69;tS;;tace;t a tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+1843512;69;e;;tace;t a tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+1848187;-1;<p:>;;;;;;;;;;;;;;;;
+1912176;70;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1917733;70;r;;Arriva;a rr i v a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+1922981;70;i;;Arriva;a rr i v a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+1929948;70;v;;Arriva;a rr i v a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+1932771;70;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1937004;71;l;;la;l a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+1938636;71;a;;la;l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1942473;72;m;;mucca;m u kk a;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+1948470;72;u;;mucca;m u kk a;;;;;;;;alta;posteriore;v;alta;posteriore;v
+1963773;72;kk;;mucca;m u kk a;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+1964743;72;a;;mucca;m u kk a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+1970653;-1;<p:>;;;;;;;;;;;;;;;;
+1995790;73;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+1998524;74;L;;gli;L i;;;;;;;;approssimante laterale;velare;sonora;approssimante laterale;velare;sonora
+2003463;74;i;;gli;L i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2007300;75;d;;dice;d i tS e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+2008094;75;i;;dice;d i tS e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2014929;75;tS;;dice;d i tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+2018810;75;e;;dice;d i tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2025337;-1;<p:>;;;;;;;;;;;;;;;;
+2044256;76;m;;Mu;m u ;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+2046549;76;u;;Mu;m u ;;;;;;;;alta;posteriore;v;alta;posteriore;v
+2083284;-1;<p:>;;;;;;;;;;;;;;;;
+2104452;77;m;;Mu;m u ;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+2107539;77;u;;Mu;m u ;;;;;;;;alta;posteriore;v;alta;posteriore;v
+2139908;-1;<p:>;;;;;;;;;;;;;;;;
+2160944;78;v;;Vuoi;v w O i;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+2163414;78;w;;Vuoi;v w O i;;;;;;;;approssimante;labio-velare;sonora;approssimante;labio-velare;sonora
+2164693;78;O;;Vuoi;v w O i;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+2166589;78;i;;Vuoi;v w O i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2168706;79;m;;mangiare;m a n dZ a r e;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+2171484;79;a;;mangiare;m a n dZ a r e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2173821;79;n;;mangiare;m a n dZ a r e;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+2177967;79;dZ;;mangiare;m a n dZ a r e;;;;;;;;affricata;postalveolare;sonora;affricata;postalveolare;sonora
+2181451;79;a;;mangiare;m a n dZ a r e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2187316;79;r;;mangiare;m a n dZ a r e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+2192211;79;e;;mangiare;m a n dZ a r e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2194416;80;u;;un;u n;;;;;;;;alta;posteriore;v;alta;posteriore;v
+2197062;80;N;;un;u n;;;;;;;;;;;;;
+2203412;81;p;;po';p o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+2204471;81;o;;po';p o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+2209234;82;d;;di;d i;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+2210557;82;i;;di;d i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2214482;83;f;;fieno;f j E n o;;;;;;;;fricativa;labiodentale;sorda;fricativa;labiodentale;sorda
+2219509;83;j;;fieno;f j E n o;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+2222949;83;E;;fieno;f j E n o;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+2226697;83;n;;fieno;f j E n o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+2230225;83;o;;fieno;f j E n o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+2231857;84;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+2239839;85;d;;di;d i;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+2240765;85;i;;di;d i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2243367;86;a;;avena;a v e n a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2246189;86;v;;avena;a v e n a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+2250511;86;e;;avena;a v e n a;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2257744;86;n;;avena;a v e n a;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+2260787;86;a;;avena;a v e n a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2266520;-1;<p:>;;;;;;;;;;;;;;;;
+2305063;87;i;;Il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2309782;87;l;;Il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+2316529;88;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+2317411;88;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2324246;88;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+2327598;88;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+2330641;88;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+2332493;88;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+2333243;89;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+2337300;89;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2346429;89;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+2355690;89;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+2379636;90;t;;tesse;t E ss e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+2381224;90;E;;tesse;t E ss e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+2387221;90;ss;;tesse;t E ss e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+2400495;90;e;;tesse;t E ss e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2404023;-1;<p:>;;;;;;;;;;;;;;;;
+2415842;91;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+2427617;92;t;;tace;t a tS e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+2428367;92;a;;tace;t a tS e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2435114;92;tS;;tace;t a tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+2442699;92;e;;tace;t a tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2445654;-1;<p:>;;;;;;;;;;;;;;;;
+2507261;93;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2512157;93;r;;Arriva;a rr i v a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+2518110;93;i;;Arriva;a rr i v a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2521109;93;v;;Arriva;a rr i v a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+2525431;93;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2529003;94;l;;la;l a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+2531164;94;a;;la;l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2530855;95;p;;pecora;p E k o r a;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+2539410;95;E;;pecora;p E k o r a;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+2550876;95;k;;pecora;p E k o r a;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+2552067;95;o;;pecora;p E k o r a;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+2554713;95;r;;pecora;p E k o r a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+2557006;95;a;;pecora;p E k o r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2563048;-1;<p:>;;;;;;;;;;;;;;;;
+2578483;96;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+2580600;97;L;;gli;L i;;;;;;;;approssimante laterale;velare;sonora;approssimante laterale;velare;sonora
+2586068;97;i;;gli;L i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2590831;98;d;;dice;d i tS e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+2592022;98;i;;dice;d i tS e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2596829;98;tS;;dice;d i tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+2505221;98;e;;dice;d i tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2608956;-1;<p:>;;;;;;;;;;;;;;;;
+2626596;99;b;;Beee;b e e e;;;;;;;;occlusiva;bilabiale;sonora;occlusiva;bilabiale;sonora
+2630345;99;e;;Beee;b e e e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2637312;99;e;;Beee;b e e e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2641281;99;e;;Beee;b e e e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2651645;-1;<p:>;;;;;;;;;;;;;;;;
+2666066;100;b;;Beee;b E e;;;;;;;;occlusiva;bilabiale;sonora;occlusiva;bilabiale;sonora
+2670564;100;E;;Beee;b E e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+2682647;100;e;;Beee;b E e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2704256;101;a;;Andiamo;a n d j a m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2710210;101;n;;Andiamo;a n d j a m o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+2714399;101;d;;Andiamo;a n d j a m o;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+2716031;101;j;;Andiamo;a n d j a m o;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+2717839;101;a;;Andiamo;a n d j a m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2724498;101;m;;Andiamo;a n d j a m o;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+2727541;101;o;;Andiamo;a n d j a m o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+2729746;102;i;;insieme;i n s j E m e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2731642;102;n;;insieme;i n s j E m e;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+2735876;102;s;;insieme;i n s j E m e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+2740550;102;j;;insieme;i n s j E m e;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+2741609;102;E;;insieme;i n s j E m e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+2743902;102;m;;insieme;i n s j E m e;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+2746901;102;e;;insieme;i n s j E m e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2752502;103;p;;per;p e r;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+2753472;103;e;;per;p e r;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2756735;103;r;;per;p e r;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+2763218;104;p;;prati;p r a t i;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+2764144;104;r;;prati;p r a t i;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+2766702;104;a;;prati;p r a t i;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2779491;104;t;;prati;p r a t i;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+2780505;104;i;;prati;p r a t i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2786811;-1;<p:>;;;;;;;;;;;;;;;;
+2823811;105;i;;Il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2828839;105;l;;Il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+2835277;106;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+2836777;106;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+2847096;106;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+2850624;106;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+2853667;106;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+2860502;106;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+2861825;107;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+2865133;107;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2869411;107;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+2877657;107;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+2884978;108;t;;tesse;t E ss e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+2887051;108;E;;tesse;t E ss e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+2893974;108;ss;;tesse;t E ss e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+2902927;108;e;;tesse;t E ss e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2905132;109;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+2913555;110;t;;tace;t a tS e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+2914966;110;a;;tace;t a tS e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2921140;110;tS;;tace;t a tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+2929695;110;e;;tace;t a tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+2934987;-1;<p:>;;;;;;;;;;;;;;;;
+2995978;111;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+2999462;111;r;;Arriva;a rr i v a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3003431;111;i;;Arriva;a rr i v a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3008723;111;v;;Arriva;a rr i v a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+3011413;111;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3014808;112;l;;la;l a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+3017454;112;a;;la;l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3023540;113;k;;capra;k a p r a;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+3024643;113;a;;capra;k a p r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3036726;113;p;;capra;k a p r a;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+3037873;113;r;;capra;k a p r a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3041312;113;a;;capra;k a p r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3044047;-1;<p:>;;;;;;;;;;;;;;;;
+3069536;114;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+3071168;115;L;;gli;L i;;;;;;;;approssimante laterale;velare;sonora;approssimante laterale;velare;sonora
+3077695;115;i;;gli;L i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3082237;116;d;;dice;d i tS e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+3082458;116;i;;dice;d i tS e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3090043;116;tS;;dice;d i tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+3094100;116;e;;dice;d i tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3100406;-1;<p:>;;;;;;;;;;;;;;;;
+3117341;117;m;;Meee;m e e e;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+3121266;117;e;;Meee;m e e e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3131012;117;e;;Meee;m e e e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3134319;117;e;;Meee;m e e e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3144242;-1;<p:>;;;;;;;;;;;;;;;;
+3155002;118;m;;Mee;m E e;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+3160823;118;E;;Mee;m E e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+3163117;118;e;;Mee;m E e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3178463;-1;<p:>;;;;;;;;;;;;;;;;
+3206246;119;f;;Facciamo;f a ttS a m o;;;;;;;;fricativa;labiodentale;sorda;fricativa;labiodentale;sorda
+3208231;119;a;;Facciamo;f a ttS a m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3211979;119;ttS;;Facciamo;f a ttS a m o;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+3217668;119;a;;Facciamo;f a ttS a m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3223181;119;m;;Facciamo;f a ttS a m o;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+3227767;119;O;;Facciamo;f a ttS a m o;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+3230678;120;k;;chi;k i;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+3233147;120;i;;chi;k i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3237734;121;ss;;salta;s a l t a;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+3242012;121;a;;salta;s a l t a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3246113;121;l;;salta;s a l t a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+3251008;121;t;;salta;s a l t a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+3252066;121;a;;salta;s a l t a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3256124;122;d;;di;d i;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+3257535;122;i;;di;d i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3262783;123;p;;più;p i u;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+3264414;123;i;;più;p i u;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3269354;123;u;;più;p i u;;;;;;;;alta;posteriore;v;alta;posteriore;v
+3278747;-1;<p:>;;;;;;;;;;;;;;;;
+3313718;124;i;;Il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3317158;124;l;;Il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+3324434;125;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+3325890;125;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3338546;125;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+3339517;125;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3341766;125;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+3344456;125;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3347146;126;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3352658;126;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3358083;126;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+3370563;126;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3373915;-1;<p:>;;;;;;;;;;;;;;;;
+3387630;127;t;;tesse;t E ss e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+3389041;127;E;;tesse;t E ss e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+3395612;127;ss;;tesse;t E ss e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+3408621;127;e;;tesse;t E ss e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3421499;128;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+3432568;129;t;;tace;t a tS e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+3434288;129;a;;tace;t a tS e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3440506;129;tS;;tace;t a tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+3449767;129;e;;tace;t a tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3454618;-1;<p:>;;;;;;;;;;;;;;;;
+3508464;130;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3513579;130;r;;Arriva;a rr i v a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3518474;130;i;;Arriva;a rr i v a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3522884;130;v;;Arriva;a rr i v a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+3528176;130;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3530337;131;i;;il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3532542;131;l;;il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+3535806;132;m;;maiale;m a j a l e;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+3540128;132;a;;maiale;m a j a l e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3543347;132;j;;maiale;m a j a l e;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+3551285;132;a;;maiale;m a j a l e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3560987;132;l;;maiale;m a j a l e;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+3564030;132;e;;maiale;m a j a l e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3569454;-1;<p:>;;;;;;;;;;;;;;;;
+3581758;133;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+3584448;134;L;;gli;L i;;;;;;;;approssimante laterale;velare;sonora;approssimante laterale;velare;sonora
+3589299;134;i;;gli;L i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3594591;135;d;;dice;d i tS e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+3597413;135;i;;dice;d i tS e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3601338;135;tS;;dice;d i tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+3605925;135;e;;dice;d i tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3611702;-1;<p:>;;;;;;;;;;;;;;;;
+3624182;136;g;;Gronf;g r o n f;;;;;;;;occlusiva;velare;sonora;occlusiva;velare;sonora
+3625373;136;r;;Gronf;g r o n f;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3630488;136;o;;Gronf;g r o n f;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3637589;136;n;;Gronf;g r o n f;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+3642395;136;f;;Gronf;g r o n f;;;;;;;;fricativa;labiodentale;sorda;fricativa;labiodentale;sorda
+3646056;-1;<p:>;;;;;;;;;;;;;;;;
+3662902;137;g;;Gronf;g r o n f;;;;;;;;occlusiva;velare;sonora;occlusiva;velare;sonora
+3664269;137;r;;Gronf;g r o n f;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3669032;137;o;;Gronf;g r o n f;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3672648;137;n;;Gronf;g r o n f;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+3676264;137;f;;Gronf;g r o n f;;;;;;;;fricativa;labiodentale;sorda;fricativa;labiodentale;sorda
+3683894;-1;<p:>;;;;;;;;;;;;;;;;
+3709472;138;p;;perché;p e r k e;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+3710795;138;e;;perché;p e r k e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3714940;138;r;;perché;p e r k e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3719041;138;k;;perché;p e r k e;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+3720982;138;e;;perché;p e r k e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3726671;139;n;;non;n O n;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+3730022;139;O;;non;n O n;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+3732183;139;n;;non;n O n;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+3735402;140;a;;andiamo;a n d j a m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3738269;140;n;;andiamo;a n d j a m o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+3744134;140;d;;andiamo;a n d j a m o;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+3744355;140;j;;andiamo;a n d j a m o;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+3748588;140;a;;andiamo;a n d j a m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3751984;140;m;;andiamo;a n d j a m o;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+3756614;140;o;;andiamo;a n d j a m o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3761289;142;r;;rotolarci;r o t o l a r tS i;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3764905;142;o;;rotolarci;r o t o l a r tS i;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3769095;142;t;;rotolarci;r o t o l a r tS i;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+3770462;142;o;;rotolarci;r o t o l a r tS i;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3773858;142;l;;rotolarci;r o t o l a r tS i;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+3776107;142;a;;rotolarci;r o t o l a r tS i;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3780296;142;r;;rotolarci;r o t o l a r tS i;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3784971;142;tS;;rotolarci;r o t o l a r tS i;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+3790307;142;i;;rotolarci;r o t o l a r tS i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3796128;143;n;;nel;n e l;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+3797980;143;e;;nel;n e l;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3799877;143;l;;nel;n e l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+3804551;144;p;;prato;p r a t o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+3805389;144;r;;prato;p r a t o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3808961;144;a;;prato;p r a t o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3818399;144;t;;prato;p r a t o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+3819722;144;o;;prato;p r a t o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3824661;-1;<p:>;;;;;;;;;;;;;;;;
+3855663;145;i;;Il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3860294;145;l;;Il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+3863998;146;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+3865321;146;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+3872245;146;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+3874494;146;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3878242;146;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+3881109;146;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3882961;147;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+3886136;147;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3890811;147;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+3898793;147;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+3905276;148;t;;tesse;t E ss e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+3906687;148;E;;tesse;t E ss e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+3915198;148;ss;;tesse;t E ss e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+3926488;148;e;;tesse;t E ss e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3939541;149;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+3951448;150;t;;tace;t a tS e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+3953036;150;a;;tace;t a tS e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+3960401;150;tS;;tace;t a tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+3967148;150;e;;tace;t a tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+3971029;-1;<p:>;;;;;;;;;;;;;;;;
+4023596;151;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4027697;151;r;;Arriva;a rr i v a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+4034709;151;i;;Arriva;a rr i v a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4038590;151;v;;Arriva;a rr i v a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+4040927;151;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4040883;152;i;;il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4045910;152;l;;il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+4052922;153;k;;cane;k a n e;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+4055480;153;a;;cane;k a n e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4062889;153;n;;cane;k a n e;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+4068710;153;e;;cane;k a n e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+4072150;-1;<p:>;;;;;;;;;;;;;;;;
+4102447;154;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+4105181;155;L;;gli;L i;;;;;;;;approssimante laterale;velare;sonora;approssimante laterale;velare;sonora
+4110473;155;i;;gli;L i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4114574;156;d;;dice;d i tS e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+4115500;156;i;;dice;d i tS e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4121410;156;tS;;dice;d i tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+4125952;156;e;;dice;d i tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+4131376;-1;<p:>;;;;;;;;;;;;;;;;
+4144077;157;b;;Bau;b a u;;;;;;;;occlusiva;bilabiale;sonora;occlusiva;bilabiale;sonora
+4145135;157;a;;Bau;b a u;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4151662;157;u;;Bau;b a u;;;;;;;;alta;posteriore;v;alta;posteriore;v
+4157439;-1;<p:>;;;;;;;;;;;;;;;;
+4170096;158;b;;Bau;b a u;;;;;;;;occlusiva;bilabiale;sonora;occlusiva;bilabiale;sonora
+4171199;158;a;;Bau;b a u;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4177461;158;u;;Bau;b a u;;;;;;;;alta;posteriore;v;alta;posteriore;v
+4183326;-1;<p:>;;;;;;;;;;;;;;;;
+4225883;159;v;;Vieni;v i E n i;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+4227955;159;i;;Vieni;v i E n i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4230381;159;E;;Vieni;v i E n i;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+4240259;159;n;;Vieni;v i E n i;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+4243478;159;i;;Vieni;v i E n i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4250005;-1;<p:>;;;;;;;;;;;;;;;;
+4267204;160;k;;che;k e;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+4269542;160;e;;che;k e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+4272320;161;a;;andiamo;a n d j a m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4274260;161;n;;andiamo;a n d j a m o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+4277921;161;d;;andiamo;a n d j a m o;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+4279244;161;j;;andiamo;a n d j a m o;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+4281184;161;a;;andiamo;a n d j a m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4283257;161;m;;andiamo;a n d j a m o;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+4286079;161;O;;andiamo;a n d j a m o;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+4288240;162;a;;a;a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4292782;163;k;;caccia;k a ttS a;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+4294723;163;a;;caccia;k a ttS a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4300456;163;ttS;;caccia;k a ttS a;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+4305792;163;a;;caccia;k a ttS a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4309893;164;d;;del;d e l;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+4310951;164;e;;del;d e l;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+4312583;164;l;;del;d e l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+4319154;165;g;;gatto;g a tt o;;;;;;;;occlusiva;velare;sonora;occlusiva;velare;sonora
+4320962;165;a;;gatto;g a tt o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4336618;165;tt;;gatto;g a tt o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+4338117;165;o;;gatto;g a tt o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4342924;-1;<p:>;;;;;;;;;;;;;;;;
+4374279;166;i;;Il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4377234;166;l;;Il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+4383628;167;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+4384995;167;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4392272;167;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+4395182;167;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4397652;167;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+4402724;167;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4404488;168;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+4407222;168;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4412690;168;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+4424774;169;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4427067;-1;<p:>;;;;;;;;;;;;;;;;
+4443825;169;t;;tesse;t E ss e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+4443913;169;E;;tesse;t E ss e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+4444971;169;ss;;tesse;t E ss e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+4452468;169;e;;tesse;t E ss e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+4465478;170;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+4475841;171;t;;tace;t a tS e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+4477076;171;a;;tace;t a tS e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4486425;171;tS;;tace;t a tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+4492202;171;e;;tace;t a tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+4496789;-1;<p:>;;;;;;;;;;;;;;;;
+4549709;172;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4552884;172;r;;Arriva;a rr i v a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+4558132;172;i;;Arriva;a rr i v a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4562586;172;v;;Arriva;a rr i v a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+4564174;172;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4568275;173;i;;il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4572332;173;l;;il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+4574934;174;g;;gatto;g a tt o;;;;;;;;occlusiva;velare;sonora;occlusiva;velare;sonora
+4575948;174;a;;gatto;g a tt o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4594426;174;tt;;gatto;g a tt o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+4595793;174;o;;gatto;g a tt o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4601570;-1;<p:>;;;;;;;;;;;;;;;;
+4609112;175;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+4612199;176;L;;gli;L i;;;;;;;;approssimante laterale;velare;sonora;approssimante laterale;velare;sonora
+4619210;176;i;;gli;L i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4623753;177;d;;dice;d i tS e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+4624370;177;i;;dice;d i tS e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4630985;177;tS;;dice;d i tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+4635748;177;e;;dice;d i tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+4643024;-1;<p:>;;;;;;;;;;;;;;;;
+4659121;178;m;;Mao;m a o ;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+4664325;178;a;;Mao;m a o ;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4677026;178;o;;Mao;m a o ;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4686992;-1;<p:>;;;;;;;;;;;;;;;;
+4697091;179;m;;Mao;m a o ;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+4701898;179;a;;Mao;m a o ;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4713673;179;o;;Mao;m a o ;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4724124;-1;<p:>;;;;;;;;;;;;;;;;
+4744587;180;s;;Se;s e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+4748600;180;e;;Se;s e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+4750981;181;a;;andassimo;a n d a ss i m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4752613;181;n;;andassimo;a n d a ss i m o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+4756891;181;d;;andassimo;a n d a ss i m o;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+4758037;181;a;;andassimo;a n d a ss i m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4761830;181;ss;;andassimo;a n d a ss i m o;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+4768533;181;i;;andassimo;a n d a ss i m o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4770209;181;m;;andassimo;a n d a ss i m o;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+4773560;181;o;;andassimo;a n d a ss i m o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4776162;182;a;;a;a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4777926;183;f;;farci;f a r tS i;;;;;;;;fricativa;labiodentale;sorda;fricativa;labiodentale;sorda
+4782821;183;a;;farci;f a r tS i;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4785820;183;r;;farci;f a r tS i;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+4788907;183;tS;;farci;f a r tS i;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+4793361;183;i;;farci;f a r tS i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4794243;184;u;;un;u n;;;;;;;;alta;posteriore;v;alta;posteriore;v
+4796889;184;n;;un;u n;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+4802755;185;p;;pisolino;p i z o l i n o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+4803504;185;i;;pisolino;p i z o l i n o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4807385;185;z;;pisolino;p i z o l i n o;;;;;;;;fricativa;alveolare;sonora;fricativa;alveolare;sonora
+4810560;185;o;;pisolino;p i z o l i n o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4812236;185;l;;pisolino;p i z o l i n o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+4816382;185;i;;pisolino;p i z o l i n o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4823305;185;n;;pisolino;p i z o l i n o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+4827583;185;o;;pisolino;p i z o l i n o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4831508;-1;<p:>;;;;;;;;;;;;;;;;
+4865156;186;i;;Il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4868640;186;l;;Il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+4875564;187;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+4876975;187;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+4884428;187;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+4887338;187;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4890778;187;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+4892983;187;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4895321;188;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+4899907;188;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4905860;188;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+4912916;188;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+4920017;189;t;;tesse;t E ss e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+4921560;189;E;;tesse;t E ss e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+4928440;189;ss;;tesse;t E ss e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+4937348;189;e;;tesse;t E ss e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+4940744;190;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+4949608;191;t;;tace;t a tS e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+4950710;191;a;;tace;t a tS e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+4959662;191;tS;;tace;t a tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+4965660;191;e;;tace;t a tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+4969629;-1;<p:>;;;;;;;;;;;;;;;;
+5016772;192;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5020124;192;r;;Arriva;a rr i v a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5024004;192;i;;Arriva;a rr i v a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5025901;192;v;;Arriva;a rr i v a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+5031369;192;a;;Arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5035426;193;l;;l’;l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5038425;194;a;;anatra;a n a t r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5044952;194;n;;anatra;a n a t r a;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+5049185;194;a;;anatra;a n a t r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5056109;194;t;;anatra;a n a t r a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+5057035;194;r;;anatra;a n a t r a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5059152;194;a;;anatra;a n a t r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5061842;-1;<p:>;;;;;;;;;;;;;;;;
+5075513;195;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+5078732;196;L;;gli;L i;;;;;;;;approssimante laterale;velare;sonora;approssimante laterale;velare;sonora
+5083054;196;i;;gli;L i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5087817;197;d;;dice;d i tS e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+5088920;197;i;;dice;d i tS e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5092933;197;tS;;dice;d i tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+5099415;197;e;;dice;d i tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5104355;-1;<p:>;;;;;;;;;;;;;;;;
+5113880;198;k;;Qua;k w a;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5114806;198;w;;Qua;k w a;;;;;;;;approssimante;labio-velare;sonora;approssimante;labio-velare;sonora
+5116482;198;a;;Qua;k w a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5131608;199;k;;Qua;k w a;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5132755;199;w;;Qua;k w a;;;;;;;;approssimante;labio-velare;sonora;approssimante;labio-velare;sonora
+5134475;199;a;;Qua;k w a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5138664;-1;<p:>;;;;;;;;;;;;;;;;
+5176987;200;v;;Vieni;v i E n i;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+5178619;200;i;;Vieni;v i E n i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5180824;200;E;;Vieni;v i E n i;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+5184793;200;n;;Vieni;v i E n i;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+5186733;200;i;;Vieni;v i E n i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5193525;201;k;;con;k o n;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5194274;201;O;;con;k o n;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+5196479;201;n;;con;k o n;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+5198993;202;m;;me;m e;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+5202345;202;e;;me;m e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5204770;203;a;;a;a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5207901;204;n;;nuotare;n w o t a r e;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+5209974;204;w;;nuotare;n w o t a r e;;;;;;;;approssimante;labio-velare;sonora;approssimante;labio-velare;sonora
+5212929;204;o;;nuotare;n w o t a r e;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5219103;204;t;;nuotare;n w o t a r e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+5220073;204;a;;nuotare;n w o t a r e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5227879;204;r;;nuotare;n w o t a r e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5232906;204;e;;nuotare;n w o t a r e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5236566;-1;<p:>;;;;;;;;;;;;;;;;
+5266025;205;i;;Il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5269685;205;l;;Il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5277756;206;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+5279299;206;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5290060;206;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5293499;206;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5297424;206;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5299497;206;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5300820;207;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5306509;207;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5313256;207;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+5322958;207;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5325781;-1;<p:>;;;;;;;;;;;;;;;;
+5338526;208;a;;ha;a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5344523;209;z;;smesso;z m e ss o;;;;;;;;fricativa;alveolare;sonora;fricativa;alveolare;sonora
+5348404;209;m;;smesso;z m e ss o;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+5352549;209;e;;smesso;z m e ss o;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5358326;209;ss;;smesso;z m e ss o;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+5365603;209;o;;smesso;z m e ss o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5369087;210;d;;di;d i;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+5369969;210;i;;di;d i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5375922;211;t;;tessere;t E ss e r e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+5377245;211;E;;tessere;t E ss e r e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+5384434;211;ss;;tessere;t E ss e r e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+5394488;211;e;;tessere;t E ss e r e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5396252;211;r;;tessere;t E ss e r e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5400751;211;e;;tessere;t E ss e r e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5404367;-1;<p:>;;;;;;;;;;;;;;;;
+5431929;212;l;;La;l a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5433649;212;a;;La;l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5435546;213;r;;ragnatela;r a JJ a t e l a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5439029;213;a;;ragnatela;r a JJ a t e l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5442072;213;JJ;;ragnatela;r a JJ a t e l a;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+5445865;213;a;;ragnatela;r a JJ a t e l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5452083;213;t;;ragnatela;r a JJ a t e l a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+5453274;213;e;;ragnatela;r a JJ a t e l a;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5457199;213;l;;ragnatela;r a JJ a t e l a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5458566;213;a;;ragnatela;r a JJ a t e l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5461476;214;E;;è;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+5469062;215;p;;pronta;p r o n t a;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+5470208;215;r;;pronta;p r o n t a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5472590;215;o;;pronta;p r o n t a;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5479866;215;n;;pronta;p r o n t a;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+5487628;215;t;;pronta;p r o n t a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+5489039;215;a;;pronta;p r o n t a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5493978;-1;<p:>;;;;;;;;;;;;;;;;
+5542003;216;a;;Allora;a ll o r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5545090;216;ll;;Allora;a ll o r a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5549456;216;o;;Allora;a ll o r a;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5552455;216;r;;Allora;a ll o r a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5554880;216;a;;Allora;a ll o r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5556776;217;a;;arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5560525;217;rr;;arriva;a rr i v a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5565067;217;i;;arriva;a rr i v a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5568551;217;v;;arriva;a rr i v a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+5571153;217;a;;arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5573093;218;i;;il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5575960;218;l;;il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5582575;219;g;;gallo;g a ll o;;;;;;;;occlusiva;velare;sonora;occlusiva;velare;sonora
+5583457;219;a;;gallo;g a ll o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5592497;219;ll;;gallo;g a ll o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5601097;219;o;;gallo;g a ll o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5605286;-1;<p:>;;;;;;;;;;;;;;;;
+5622353;220;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+5625837;221;L;;gli;L i;;;;;;;;approssimante laterale;velare;sonora;approssimante laterale;velare;sonora
+5629982;221;i;;gli;L i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5633996;222;d;;dice;d i tS e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+5634878;222;i;;dice;d i tS e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5640390;222;tS;;dice;d i tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+5645638;222;e;;dice;d i tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5652518;-1;<p:>;;;;;;;;;;;;;;;;
+5671833;223;k;;Chicchirichi;k i k k  i r i k i;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5674920;223;i;;Chicchirichi;k i k k  i r i k i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5682461;223;kk;;Chicchirichi;k i k k  i r i k i;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5685019;223;i;;Chicchirichi;k i k k  i r i k i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5686651;223;r;;Chicchirichi;k i k k  i r i k i;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5689694;223;i;;Chicchirichi;k i k k  i r i k i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5694280;223;k;;Chicchirichi;k i k k  i r i k i;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5697455;223;i;;Chicchirichi;k i k k  i r i k i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5718932;-1;<p:>;;;;;;;;;;;;;;;;
+5733794;224;p;;Perché;p e r k e;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+5735029;224;e;;Perché;p e r k e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5736704;224;r;;Perché;p e r k e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5742878;224;k;;Perché;p e r k e;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5745789;224;e;;Perché;p e r k e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5749670;225;n;;non;n O n;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+5752845;225;O;;non;n O n;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+5755006;225;n;;non;n O n;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+5758137;226;a;;andiamo;a n d j a m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5761180;226;n;;andiamo;a n d j a m o;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+5765193;226;d;;andiamo;a n d j a m o;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+5766913;226;j;;andiamo;a n d j a m o;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+5769118;226;a;;andiamo;a n d j a m o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5771191;226;m;;andiamo;a n d j a m o;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+5774983;226;o;;andiamo;a n d j a m o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5777012;227;a;;assieme;a ss j E m e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5780143;227;ss;;assieme;a ss j E m e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+5790110;227;j;;assieme;a ss j E m e;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+5792756;227;E;;assieme;a ss j E m e;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+5802193;227;m;;assieme;a ss j E m e;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+5806030;227;e;;assieme;a ss j E m e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5810528;-1;<p:>;;;;;;;;;;;;;;;;
+5818863;228;a;;ad;a d;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5823890;228;d;;ad;a d;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+5824728;229;a;;acchiappare;a kk j a pp a r e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5831123;229;kk;;acchiappare;a kk j a pp a r e;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5834827;229;j;;acchiappare;a kk j a pp a r e;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+5837208;229;a;;acchiappare;a kk j a pp a r e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5845058;229;pp;;acchiappare;a kk j a pp a r e;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+5847484;229;a;;acchiappare;a kk j a pp a r e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5851585;229;r;;acchiappare;a kk j a pp a r e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5854451;229;e;;acchiappare;a kk j a pp a r e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5856127;230;l;;le;l e;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5858906;230;e;;le;l e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5861816;231;m;;mosche;m o s k e;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+5866844;231;o;;mosche;m o s k e;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5873944;231;s;;mosche;m o s k e;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+5882587;231;k;;mosche;m o s k e;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5885013;231;e;;mosche;m o s k e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+5889908;-1;<p:>;;;;;;;;;;;;;;;;
+5941064;232;i;;Il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5945121;232;l;;Il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5953103;233;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+5954691;233;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+5964305;233;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+5967788;233;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5971757;233;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+5976035;233;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5977402;234;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+5979960;234;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+5986619;234;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+5992705;234;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+5999981;235;t;;tace;t a tS e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+6001790;235;a;;tace;t a tS e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6011095;235;tS;;tace;t a tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+6018018;235;e;;tace;t a tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+6025030;236;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+6042494;-1;<p:>;;;;;;;;;;;;;;;;
+6065294;237;dz;;Zac;dz a k;;;;;;;;affricata;alveolare;sonora;affricata;alveolare;sonora
+6069307;237;a;;Zac;dz a k;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6082140;237;k;;Zac;dz a k;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+6084521;-1;<p:>;;;;;;;;;;;;;;;;
+6104498;238;a;;Ha;a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6109173;239;dZ;;già;dZ a;;;;;;;;affricata;postalveolare;sonora;affricata;postalveolare;sonora
+6115082;239;a;;già;dZ a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6119007;240;a;;acchiappato;a kk j a pp a t o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6126328;240;kk;;acchiappato;a kk j a pp a t o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+6129944;240;j;;acchiappato;a kk j a pp a t o;;;;;;;;approssimante;palatale;sonora;approssimante;palatale;sonora
+6131444;240;a;;acchiappato;a kk j a pp a t o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6138808;240;pp;;acchiappato;a kk j a pp a t o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+6140264;240;a;;acchiappato;a kk j a pp a t o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6147275;240;t;;acchiappato;a kk j a pp a t o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+6147981;240;o;;acchiappato;a kk j a pp a t o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6148951;241;u;;una;u n a;;;;;;;;alta;posteriore;v;alta;posteriore;v
+6151906;241;n;;una;u n a;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+6154552;241;a;;una;u n a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6157904;242;m;;mosca;m o s k a;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+6161123;242;o;;mosca;m o s k a;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6167297;242;s;;mosca;m o s k a;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+6176029;242;k;;mosca;m o s k a;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+6177572;242;a;;mosca;m o s k a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6181894;-1;<p:>;;;;;;;;;;;;;;;;
+6230404;243;a;;Allora;a ll o r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6233667;243;ll;;Allora;a ll o r a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+6239224;243;o;;Allora;a ll o r a;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6243149;243;r;;Allora;a ll o r a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+6245883;243;a;;Allora;a ll o r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6252630;244;a;;arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6258893;244;r;;arriva;a rr i v a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+6266919;244;i;;arriva;a rr i v a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+6268859;244;v;;arriva;a rr i v a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+6270535;244;a;;arriva;a rr i v a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6275121;245;l;;la;l a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+6276841;245;a;;la;l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6282266;246;tS;;civetta;tS i v e tt a;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+6287381;246;i;;civetta;tS i v e tt a;;;;;;;;alta;anteriore;v;alta;anteriore;v
+6289189;246;v;;civetta;tS i v e tt a;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+6291306;246;e;;civetta;tS i v e tt a;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+6307711;246;tt;;civetta;tS i v e tt a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+6308858;246;a;;civetta;tS i v e tt a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6313488;-1;<p:>;;;;;;;;;;;;;;;;
+6325351;247;E;;e;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+6333245;248;d;;dice;d i tS e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+6334259;248;i;;dice;d i tS e;;;;;;;;alta;anteriore;v;alta;anteriore;v
+6340169;248;tS;;dice;d i tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+6345020;248;e;;dice;d i tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+6351899;-1;<p:>;;;;;;;;;;;;;;;;
+6360852;249;u;;Uhuu;u u u ;;;;;;;;alta;posteriore;v;alta;posteriore;v
+6367643;249;u;;Uhuu;u u u ;;;;;;;;alta;posteriore;v;alta;posteriore;v
+6380432;249;u;;Uhuu;u u u ;;;;;;;;alta;posteriore;v;alta;posteriore;v
+6390531;-1;<p:>;;;;;;;;;;;;;;;;
+6413816;250;k;;Chi;k i;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+6417564;250;i;;Chi;k i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+6418799;251;a;;ha;a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6423209;252;f;;fatto;f a tt o;;;;;;;;fricativa;labiodentale;sorda;fricativa;labiodentale;sorda
+6430397;252;a;;fatto;f a tt o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6447023;252;tt;;fatto;f a tt o;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+6448346;252;o;;fatto;f a tt o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6453329;253;k;;quella;k w e ll a;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+6455579;253;w;;quella;k w e ll a;;;;;;;;approssimante;labio-velare;sonora;approssimante;labio-velare;sonora
+6457387;253;e;;quella;k w e ll a;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+6459327;253;ll;;quella;k w e ll a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+6461708;253;a;;quella;k w e ll a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6466427;254;b;;bella;b E ll a;;;;;;;;occlusiva;bilabiale;sonora;occlusiva;bilabiale;sonora
+6467927;254;E;;bella;b E ll a;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+6471631;254;ll;;bella;b E ll a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+6475203;254;a;;bella;b E ll a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6478996;255;r;;ragnatela;r a JJ a t e l a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+6481818;255;a;;ragnatela;r a JJ a t e l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6485655;255;JJ;;ragnatela;r a JJ a t e l a;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+6490373;255;a;;ragnatela;r a JJ a t e l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6497209;255;t;;ragnatela;r a JJ a t e l a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+6499017;255;e;;ragnatela;r a JJ a t e l a;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+6505720;255;l;;ragnatela;r a JJ a t e l a;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+6509469;255;a;;ragnatela;r a JJ a t e l a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6514143;-1;<p:>;;;;;;;;;;;;;;;;
+6560448;256;E;;E;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+6564241;257;i;;il;i l;;;;;;;;alta;anteriore;v;alta;anteriore;v
+6567989;257;l;;il;i l;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+6575266;258;p;;piccolo;p i kk o l o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+6576942;258;i;;piccolo;p i kk o l o;;;;;;;;alta;anteriore;v;alta;anteriore;v
+6584086;258;kk;;piccolo;p i kk o l o;;;;;;;;occlusiva;velare;sorda;occlusiva;velare;sorda
+6587261;258;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6590613;258;l;;piccolo;p i kk o l o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+6593832;258;o;;piccolo;p i kk o l o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6595993;259;r;;ragno;r a JJ o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+6599124;259;a;;ragno;r a JJ o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6603137;259;JJ;;ragno;r a JJ o;;;;;;;;nasale;palatale;sonora;nasale;palatale;sonora
+6610281;259;o;;ragno;r a JJ o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6615309;260;t;;tace;t a tS e;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+6617029;260;a;;tace;t a tS e;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6626731;260;tS;;tace;t a tS e;;;;;;;;affricata;postalveolare;sorda;affricata;postalveolare;sorda
+6632552;260;e;;tace;t a tS e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+6636256;-1;<p:>;;;;;;;;;;;;;;;;
+6668141;261;d;;dorme;d O r m e;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+6669464;261;O;;dorme;d O r m e;;;;;;;;medio-bassa;posteriore;v;medio-bassa;posteriore;v
+6672992;261;r;;dorme;d O r m e;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+6678372;261;m;;dorme;d O r m e;;;;;;;;nasale;bilabiale;sonora;nasale;bilabiale;sonora
+6680489;261;e;;dorme;d O r m e;;;;;;;;medio-alta;anteriore;v;medio-alta;anteriore;v
+6684149;262;dZ;;già;dZ a;;;;;;;;affricata;postalveolare;sonora;affricata;postalveolare;sonora
+6687633;262;a;;già;dZ a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6696497;263;d;;da;d a;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+6697776;263;a;;da;d a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6699804;264;u;;un;u n;;;;;;;;alta;posteriore;v;alta;posteriore;v
+6705978;264;N;;un;u n;;;;;;;;;;;;;
+6710521;265;p;;po';p o;;;;;;;;occlusiva;bilabiale;sorda;occlusiva;bilabiale;sorda
+6711976;265;o;;po';p o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6718018;-1;<p:>;;;;;;;;;;;;;;;;
+6755459;266;E;;è;E;;;;;;;;medio-bassa;anteriore;v;medio-bassa;anteriore;v
+6760751;267;s;;stata;s t a t a;;;;;;;;fricativa;alveolare;sorda;fricativa;alveolare;sorda
+6765866;267;t;;stata;s t a t a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+6767498;267;a;;stata;s t a t a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6774510;267;t;;stata;s t a t a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+6776097;267;a;;stata;s t a t a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6779625;268;u;;una;u n a;;;;;;;;alta;posteriore;v;alta;posteriore;v
+6783727;268;n;;una;u n a;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+6786858;268;a;;una;u n a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6793517;269;d;;dura;d u r a;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+6794972;269;u;;dura;d u r a;;;;;;;;alta;posteriore;v;alta;posteriore;v
+6801411;269;r;;dura;d u r a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+6804895;269;a;;dura;d u r a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6810495;270;dZ;;giornata;dZ o r n a t a;;;;;;;;affricata;postalveolare;sonora;affricata;postalveolare;sonora
+6813406;270;o;;giornata;dZ o r n a t a;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6816669;270;r;;giornata;dZ o r n a t a;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+6822182;270;n;;giornata;dZ o r n a t a;;;;;;;;nasale;alveolare;sonora;nasale;alveolare;sonora
+6824078;270;a;;giornata;dZ o r n a t a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6832986;270;t;;giornata;dZ o r n a t a;;;;;;;;occlusiva;alveolare;sorda;occlusiva;alveolare;sorda
+6834574;270;a;;giornata;dZ o r n a t a;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6838719;271;d;;di;d i;;;;;;;;occlusiva;alveolare;sonora;occlusiva;alveolare;sonora
+6839601;271;i;;di;d i;;;;;;;;alta;anteriore;v;alta;anteriore;v
+6842732;272;l;;lavoro;l a v o r o;;;;;;;;laterale;alveolare;sonora;laterale;alveolare;sonora
+6844673;272;a;;lavoro;l a v o r o;;;;;;;;bassa;centrale;v;bassa;centrale;v
+6849524;272;v;;lavoro;l a v o r o;;;;;;;;fricativa;labiodentale;sonora;fricativa;labiodentale;sonora
+6852390;272;o;;lavoro;l a v o r o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6860240;272;r;;lavoro;l a v o r o;;;;;;;;vibrante;alveolare;sonora;vibrante;alveolare;sonora
+6864782;272;o;;lavoro;l a v o r o;;;;;;;;medio-alta;posteriore;v;medio-alta;posteriore;v
+6867914;-1;<p:>;;;;;;;;;;;;;;;;

@@ -74,3 +74,19 @@ for file in glob.glob(os.path.join(filepath1015, "*.xlsx")):
     csv_path = os.path.join(output_dir, f"word_onset_{name_base}.csv")
     result.to_csv(csv_path, index=False)
 
+
+filepathA = "data\\phoneme_onset_A"
+
+for file in glob.glob(os.path.join(filepathA, "*.xlsx")):
+    print(f"Processo: {file}")
+    df = pd.read_excel(file)
+
+    df_valid = df[df["TOKEN"] != -1]
+    df_first = df_valid.drop_duplicates(subset=["TOKEN"], keep="first")
+    result = df_first[["TOKEN", "BEGIN", "ORT"]]
+    result = result.sort_values(by="TOKEN").reset_index(drop=True)
+
+    output_dir = "data\\word_onset_A"
+    name_base = os.path.splitext(os.path.basename(file))[0]   
+    csv_path = os.path.join(output_dir, f"word_onset_{name_base}.csv")
+    result.to_csv(csv_path, index=False)
