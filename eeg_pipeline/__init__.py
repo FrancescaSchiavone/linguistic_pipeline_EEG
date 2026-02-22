@@ -1,2 +1,0 @@
-from eeg_pipeline.regressors import WordOnset_Metrics
-from eeg_pipeline.regressors import ZerosRegressors

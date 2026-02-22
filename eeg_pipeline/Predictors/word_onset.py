@@ -10,7 +10,7 @@ for file in glob.glob(os.path.join(cartella37, "*.xlsx")):
     df["TOKEN"] = (df["ORT"] != df["ORT"].shift()).cumsum() - 1
     df.to_excel(file, index=False)
 
-cartella710 = "data\\alignment_710" 
+cartella710 = r'data\phoneme_onset_C' 
 for file in glob.glob(os.path.join(cartella710, "*.xlsx")):
     print(f"Processo: {file}")
     df = pd.read_excel(file)
