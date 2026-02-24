@@ -16,6 +16,7 @@ Contains documentation files:
 - **\data**
 Contains all the experimental data folder (both for nlp_pipeline and eeg_pipeline):
     - *\phoneme_onset* = .xlsx files with phoneme onsets (in samples) for each group and each story.
+    - *\predictors* = .csv files with word_onset+features transformed in weighted predictors (sampling_rate = 100 Hz)
     - *\texts* = text files of the stories in .txt formats.
     - *\word_onset* = .csv files with word onsets (in samples) for each story.
     - *\word_onset+featutres* = .csv files with word onsets (in samples) and each linguistic features (extracted with the nlp_pipeline code) for each story of each group.
