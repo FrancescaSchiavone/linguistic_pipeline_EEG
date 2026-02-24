@@ -47,7 +47,7 @@ BEGIN,Zipf_freq,type_of_words,word
 759843.0,1.93128592,content,ringraziavo
 801914.0,2.741151583,function,e
 804384.0,6.769601972,function,mi
-808794.0,,content,ripromettevo
+808794.0,1.602059991,content,ripromettevo
 835695.0,7.232814475,function,di
 841428.0,6.231286207,content,fare
 848598.0,6.797274494,function,in
@@ -136,14 +136,14 @@ BEGIN,Zipf_freq,type_of_words,word
 2292318.0,7.039560886,function,il
 2300697.0,4.085792887,content,coniglio
 2332890.0,5.633222659,function,s
-2338623.0,,content,approntava
-2366406.0,5.607871462,,tre
+2338623.0,1.301029996,content,approntava
+2366406.0,5.607871462,content,tre
 2380959.0,6.132529064,function,o
-2386251.0,5.206534435,,quattro
+2386251.0,5.206534435,content,quattro
 2404773.0,3.349285722,content,buche
 2416239.0,5.87641417,function,d
 2418885.0,4.836885575,content,uscita
-2454165.0,,content,scavandole
+2454165.0,1.000000000,content,scavandole
 2486799.0,7.004335738,function,a
 2489004.0,4.045532868,content,notevole
 2511054.0,4.465312026,content,distanza
@@ -162,7 +162,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2793294.0,5.238314932,function,altre
 2853711.0,6.212844009,function,quando
 2869146.0,6.624997683,function,le
-2873115.0,,content,scovavano
+2873115.0,1.000000000,content,scovavano
 2911702.0,6.553884221,function,si
 2918979.0,1.734991274,content,disponevano
 2947269.0,7.004335738,function,a
@@ -183,7 +183,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3171672.0,3.450994618,content,penetrare
 3199896.0,6.069364593,function,nel
 3207834.0,3.587122577,content,labirinto
-3229002.0,,content,conigliesco
+3229002.0,1.000000000,content,conigliesco
 3315438.0,7.039560886,function,il
 3321171.0,3.010467166,content,furetto
 3337047.0,7.249521761,function,è
@@ -298,7 +298,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5244372.0,2.741151583,function,e
 5245695.0,6.624997683,function,le
 5249223.0,5.298082303,function,sue
-5258925.0,5.607871462,,tre
+5258925.0,5.607871462,content,tre
 5265540.0,4.370618613,content,uscite
 5288913.0,5.476165392,function,erano
 5299938.0,1.668044485,content,lontanissime
@@ -397,7 +397,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6913557.0,7.232814475,function,di
 6917967.0,7.065833912,function,un
 6923700.0,4.705072364,content,rosso
-6938253.0,,content,rifulgente
+6938253.0,1.301029996,content,rifulgente
 7001757.0,3.399095757,content,rimasi
 7020279.0,3.412337468,content,affascinato
 ,7.004335738,function,a

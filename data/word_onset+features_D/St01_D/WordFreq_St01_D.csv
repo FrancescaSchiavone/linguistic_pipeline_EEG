@@ -12,7 +12,7 @@ BEGIN,Zipf_freq,type_of_words,word
 404397.0,5.003535817,content,cerca
 419391.0,5.522856403,function,qua
 430416.0,5.003535817,content,cerca
-447615.0,,function,là
+447615.0,4.870227645,function,là
 460845.0,7.259198169,function,non
 469665.0,6.553884221,function,si
 477603.0,4.979657089,content,trova
@@ -210,7 +210,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3709692.0,6.620271703,function,con
 3715425.0,6.624997683,function,le
 3721158.0,1.588863239,content,riverenze
-3799656.0,,content,gàmbara
+3799656.0,2.477121255,content,gàmbara
 3825675.0,7.250456545,function,che
 3833613.0,2.502677091,content,astrologo
 3856986.0,7.259198169,function,non
@@ -458,7 +458,7 @@ BEGIN,Zipf_freq,type_of_words,word
 7901397.0,5.055196927,content,paese
 7926093.0,6.414765586,function,tu
 7978131.0,7.250456545,function,che
-7983864.0,6.430432922,,sei
+7983864.0,6.430432922,function,sei
 7995771.0,2.502677091,content,astrologo
 8049132.0,4.869305017,content,disse
 8064567.0,7.039560886,function,il

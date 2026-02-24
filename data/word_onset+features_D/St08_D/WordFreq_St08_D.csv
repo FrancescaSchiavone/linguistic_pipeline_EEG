@@ -18,7 +18,7 @@ BEGIN,Zipf_freq,type_of_words,word
 430857.0,6.553884221,function,si
 439677.0,2.954351224,content,celebra
 455553.0,7.039560886,function,il
-460845.0,,content,thanksgiving
+460845.0,2.230448921,content,thanksgiving
 490833.0,2.003836587,content,day
 513765.0,4.814275912,content,vale
 ,7.004335738,function,a
@@ -35,7 +35,7 @@ BEGIN,Zipf_freq,type_of_words,word
 709569.0,5.476165392,function,erano
 720153.0,2.753216094,content,sbarcati
 746172.0,5.670836689,function,dalla
-755433.0,,content,mayflower
+755433.0,1.954242509,content,mayflower
 808794.0,5.792396528,function,dopo
 822465.0,7.039560886,function,il
 829962.0,5.356048799,content,primo
@@ -89,7 +89,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1695645.0,4.514381597,content,case
 1713726.0,5.568857515,function,degli
 1719018.0,4.512935669,content,americani
-1767528.0,,content,troneggi
+1767528.0,1.000000000,content,troneggi
 1793547.0,7.065833912,function,un
 1797516.0,3.919277012,content,tacchino
 1817802.0,2.446195735,content,farcito
@@ -179,15 +179,15 @@ BEGIN,Zipf_freq,type_of_words,word
 3471552.0,6.41186379,function,del
 3477726.0,4.642863099,content,sud
 3498894.0,7.004335738,function,a
-3525795.0,,content,gettysburg
+3525795.0,2.230448921,content,gettysburg
 3577392.0,6.553884221,function,si
 3584448.0,2.588863239,content,combattè
 3606939.0,6.801817508,function,una
-3617523.0,,content,sanguinosissima
+3617523.0,1.602059991,content,sanguinosissima
 3662064.0,4.600940838,content,battaglia
 3698667.0,7.250456545,function,che
 3706164.0,3.840258089,content,lasciò
-3722922.0,4.448601805,,migliaia
+3722922.0,4.448601805,content,migliaia
 3746295.0,7.232814475,function,di
 3750705.0,4.221725279,content,cadaveri
 3775401.0,5.857922973,function,sul
@@ -215,7 +215,7 @@ BEGIN,Zipf_freq,type_of_words,word
 4169655.0,2.894214608,content,abbondanti
 4209345.0,5.656885745,function,tanto
 4221252.0,7.249521761,function,è
-4225221.0,,content,vero
+4225221.0,5.398911368,content,vero
 4238892.0,7.250456545,function,che
 4243743.0,6.115086172,function,anche
 4264470.0,6.584780852,function,i
@@ -277,7 +277,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5364324.0,2.92331699,content,tacchini
 5403573.0,5.792396528,function,dopo
 5416362.0,5.341756394,function,quasi
-5434884.0,3.045229272,,quattrocento
+5434884.0,3.045229272,content,quattrocento
 5466636.0,5.860848812,content,anni
 5495742.0,7.259198169,function,non
 5506326.0,6.553884221,function,si
@@ -300,9 +300,9 @@ BEGIN,Zipf_freq,type_of_words,word
 5770485.0,6.797274494,function,in
 5783715.0,7.065833912,function,un
 5787243.0,3.580089314,content,documentario
-5832666.0,4.343822826,,centinaia
+5832666.0,4.343822826,content,centinaia
 5869710.0,7.232814475,function,di
-5874561.0,4.448601805,,migliaia
+5874561.0,4.448601805,content,migliaia
 5894406.0,7.232814475,function,di
 5900580.0,2.92331699,content,tacchini
 5928804.0,6.797274494,function,in
@@ -312,7 +312,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5985693.0,3.279059319,content,ammazzati
 6019209.0,2.003836587,content,spennati
 6049638.0,2.741151583,function,e
-6051843.0,,content,squartati
+6051843.0,1.845098040,content,squartati
 6114465.0,7.259198169,function,non
 6121080.0,6.553884221,function,si
 6127254.0,2.734991274,content,rendevano
@@ -325,7 +325,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6256026.0,5.74096192,function,li
 6259995.0,3.971960169,content,aspettava
 6285132.0,6.577812618,function,da
-6289983.0,,function,lì
+6289983.0,5.029342130,function,lì
 6295716.0,7.004335738,function,a
 6299685.0,4.393820039,function,poche
 6315120.0,5.317281957,content,ore
@@ -374,7 +374,7 @@ BEGIN,Zipf_freq,type_of_words,word
 7082901.0,3.465081079,content,stupidità
 7105392.0,3.79352575,content,assoluta
 7151697.0,6.132529064,function,o
-7156548.0,,content,suprema
+7156548.0,4.036229544,content,suprema
 7179480.0,3.948319259,content,dignità
 7244307.0,6.382555861,function,più
 7254009.0,6.517126939,function,ci
@@ -389,7 +389,7 @@ BEGIN,Zipf_freq,type_of_words,word
 7351029.0,5.241264312,function,possa
 7364259.0,3.559210115,content,trattarsi
 7388514.0,7.232814475,function,di
-7395129.0,,content,suprema
+7395129.0,4.036229544,content,suprema
 7412769.0,3.948319259,content,dignità
 7474509.0,5.965637226,function,perché
 7507143.0,6.583110863,function,se

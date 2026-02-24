@@ -26,7 +26,7 @@ BEGIN,Zipf_freq,type_of_words,word
 492156.0,3.927319732,content,andavano
 508914.0,5.478220976,function,avanti
 556542.0,6.584780852,function,i
-571536.0,5.996192947,,due
+571536.0,5.996192947,content,due
 579694.0,5.134021853,content,figli
 597555.0,1.668044485,content,mario
 609462.0,2.741151583,function,e
@@ -72,7 +72,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1208781.0,7.232814475,function,di
 1214073.0,4.598059092,content,pesce
 1248912.0,5.317622714,function,quei
-1268757.0,5.996192947,,due
+1268757.0,5.996192947,content,due
 1273167.0,4.238198097,content,ragazzini
 1297863.0,6.335583043,function,al
 1303155.0,4.619220044,content,massimo
@@ -138,14 +138,14 @@ BEGIN,Zipf_freq,type_of_words,word
 2293200.0,5.666529051,function,sulla
 2305107.0,5.311710966,content,strada
 2320983.0,3.186558425,content,incontrò
-2343033.0,5.996192947,,due
+2343033.0,5.996192947,content,due
 2350089.0,4.141288084,content,ladri
 2381400.0,3.877112464,content,cominciò
 ,7.004335738,function,a
 2410506.0,4.791623926,content,scappare
 2439612.0,6.662005813,function,ma
 2443581.0,6.584780852,function,i
-2446668.0,5.996192947,,due
+2446668.0,5.996192947,content,due
 2452842.0,5.476165392,function,erano
 2466072.0,4.591288503,content,giovani
 2488563.0,2.741151583,function,e
@@ -252,7 +252,7 @@ BEGIN,Zipf_freq,type_of_words,word
 4074399.0,4.706598418,function,avrebbero
 4096008.0,4.655561789,content,mangiato
 4118058.0,6.912435835,function,per
-4125114.0,6.430432922,,sei
+4125114.0,6.430432922,content,sei
 4136139.0,5.180528761,content,mesi
 4183326.0,6.077050011,function,lui
 4201848.0,7.259198169,function,non
@@ -273,7 +273,7 @@ BEGIN,Zipf_freq,type_of_words,word
 4379571.0,7.249521761,function,è
 4381335.0,6.015055575,function,uno
 4390155.0,6.108229139,function,dei
-4397652.0,5.011288915,,dieci
+4397652.0,5.011288915,content,dieci
 4410441.0,3.088550321,content,comandamenti
 4470417.0,6.662005813,function,ma
 4475268.0,5.904682499,function,forse
@@ -561,7 +561,7 @@ BEGIN,Zipf_freq,type_of_words,word
 8920548.0,7.039560886,function,il
 8933778.0,4.066273927,content,fratellino
 8999487.0,6.584780852,function,i
-9005661.0,5.607871462,,tre
+9005661.0,5.607871462,content,tre
 9022860.0,3.421372151,content,portavano
 9044910.0,5.582881078,function,dentro
 9060345.0,7.039560886,function,il
