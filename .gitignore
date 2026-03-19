@@ -32,3 +32,5 @@ predittore_eeg.txt
 /nlp_pipeline/*.surprisal_entropy _copy.py
 
 /provette/
+
+data/EEG_data_D
