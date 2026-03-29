@@ -10,7 +10,7 @@ fs = 100
 durata_totale = 3 * 60 + 43  # 223 sec
 durata_taglio_sec = 180      # 3 minuti
 
-story_folder = r"data\word_onset+features_D\St01_D"   # 🫖
+story_folder = r"data\word_onset+features_D\St10_D"   # 🫖
 excel_file = r"doc\first_and_last_words_stories_D.xlsx"
 
 # =====================
@@ -18,7 +18,7 @@ excel_file = r"doc\first_and_last_words_stories_D.xlsx"
 # =====================
 T2 = pd.read_excel(excel_file)
 
-start_first_word = T2.loc[0, "BEGIN"]   # 🫖
+start_first_word = T2.loc[18, "BEGIN"]   # 🫖
 
 # =====================
 # FILE E COLONNE
@@ -45,7 +45,7 @@ os.makedirs(plot_folder, exist_ok=True)
 
 N = round(durata_totale * fs)
 
-cut_beginning = int(np.floor(start_first_word / 44100 * fs))
+cut_beginning = int(np.ceil(start_first_word / 44100 * fs))
 cut_beginning = max(1, cut_beginning)
 
 samples_to_keep = durata_taglio_sec * fs
@@ -54,10 +54,8 @@ cut_end = min(N, cut_end)
 
 for metric_name, value_col in files_and_columns:
     csv_file = os.path.join(story_folder, f"{metric_name}_{story_name}.csv")
+    T = pd.read_csv(csv_file)
 
-    T = pd.read_csv(csv_file)  # se errore: sep=";"
-
-    # utile se BEGIN è stringa con virgole
     if T["BEGIN"].dtype == object:
         T["BEGIN"] = T["BEGIN"].astype(str).str.replace(",", ".").astype(float)
 
@@ -66,7 +64,7 @@ for metric_name, value_col in files_and_columns:
 
     pred = np.zeros(N)
 
-    idx = np.floor(onset_44100 / 44100 * fs).astype(int)
+    idx = np.ceil(onset_44100 / 44100 * fs).astype(int)
 
     for i in range(len(idx)):
         if 1 <= idx[i] <= N:
@@ -74,19 +72,15 @@ for metric_name, value_col in files_and_columns:
 
     pred_cut = pred[cut_beginning - 1 : cut_end]
 
-    #salva predittore tagliato
     out_name = f"{metric_name}_{story_name}_pred.csv"
     out_path = os.path.join(output_folder, out_name)
     np.savetxt(out_path, pred_cut, delimiter=",")
     print("saved:", out_path)
 
-        # =====================
-    # GRAFICO MINIMALE
-    # =====================
     t_full = np.arange(N) / fs
     t_cut = np.arange(cut_beginning - 1, cut_end) / fs
 
-    cut_time = (cut_beginning - 1) / fs
+    cut_time = cut_beginning / fs
     cut_value = pred[cut_beginning - 1]
 
     plt.figure(figsize=(14, 5))
@@ -117,3 +111,7 @@ for metric_name, value_col in files_and_columns:
     plot_path = os.path.join(plot_folder, f"{metric_name}_{story_name}_cut_plot.png")
     plt.savefig(plot_path, dpi=300)
     plt.close()
+
+
+
+###

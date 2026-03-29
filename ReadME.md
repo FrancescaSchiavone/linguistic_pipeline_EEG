@@ -19,7 +19,7 @@ Contains all the experimental data folder (both for nlp_pipeline and eeg_pipelin
     - *\predictors* = .csv files with word_onset+features transformed in weighted predictors (sampling_rate = 100 Hz)
     - *\texts* = text files of the stories in .txt formats.
     - *\word_onset* = .csv files with word onsets (in samples) for each story.
-    - *\word_onset+featutres* = .csv files with word onsets (in samples) and each linguistic features (extracted with the nlp_pipeline code) for each story of each group.
+    - *\word_onset+featutres* = .csv files with word onsets (in samples) and each linguistic features (extracted with the nlp_pipeline code) for each story of each group. For each story, there are two separate files. The ones whose filenames contain the letter **C** include only content words.
 
 - **\nlp_pipeline**
 Python modules that implement the feature extraction:
