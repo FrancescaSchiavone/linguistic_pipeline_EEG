@@ -12,9 +12,9 @@ trial_len = trial_sec * fs     # 6000
 trials_per_story = 3
 
 # percorsi
-excel_orders = r"doc\stories_order_D(A).xlsx"
+excel_orders = r"doc\stories_order_D(A)_CI.xlsx"
 PRED_ROOT = r"data\Predictors_D"
-OUT_ROOT  = r"data\SubjectPredictors_D"
+OUT_ROOT  = r"data\SubjectPredictors_D_CI"
 
 metrics = ["Dissimilarity", "Entropy", "Surprisal", "WordFreq"]
 
