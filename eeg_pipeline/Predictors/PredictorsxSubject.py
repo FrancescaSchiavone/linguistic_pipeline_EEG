@@ -16,7 +16,7 @@ excel_orders = r"doc\stories_order_D(A)_CI.xlsx"
 PRED_ROOT = r"data\Predictors_D"
 OUT_ROOT  = r"data\SubjectPredictors_D_CI"
 
-metrics = ["Dissimilarity", "Entropy", "Surprisal", "WordFreq"]
+metrics = ["Dissimilarity_C", "Entropy_C", "Surprisal_C", "WordFreq_C"]
 
 # =====================
 # LEGGI EXCEL ORDINI
