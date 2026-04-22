@@ -33,7 +33,7 @@ BEGIN,Zipf_freq,type_of_words,word
 814968.0,4.670354567,content,palla
 843192.0,6.335583043,function,al
 853335.0,7.232814475,function,di
-858186.0,,function,là
+858186.0,4.036992334,function,là
 867006.0,7.232814475,function,di
 871416.0,6.801817508,function,una
 881118.0,2.939111257,content,siepe
@@ -48,7 +48,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1087506.0,5.003535817,content,cerca
 1103382.0,5.522856403,function,qua
 1113525.0,5.003535817,content,cerca
-1130283.0,,function,là
+1130283.0,4.036992334,function,là
 1151451.0,7.055331658,function,la
 1158948.0,4.670354567,content,palla
 1171296.0,7.259198169,function,non
@@ -268,7 +268,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5609079.0,5.7664863,function,nessuno
 5639508.0,6.620271703,function,con
 5643477.0,7.065833912,function,un
-5656266.0,,function,tu”
+5656266.0,5.308819028,function,tu
 5697720.0,7.249521761,function,è
 5705658.0,5.965637226,function,perché
 5721975.0,5.884320377,function,proprio
@@ -349,7 +349,7 @@ BEGIN,Zipf_freq,type_of_words,word
 7280028.0,2.747225731,content,ricordò
 7302519.0,7.232814475,function,di
 7308693.0,3.435200351,content,chiamarsi
-7330302.0,,content,antonella
+7330302.0,4.036992334,content,antonella
 7370874.0,2.741151583,function,e
 7374843.0,6.553884221,function,si
 7384986.0,3.850364012,content,mise
@@ -366,9 +366,9 @@ BEGIN,Zipf_freq,type_of_words,word
 7569324.0,5.66327005,content,mamma
 7584759.0,4.030401277,content,chiese
 7615629.0,6.018789847,function,dove
-7624008.0,6.430432922,,sei
+7624008.0,6.430432922,function,sei
 7636797.0,5.303628751,content,andata
-7654878.0,,content,antonella
+7654878.0,4.036992334,content,antonella
 7721469.0,5.57360652,function,avevo
 7738227.0,5.292824891,content,perso
 7752339.0,6.801817508,function,una

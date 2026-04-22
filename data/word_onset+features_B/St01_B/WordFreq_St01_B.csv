@@ -134,14 +134,14 @@ BEGIN,Zipf_freq,type_of_words,word
 3087441.0,4.671361377,function,quegli
 3100230.0,4.324621776,content,alberi
 3136833.0,7.250456545,function,che
-3142751.0,,content,ineleganza
+3142751.0,1.301029996,content,ineleganza
 3211362.0,5.386809051,function,presto
 3248406.0,4.616620443,content,chiamate
-3273102.0,4.848552661,,mille
+3273102.0,4.848552661,function,mille
 3292065.0,2.337051266,content,boscaioli
 3405843.0,4.330802316,function,furono
 3423483.0,3.955472949,content,chiamati
-3445533.0,4.848552661,,mille
+3445533.0,4.848552661,function,mille
 3459204.0,2.337051266,content,boscaioli
 3511242.0,2.741151583,function,e
 3513447.0,7.039560886,function,il
@@ -244,7 +244,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5578209.0,2.96907448,content,trecce
 5620104.0,3.615804867,content,code
 5654943.0,2.408407174,content,ciuffi
-5691987.0,,content,frangette
+5691987.0,1.477121255,content,frangette
 5731333.0,2.741151583,function,e
 5737410.0,6.287788074,function,così
 5756814.0,5.774643298,function,via
@@ -260,7 +260,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6031998.0,7.055331658,function,la
 6041259.0,6.632253028,content,cosa
 6056253.0,3.669489726,content,finì
-6069042.0,,function,lì
+6069042.0,5.028895732,function,lì
 6128577.0,6.605764599,function,no
 6181497.0,5.965637226,function,perché
 6192963.0,6.227520191,function,gli

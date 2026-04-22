@@ -52,7 +52,7 @@ BEGIN,surprisal,type_of_words,word
 1218924.0,6.68317985534668,function,più
 1225098.0,1.4516924619674685,content,lunghi
 1242738.0,4.306141376495361,function,di
-1248912.0,9.211189270019531,,cento
+1248912.0,9.211189270019531,function,cento
 1263465.0,11.977526664733888,content,passi
 1311093.0,2.693981885910034,function,perché
 1323882.0,11.747901916503906,function,appena
@@ -362,7 +362,3 @@ BEGIN,surprisal,type_of_words,word
 7785414.0,7.11498498916626,function,dato
 7811433.0,3.5576248168945312,function,la
 7824222.0,11.24564266204834,function,fata-gattina
-,,content,
-,,function,
-,,content,
-,,content,

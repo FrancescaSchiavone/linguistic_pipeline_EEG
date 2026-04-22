@@ -32,7 +32,7 @@ BEGIN,Zipf_freq,type_of_words,word
 794241.0,5.36483757,content,giro
 807912.0,7.232814475,function,di
 812763.0,4.139091592,content,danza
-833049.0,,content,girondina
+833049.0,1.000000000,content,girondina
 863919.0,4.869305017,content,disse
 920367.0,5.484893151,content,bella
 935140.0,3.48649033,content,forchetta
@@ -102,7 +102,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2582055.0,5.522856403,function,qua
 2591757.0,2.741151583,function,e
 2595285.0,7.232814475,function,di
-2603223.0,,function,là
+2603223.0,4.559059460,function,là
 2613807.0,4.869305017,content,disse
 2666727.0,3.48649033,content,forchetta
 2693187.0,3.92008802,content,deliziosa
@@ -181,7 +181,7 @@ BEGIN,Zipf_freq,type_of_words,word
 4286961.0,6.620271703,function,con
 4294458.0,6.015055575,function,uno
 4300632.0,4.781263409,content,spazio
-4324887.0,,content,vuoto…
+4324887.0,4.559059460,content,vuoto
 4367223.0,5.995743909,function,vuoi
 4376484.0,5.41855288,content,venire
 ,7.004335738,function,a

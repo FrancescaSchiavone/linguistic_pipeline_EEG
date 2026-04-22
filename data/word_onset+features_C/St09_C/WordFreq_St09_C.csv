@@ -2,11 +2,11 @@ BEGIN,Zipf_freq,type_of_words,word
 90405.0,7.039560886,function,il
 99666.0,3.023432143,content,muratore
 127890.0,6.267030034,function,della
-141120.0,,content,valtellina
+141120.0,3.598790507,content,valtellina
 230202.0,7.065833912,function,un
 239022.0,5.000550272,content,giovane
 253575.0,6.267030034,function,della
-264600.0,,content,valtellina
+264600.0,3.598790507,content,valtellina
 321930.0,7.259198169,content,non
 334278.0,3.279059319,content,trovando
 355005.0,5.810397445,content,lavoro
@@ -184,7 +184,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3902850.0,3.405767078,content,sospettare
 3940335.0,7.250456545,function,che
 3949816.0,5.645585191,function,fosse
-3966795.0,,content,lì
+3966795.0,4.442489845,content,lì
 4010013.0,6.662005813,function,ma
 4016187.0,6.484206212,function,questo
 ,7.004335738,function,a
@@ -210,7 +210,7 @@ BEGIN,Zipf_freq,type_of_words,word
 4511430.0,3.731878039,function,vennero
 4529952.0,3.559210115,content,venduti
 4560822.0,2.741151583,function,e
-4562145.0,,content,comperati
+4562145.0,2.146128036,content,comperati
 4616388.0,2.741151583,function,e
 4624767.0,1.889893234,content,popolati
 4654755.0,7.232814475,function,di
@@ -235,7 +235,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5114718.0,6.212844009,function,quando
 5128389.0,6.584780852,function,i
 5131035.0,5.274801932,content,bambini
-5153085.0,,content,zampettavano
+5153085.0,1.000000000,content,zampettavano
 5185719.0,5.857922973,function,sul
 5195421.0,4.370331382,content,pavimento
 5240403.0,3.763213836,content,studiando
@@ -302,7 +302,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6552819.0,5.839380824,function,dell
 6561639.0,4.314611572,content,alba
 6573987.0,7.039560886,function,il
-6582807.0,,content,trillo
+6582807.0,2.623249290,content,trillo
 6598242.0,6.267030034,function,della
 6608826.0,4.563190674,content,sveglia
 6627789.0,7.232814475,function,di

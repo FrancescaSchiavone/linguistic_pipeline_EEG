@@ -1,6 +1,6 @@
 BEGIN,Zipf_freq,type_of_words,word
 89082.0,6.640107629,function,l
-92169.0,,content,apollonia
+92169.0,2.612783857,content,apollonia
 123921.0,6.267030034,function,della
 134505.0,3.676644657,content,marmellata
 209475.0,7.004335738,function,a
@@ -27,12 +27,12 @@ BEGIN,Zipf_freq,type_of_words,word
 628425.0,5.476165392,function,erano
 647829.0,3.132931283,content,richiesti
 676053.0,6.797274494,function,in
-680022.0,,content,valcuvia
+680022.0,2.380211242,content,valcuvia
 710892.0,6.797274494,function,in
-732501.0,,content,valtravaglia
+732501.0,2.278753600,content,valtravaglia
 768663.0,6.797274494,function,in
 786744.0,2.787520326,content,val
-793359.0,,content,dumentina
+793359.0,1.000000000,content,dumentina
 826434.0,2.741151583,function,e
 827757.0,6.797274494,function,in
 848925.0,2.787520326,content,val
@@ -69,7 +69,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1443393.0,2.552651066,content,donnina
 1464120.0,6.267030034,function,della
 1473822.0,3.676644657,content,marmellata
-1540413.0,,content,apollonia
+1540413.0,2.612783857,content,apollonia
 1620675.0,7.250456545,function,che
 1628613.0,6.166704172,function,c
 1635669.0,7.249521761,content,è
@@ -92,7 +92,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1967742.0,3.115202516,content,prugne
 2006550.0,5.515761062,content,subito
 2062116.0,6.640107629,function,l
-2068290.0,,content,apollonia
+2068290.0,2.612783857,content,apollonia
 2106216.0,5.939281839,function,quella
 2118123.0,2.552651066,content,donnina
 2145024.0,5.632280537,content,aveva
@@ -107,11 +107,11 @@ BEGIN,Zipf_freq,type_of_words,word
 2263653.0,4.847739868,content,migliori
 2287026.0,2.446195735,content,marmellate
 2318778.0,6.41186379,function,del
-2324952.0,,content,varesotto
+2324952.0,1.00000000,content,varesotto
 2355822.0,2.741151583,function,e
 2358909.0,6.41186379,function,del
-2365524.0,,content,canton
-2385810.0,,content,ticino
+2365524.0,1.00000000,content,canton
+2385810.0,1.00000000,content,ticino
 2459898.0,6.801817508,function,una
 2470482.0,5.820011577,content,volta
 2489886.0,2.722402147,content,capitò
@@ -120,7 +120,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2530017.0,6.801817508,function,una
 2538396.0,2.561991092,content,donnetta
 2546775.0,7.232814475,function,di
-2552508.0,,content,arcumeggia
+2552508.0,1.000000000,content,arcumeggia
 2615130.0,6.287788074,content,così
 2633211.0,4.440121587,content,povera
 2653938.0,7.250456545,function,che
@@ -150,7 +150,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3065391.0,3.304866582,content,ricci
 3081267.0,7.232814475,function,di
 3085677.0,2.942971678,content,castagne
-3166380.0,,content,apollonia
+3166380.0,2.612783857,content,apollonia
 3206952.0,6.337855516,function,me
 3214449.0,7.055331658,function,la
 3222828.0,3.70146824,content,fareste
@@ -166,7 +166,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3462732.0,4.131937474,content,proverò
 3517416.0,2.741151583,function,e
 3522267.0,6.640107629,function,l
-3525795.0,,content,apollonia
+3525795.0,2.612783857,content,apollonia
 3551373.0,5.656885745,content,tanto
 3572982.0,4.506053547,content,fece
 3602970.0,7.250456545,function,che
@@ -185,7 +185,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3871098.0,5.939281839,function,quella
 3893589.0,2.552651066,content,donnina
 3912111.0,7.232814475,function,di
-3916080.0,,content,arcumeggia
+3916080.0,1.000000000,content,arcumeggia
 3954888.0,7.259198169,content,non
 3961944.0,3.799449264,content,trovò
 3974733.0,5.368733783,content,nemmeno
@@ -209,7 +209,7 @@ BEGIN,Zipf_freq,type_of_words,word
 4318713.0,4.865876178,content,pieno
 4332825.0,7.232814475,function,di
 4338558.0,2.689233784,content,ortiche
-4406031.0,,content,apollonia
+4406031.0,2.612783857,content,apollonia
 4436460.0,6.337855516,function,me
 4440429.0,7.055331658,function,la
 4446162.0,5.160851419,content,fate
@@ -227,12 +227,12 @@ BEGIN,Zipf_freq,type_of_words,word
 4691799.0,4.263356956,content,vedrà
 4742955.0,2.741151583,function,e
 4747365.0,6.640107629,function,l
-4750893.0,,content,apollonia
+4750893.0,2.612783857,content,apollonia
 4772061.0,4.3610382,content,prese
 4787496.0,6.624997683,function,le
 4791906.0,2.689233784,content,ortiche
 4813956.0,6.624997683,function,le
-4816602.0,,content,inzuccherò
+4816602.0,1.000000000,content,inzuccherò
 4859379.0,6.624997683,function,le
 4873491.0,4.506053547,content,fece
 4885398.0,3.33393803,content,bollire
@@ -250,7 +250,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5067972.0,4.504051944,content,dita
 5128830.0,5.965637226,function,perché
 5141619.0,6.640107629,function,l
-5143824.0,,content,apollonia
+5143824.0,2.612783857,content,apollonia
 5179104.0,5.939281839,function,quella
 5195862.0,2.552651066,content,donnina
 5220999.0,5.632280537,content,aveva
@@ -274,7 +274,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5530140.0,5.820011577,content,volta
 5548662.0,3.559210115,content,passò
 5563656.0,7.232814475,function,di
-5570712.0,,content,lì
+5570712.0,4.442489845,content,lì
 5576445.0,6.640107629,function,l
 5579532.0,4.058390718,content,imperatore
 5614812.0,2.741151583,function,e
@@ -285,7 +285,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5676993.0,7.055331658,function,la
 5681403.0,3.676644657,content,marmellata
 5707863.0,5.839380824,function,dell
-5715360.0,,content,apollonia
+5715360.0,2.612783857,content,apollonia
 5747994.0,2.741151583,function,e
 5760783.0,6.235566848,function,lei
 5771367.0,4.236050537,function,gliene
@@ -325,7 +325,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6335406.0,1.491953226,content,cascava
 6377742.0,4.869305017,content,disse
 6393177.0,6.640107629,function,l
-6394941.0,,content,apollonia
+6394941.0,2.612783857,content,apollonia
 6458445.0,6.662005813,function,ma
 6462855.0,4.882402569,content,ormai
 6476526.0,6.640107629,function,l
@@ -343,7 +343,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6667038.0,6.624997683,function,le
 6672330.0,5.2980314,content,mani
 6681591.0,5.81126753,function,all
-6690852.0,,content,apollonia
+6690852.0,2.612783857,content,apollonia
 6759207.0,6.072527547,content,allora
 6775083.0,7.055331658,function,la
 6783021.0,5.595192339,content,gente
@@ -363,7 +363,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6979707.0,6.624997683,function,le
 6984558.0,5.2980314,content,mani
 6992496.0,5.81126753,function,all
-7001316.0,,content,apollonia
+7001316.0,2.612783857,content,apollonia
 7029099.0,5.914407635,function,loro
 7058205.0,6.227520191,function,gli
 7061292.0,4.706598418,function,avrebbero
@@ -394,7 +394,7 @@ BEGIN,Zipf_freq,type_of_words,word
 7444521.0,6.562704781,function,come
 7453782.0,5.35996545,function,quelle
 7468776.0,5.839380824,function,dell
-7475832.0,,content,apollonia
+7475832.0,2.612783857,content,apollonia
 7506261.0,6.768130002,function,sono
 7522578.0,5.179214572,content,ben
 7531398.0,6.382555861,content,più

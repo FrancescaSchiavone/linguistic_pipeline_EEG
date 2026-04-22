@@ -97,7 +97,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2067849.0,7.055331658,function,la
 2072700.0,6.022524285,function,sua
 2084607.0,4.826054975,content,fronte
-2145906.0,,content,ridisse
+2145906.0,1.000000000,content,ridisse
 2167515.0,7.055331658,function,la
 2172807.0,5.292704661,content,verità
 2218671.0,2.741151583,function,e
@@ -250,7 +250,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5231583.0,2.741151583,function,e
 5232906.0,2.59746341,content,offesi
 5259145.0,6.797274494,function,in
-5267304.0,4.50919531,,cento
+5267304.0,4.50919531,function,cento
 5287149.0,4.404042369,content,modi
 5348889.0,7.055331658,function,la
 5356827.0,5.595192339,content,gente

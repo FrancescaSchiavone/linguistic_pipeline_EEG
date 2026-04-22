@@ -52,7 +52,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1218924.0,6.382555861,function,più
 1225098.0,4.053650758,content,lunghi
 1242738.0,7.232814475,function,di
-1248912.0,4.50919531,,cento
+1248912.0,4.50919531,1.000000000,cento
 1263465.0,4.732127921,content,passi
 1311093.0,5.965637226,function,perché
 1323882.0,5.596423265,function,appena
@@ -121,7 +121,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2654820.0,7.250456545,function,che
 2666286.0,6.231286207,content,fare
 2751032.0,5.28271325,content,stava
-2763747.0,,function,lì
+2763747.0,5.028895732,function,lì
 2771244.0,7.004335738,function,a
 2776977.0,2.919277012,content,girarsi
 2799468.0,6.069364593,function,nel
@@ -294,7 +294,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6420078.0,7.249521761,function,è
 6491079.0,6.237129549,content,fatto
 6500340.0,7.232814475,function,di
-6529005.0,,content,nostalgina
+6529005.0,1.000000000,content,nostalgina
 6565608.0,6.801817508,function,una
 6567372.0,3.933648361,content,sostanza
 6659100.0,3.997442364,content,invisibile
@@ -358,7 +358,7 @@ BEGIN,Zipf_freq,type_of_words,word
 7701624.0,7.039560886,function,il
 7761159.0,4.325578372,content,filo
 7766892.0,7.232814475,function,di
-7771302.0,,content,nostalgina
+7771302.0,1.000000000,content,nostalgina
 7785414.0,7.250456545,function,che
 7811433.0,6.624997683,function,le
 7824222.0,5.632280537,function,aveva

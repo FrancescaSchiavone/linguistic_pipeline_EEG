@@ -52,7 +52,7 @@ BEGIN,semantic_dissimilarity,type_of_words,word
 1218924.0,0.4034003615379333,function,più
 1225098.0,0.3861881494522095,content,lunghi
 1242738.0,0.42669278383255,function,di
-1248912.0,0.4359765648841858,,cento
+1248912.0,0.4359765648841858,function,cento
 1263465.0,0.3838766813278198,content,passi
 1311093.0,0.3464800715446472,function,perché
 1323882.0,0.4361501336097717,function,appena
@@ -362,7 +362,3 @@ BEGIN,semantic_dissimilarity,type_of_words,word
 7785414.0,0.3590530753135681,function,dato
 7811433.0,0.3218007087707519,function,la
 7824222.0,0.4167076051235199,function,fata-gattina
-,,content,
-,,function,
-,,content,
-,,content,
