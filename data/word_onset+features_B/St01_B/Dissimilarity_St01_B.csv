@@ -1,5 +1,5 @@
 BEGIN,semantic_dissimilarity,type_of_words,word
-91287.0,,function,Il
+91287.0,0.5,function,Il
 101430.0,0.7093410491943359,content,re
 112455.0,0.4366324245929718,content,parrucchiere
 224910.0,0.4750657081604004,function,C'

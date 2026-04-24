@@ -1,5 +1,5 @@
 BEGIN,semantic_dissimilarity,type_of_words,word
-89964.0,,function,Una
+89964.0,0,5,function,Una
 101430.0,0.5803176760673523,content,bambina
 127008.0,0.5761705636978149,function,senza
 148176.0,0.4358044862747192,content,nome

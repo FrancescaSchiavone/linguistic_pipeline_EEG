@@ -1,5 +1,5 @@
 BEGIN,semantic_dissimilarity,type_of_words,word
-90405.0,,function,Le
+90405.0,0.5,function,Le
 100548.0,0.5373513102531433,content,posate
 125685.0,0.4436139762401581,content,sposate
 227115.0,0.5112383365631104,function,C'

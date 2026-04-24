@@ -1,5 +1,5 @@
 BEGIN,semantic_dissimilarity,type_of_words,word
-92610,,function,I
+92610,0.5,function,I
 99666,0.593906819820404,function,tre
 112014,0.4840497970581054,content,affamati
 211239,0.4149296879768371,function,C'

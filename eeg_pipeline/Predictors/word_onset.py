@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import glob
 
+
+#FOLDER 
 #AGGIUNTA COLONNA 'TOKEN'
 cartella37 = "data\\alignment_37"  
 for file in glob.glob(os.path.join(cartella37, "*.xlsx")):
@@ -90,3 +92,39 @@ for file in glob.glob(os.path.join(filepathA, "*.xlsx")):
     name_base = os.path.splitext(os.path.basename(file))[0]   
     csv_path = os.path.join(output_dir, f"word_onset_{name_base}.csv")
     result.to_csv(csv_path, index=False)
+
+
+#SINGLE FILE
+import os
+import pandas as pd
+
+# =========================
+# FILE DI INPUT
+# =========================
+input_onset_file = r'C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\IMT\TESI\linguistic_pipeline_EEG\data\phoneme_onset_C\St02_C.xlsx'
+
+# =========================
+# 2. WORD ONSET
+# =========================
+print(f"Processo onset: {input_onset_file}")
+
+df = pd.read_excel(input_onset_file)
+
+df_valid = df[df["TOKEN"] != -1]
+df_first = df_valid.drop_duplicates(subset=["TOKEN"], keep="first")
+
+result = df_first[["TOKEN", "BEGIN", "ORT"]]
+result = result.sort_values(by="TOKEN").reset_index(drop=True)
+
+# =========================
+# OUTPUT
+# =========================
+output_dir = "data/word_onset"
+os.makedirs(output_dir, exist_ok=True)
+
+name_base = os.path.splitext(os.path.basename(input_onset_file))[0]
+csv_path = os.path.join(output_dir, f"word_onset_{name_base}.csv")
+
+result.to_csv(csv_path, index=False)
+
+print(f"File salvato in: {csv_path}")

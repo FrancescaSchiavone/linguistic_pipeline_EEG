@@ -1,5 +1,5 @@
 BEGIN,semantic_dissimilarity,type_of_words,word
-90405.0,,function,Il
+90405.0,0.5,function,Il
 97902.0,0.7062342166900635,content,re
 105399.0,0.4938458502292633,content,Mida
 200655.0,0.3122248649597168,function,Il

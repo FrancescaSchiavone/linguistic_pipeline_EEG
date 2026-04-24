@@ -1,5 +1,5 @@
 BEGIN,semantic_dissimilarity,type_of_words,word
-89523.0,,function,La
+89523.0,0.5,function,La
 103194.0,0.6135639548301697,content,fata
 119070.0,0.3382867872714996,content,gattina
 223587.0,0.4962267577648163,function,C'

@@ -1,5 +1,5 @@
 BEGIN,semantic_dissimilarity,type_of_words,word
-89523,,function,La
+89523,0.5,function,La
 97020,0.7313379049301147,content,guerra
 117747,0.4994856119155884,function,delle
 128331,0.3567149937152862,content,campane

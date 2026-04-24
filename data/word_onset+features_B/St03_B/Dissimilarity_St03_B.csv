@@ -1,5 +1,5 @@
 BEGIN,semantic_dissimilarity,type_of_words,word
-90405.0,,function,I
+90405.0,0.5,function,I
 97461.0,0.7042176723480225,content,pirati
 118629.0,0.4897975325584411,content,smemorati
 227556.0,0.4645285308361053,function,C'

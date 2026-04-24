@@ -419,7 +419,7 @@ BEGIN,Zipf_freq,type_of_words,word
 7455546.0,6.797274494,function,in
 7461279.0,4.703105313,content,toscana
 7499205.0,6.624997683,function,le
-7508466.0,5.996192947,,due
+7508466.0,5.996192947,function,due
 7513758.0,3.249728717,content,gabbie
 7527429.0,3.934432995,function,venivano
 7541982.0,3.023432143,content,appese
@@ -462,7 +462,7 @@ BEGIN,Zipf_freq,type_of_words,word
 8110431.0,5.80500802,function,ciao
 8123220.0,2.003836587,content,andrea
 8138214.0,6.212844009,function,quando
-8150121.0,6.430432922,,sei
+8150121.0,6.430432922,function,sei
 8161146.0,5.038063847,content,arrivato
 8222004.0,6.242274517,function,mia
 8229501.0,5.473534015,content,moglie

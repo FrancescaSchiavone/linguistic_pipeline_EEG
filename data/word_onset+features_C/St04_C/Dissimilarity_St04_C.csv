@@ -1,5 +1,5 @@
 BEGIN,semantic_dissimilarity,type_of_words,word
-89082,,function,Una
+89082,0.5,function,Una
 102753,0.6727859377861023,content,viola
 124362,0.5446403622627258,function,al
 133182,0.5248609185218811,content,polo

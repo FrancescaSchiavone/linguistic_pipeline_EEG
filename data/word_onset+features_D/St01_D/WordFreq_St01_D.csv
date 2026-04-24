@@ -103,7 +103,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1850877.0,4.831504037,content,carta
 1880865.0,2.741151583,function,e
 1882188.0,2.421372151,content,calamaio
-1963332.0,,content,gàmbara
+1963332.0,2.447158031,content,gàmbara
 1982295.0,6.553884221,function,si
 1990233.0,2.81931216,content,sedette
 2005668.0,6.335583043,function,al
@@ -140,7 +140,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2553831.0,4.031656465,content,servi
 2572353.0,7.250456545,function,che
 2575881.0,2.902730459,content,entravano
-2603223.0,5.996192947,,due
+2603223.0,5.996192947,function,due
 2611161.0,5.490648384,content,volte
 2623068.0,6.335583043,function,al
 2631888.0,5.731502947,content,giorno
@@ -294,7 +294,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5192334.0,7.039560886,function,il
 5199390.0,4.623331261,content,terzo
 5237757.0,2.741151583,function,e
-5256720.0,5.607871462,,tre
+5256720.0,5.607871462,function,tre
 5304789.0,6.584780852,function,i
 5309640.0,4.031656465,content,servi
 5325075.0,6.553884221,function,si

@@ -1,5 +1,5 @@
 BEGIN,semantic_dissimilarity,type_of_words,word
-89082.0,,function,La
+89082.0,0.5,function,La
 97020.0,0.6102777123451233,content,passeggiata
 131859.0,0.5480174422264099,function,di
 137592.0,0.3417003154754638,function,un

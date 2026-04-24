@@ -18,7 +18,7 @@ BEGIN,Zipf_freq,type_of_words,word
 500976.0,5.522856403,function,qua
 512442.0,2.741151583,function,e
 515970.0,7.232814475,function,di
-524349.0,,function,là
+524349.0,5.005037586,function,là
 564921.0,2.741151583,function,e
 580356.0,5.553895518,function,tutte
 595350.0,6.624997683,function,le
@@ -171,7 +171,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3766140.0,4.246301561,function,troppa
 3779811.0,5.005037586,content,luce
 3801420.0,6.797274494,function,in
-3811563.0,,function,là
+3811563.0,5.005037586,function,là
 3825675.0,6.797274494,function,in
 3831849.0,4.974719651,content,alto
 3882564.0,4.897214187,content,caro
@@ -183,7 +183,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3989727.0,5.514886537,content,stare
 4039560.0,5.884320377,function,proprio
 4061169.0,7.259198169,function,non
-4073076.0,,content,posso…
+4073076.0,5.005037586,content,posso
 4142754.0,2.741151583,function,e
 4147605.0,7.039560886,function,il
 4156425.0,4.541849304,content,principe
@@ -241,7 +241,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5245695.0,5.06372027,function,agli
 5256279.0,5.297539031,content,occhi
 5310963.0,6.720262455,content,ho
-5317578.0,,content,paura…
+5317578.0,5.005037586,content,paura
 5359473.0,6.235566848,function,lei
 5372262.0,4.784486182,content,diceva
 5430915.0,7.259198169,function,non
@@ -282,7 +282,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6171354.0,4.705470983,content,luna
 6230889.0,6.287788074,function,così
 6258672.0,6.584780852,function,i
-6262641.0,5.996192947,,due
+6262641.0,5.996192947,function,due
 6277635.0,1.844135744,content,nuotarono
 6303874.0,4.57964593,content,felici
 6338493.0,5.370690392,function,nell
