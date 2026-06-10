@@ -1,7 +1,7 @@
 #ADDING COLUMN FOR SAMPA
 import pandas as pd
 
-phonitalia = r"datasets\phonitalia (1).xlsx"
+phonitalia = r"datasets\phonitalia.xlsx"
 sampa_ipa = r'doc\SAMPA.xlsx'
 
 df_phonitalia = pd.read_excel(phonitalia)

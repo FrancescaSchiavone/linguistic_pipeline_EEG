@@ -7,6 +7,8 @@ This repository provides a Python-based pipeline for extracting linguistic featu
 Contains two datasets used in the pipeline:
     - `ItAoA.xlsx`= Italian Age of Acquisition norms. Download: https://osf.io/3trg2/overview
     - `subtlex-it.csv` = Frequency database for Italian words based on movie subtitles. Download: https://osf.io/zg7sc/overview
+    - `phonitalia.xlsx`= Phonological Italian Lexicon. Download:  https://github.com/stefanocoretta/phonItaliaR
+
 
 - **\doc**
 Contains documentation files:
@@ -120,6 +122,7 @@ Titles and corresponding codes are listed below.
 - de Vries, W., & Nissim, M. (2021). **As Good as New: How to Successfully Recycle English GPT-2 to Make Models for Other Languages**.  
   Findings of ACL-IJCNLP 2021.  *https://huggingface.co/GroNLP/gpt2-small-italian-embeddings*
 
+- Goslin, J., Galluzzi, C., & Romani, C. (2014). **PhonItalia: a phonological lexicon for Italian**. Behavior research methods, 46(3), 872–886. *https://doi.org/10.3758/s13428-013-0400-8*
 
 - Magnini, B., Cappelli, A., Pianta, E., Speranza, M., Bartalesi Lenzi, V., Sprugnoli, R., Romano, L., Girardi, C., & Negri, M. (2006). **Annotazione di contenuti concettuali in un corpus italiano: I - CAB**. Proc. of SILFI 2006.
 
