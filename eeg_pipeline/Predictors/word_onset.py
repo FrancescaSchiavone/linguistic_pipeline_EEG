@@ -26,6 +26,21 @@ for file in glob.glob(os.path.join(cartella1015, "*.xlsx")):
     df["TOKEN"] = (df["ORT"] != df["ORT"].shift()).cumsum() - 1
     df.to_excel(file, index=False)
 
+#VERSIONE SINGOLO FILE
+import pandas as pd
+
+file = "data\\phoneme_onset_C\\St05_C.xlsx"
+
+df = pd.read_excel(file)
+
+# Crea il token ogni volta che cambia ORT
+df["TOKEN"] = (df["ORT"] != df["ORT"].shift()).cumsum() - 1
+
+df.to_excel(file, index=False)
+
+
+
+
 #WORD ONSET
 
 filepath37 = "data\\phoneme_onset_37"

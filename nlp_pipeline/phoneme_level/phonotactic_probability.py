@@ -2,9 +2,9 @@ import pandas as pd
 from collections import defaultdict, Counter
 
 
-CSV_FILE = "datasets\\phonitalia.csv"
+CSV_FILE = "datasets\\phonitalia.xlsx"
 
-df = pd.read_csv(CSV_FILE, sep=';')
+df = pd.read_excel(CSV_FILE)
 
 # ============================================================
 # 2. TOKENIZZAZIONE SAMPA
