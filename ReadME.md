@@ -38,6 +38,9 @@ Python modules that implement the feature extraction:
     - `utils.py`: Reconstructs words and aggregates token-level values (e.g., surprisal or dissimilarity)
     at the word level. The function merges subword tokens (e.g., SentencePiece or BPE fragments) back into full words, computes the aggregated value for each word (mean or sum), and removes punctuation.
 
+    *\phoneme_level*: this folder contrains:
+        - to add
+
 - **\eeg_pipeline**
 -*\Predictors*: this folder contains:
     - `predictors.py` = code to create the weighted predictors from the linguistic features for each story.
