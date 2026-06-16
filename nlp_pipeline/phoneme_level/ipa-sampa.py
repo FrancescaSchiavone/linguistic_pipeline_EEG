@@ -39,9 +39,9 @@ print(f"File salvato: {output_file}")
 import pandas as pd
 import os
 
-phonitalia = r'C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\IMT\TESI\linguistic_pipeline_EEG\doc\phonitalia.csv'
+phonitalia = r'C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\IMT\TESI\linguistic_pipeline_EEG\datasets\phonitalia.xlsx'
 
-df_phon = pd.read_csv(phonitalia, sep=';')
+df_phon = pd.read_excel(phonitalia)
 parole_db = set(df_phon["WORD"].astype(str).str.lower())
 
 numbers = range(1, 11)  
@@ -52,7 +52,7 @@ for n in numbers:
 
     codice = f"{n:02d}"
 
-    text_path = rf'output_nlp\output_B\St{codice}_B\St{codice}_B.csv'
+    text_path = rf'output_nlp\output_A\St{codice}_A\St{codice}_A.csv'
 
     print(f"\nAnalizzo: {text_path}")
 
@@ -82,7 +82,7 @@ df_missing = pd.DataFrame({
 df_missing = df_missing.drop_duplicates()
 
 # ===== SALVA CSV =====
-output_csv = "missing_words2.csv"
+output_csv = "missing_words3.csv"
 df_missing.to_csv(output_csv, sep=';', index=False)
 
 print(f"\nFile salvato: {output_csv}")

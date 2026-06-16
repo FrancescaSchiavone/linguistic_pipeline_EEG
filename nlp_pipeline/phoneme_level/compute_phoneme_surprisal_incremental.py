@@ -105,14 +105,17 @@ if __name__ == "__main__":
     output_group = "output_D"
     story_id = "St01_D"
 
-    # 🦑 CHANGE HERE: usa "cohort_incremental_probs.jsonl" per il file completo,
-    # oppure "cohort_incremental_probs_first50tokens.jsonl" per la prova piccola.
-    input_filename = "cohort_incremental_probs_first50tokens.jsonl"
+    # 🦑 CHANGE HERE: usa il prefisso del file senza estensione.
+    # Il file completo per GPT dovrebbe essere:
+    # output_nlp/output_D/St01_D/phoneme_level/incremental_phonemic_cohorts_gpt_St01_D.jsonl
+    input_basename = "incremental_phonemic_cohorts_gpt"
 
     # 🦑 CHANGE HERE: cambia il nome dell'output se vuoi distinguere test/storia completa.
-    output_filename = "phoneme_surprisal_incremental_first50tokens.csv"
+    # Il CSV sarà scritto come:
+    # output_nlp/output_D/St01_D/phoneme_level/phoneme_surprisal_St01_D.csv
+    output_basename = "phoneme_surprisal"
 
-    input_file = project_root / "output_nlp" / output_group / story_id / input_filename
-    output_file = project_root / "output_nlp" / output_group / story_id / output_filename
-    
+    input_file = project_root / "output_nlp" / output_group / story_id / "phoneme_level" / f"{input_basename}_{story_id}.jsonl"
+    output_file = project_root / "output_nlp" / output_group / story_id / "phoneme_level" / f"{output_basename}_{story_id}.csv"
+
     compute_phoneme_surprisal_incremental(str(input_file), str(output_file))

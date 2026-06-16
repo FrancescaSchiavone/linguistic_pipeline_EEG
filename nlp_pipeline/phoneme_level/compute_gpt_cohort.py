@@ -22,16 +22,17 @@ except ImportError:
 #   - OUTPUT_ROOT / OUTPUT_GROUP: cartella base output
 #   - PRIORS_PATH: percorso al file dei prior esterno (questo NON e il file delle coorti)
 # ---------------------------------------------------------------------------
-STORY_PATH = Path(r"data\phoneme_onset_D\St02_D.xlsx") #🦑
-STORY_ID = "St02_D" #🦑
+STORY_PATH = Path(r"data\phoneme_onset_D\St01_D.xlsx") #🦑
+STORY_ID = "St01_D" #🦑
 OUTPUT_ROOT = Path("output_nlp")
 OUTPUT_GROUP = "output_D" #🦑
 MODEL_NAME = "GroNLP/gpt2-small-italian"
 PRIORS_PATH = None  # es. Path("provettatopk1000/candidate_words.json") per riusare prior gia pronti
 COHORTS_FILENAME_TEMPLATE = "incremental_phonemic_cohorts_{story_id}.jsonl"
+GPT_COHORTS_FILENAME_TEMPLATE = "incremental_phonemic_cohorts_gpt_{story_id}.jsonl"
 MODEL_BATCH_SIZE = 128
 GPU_BATCH_SIZE = 16
-MAX_TOKENS_FOR_TEST = None  # usa 50 per un test veloce; None processa tutta la storia #🦑
+MAX_TOKENS_FOR_TEST = 10  # usa 50 per un test veloce; None processa tutta la storia #🦑
 PROBABILITY_THRESHOLD = 1e-8
 CPU_THREADS = os.cpu_count()  # metti un numero piu basso se il PC diventa poco responsivo
 
@@ -74,7 +75,7 @@ def load_priors(priors_path: Path) -> Dict[int, Dict[str, float]]:
     for item in data:
         pos = item.get("word_position")
         cand = {c["word"].lower().strip(): c.get("prob", 0.0) for c in item.get("candidates", [])}
-        priors[pos] = cand
+        priors[int(pos)] = cand
 
     return priors
 
@@ -345,23 +346,42 @@ def compute_incremental_prefix_probs(
     out_path: Path = Path("cohort_incremental_probs.jsonl"),
 ) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    previous_mass_by_token: Dict[int, float] = {}
+    sorted_records = sorted(
+        records,
+        key=lambda rec: (int(rec.get("token_id")), int(rec.get("prefix_length", 0))),
+    )
     with open(out_path, "w", encoding="utf-8") as f:
-        for rec in records:
+        for rec in sorted_records:
             token_id = rec.get("token_id")
+            token_key = int(token_id)
             target = str(rec.get("target_word", "")).lower().strip()
             cohort = [w.lower().strip() for w in rec.get("cohort_words", [])]
             prefix = rec.get("prefix_phonemes")
             prefix_length = rec.get("prefix_length")
 
-            cand_dict = priors.get(token_id, {})
+            cand_dict = priors.get(token_key, {})
             cohort_set = set(cohort)
             filtered = [(w, p) for w, p in cand_dict.items() if w in cohort_set and p >= threshold]
             target_prob = cand_dict.get(target, 0.0)
-            if include_target and not any(w == target for w, _ in filtered):
+            if (
+                include_target
+                and target in cohort_set
+                and target_prob >= threshold
+                and not any(w == target for w, _ in filtered)
+            ):
                 filtered.append((target, target_prob))
             filtered.sort(key=lambda x: x[1], reverse=True)
 
             cohort_mass = sum(p for _, p in filtered)
+            previous_cohort_mass = previous_mass_by_token.get(token_key)
+            # The first phoneme has no prefix-0 cohort in the input file.
+            phoneme_prob = (
+                cohort_mass / previous_cohort_mass
+                if previous_cohort_mass and previous_cohort_mass > 0.0
+                else None
+            )
+            previous_mass_by_token[token_key] = cohort_mass
             out_record = {
                 "token_id": token_id,
                 "target_word": target,
@@ -370,6 +390,8 @@ def compute_incremental_prefix_probs(
                 "cohort_size": len(cohort),
                 "filtered_cohort_size": len(filtered),
                 "cohort_mass": cohort_mass,
+                "previous_cohort_mass": previous_cohort_mass,
+                "phoneme_prob": phoneme_prob,
                 "target_prob": target_prob,
                 "filtered_cohort": filtered,
             }
@@ -393,8 +415,7 @@ def compute_all(
 
     output_base = get_output_base(output_root, output_group, story_id)
     incremental_cohorts_path = output_base / COHORTS_FILENAME_TEMPLATE.format(story_id=story_id)
-    suffix = f"_first{max_tokens_for_test}tokens" if max_tokens_for_test is not None else ""
-    cohort_probs_path = output_base / f"cohort_incremental_probs{suffix}.jsonl"
+    cohort_probs_path = output_base / GPT_COHORTS_FILENAME_TEMPLATE.format(story_id=story_id)
 
     cohort_records = load_jsonl(incremental_cohorts_path)
     print(f"Loaded incremental cohorts from {incremental_cohorts_path}")

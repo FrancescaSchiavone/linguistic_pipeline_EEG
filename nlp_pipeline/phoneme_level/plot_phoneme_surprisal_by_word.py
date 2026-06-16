@@ -6,12 +6,12 @@ import pandas as pd
 
 
 # ---------------------------------------------------------------------------
-# Change these paths for another story or for the complete file.
+# Fixed paths for the story and output files.
 # ---------------------------------------------------------------------------
 OUTPUT_GROUP = "output_D"
-STORY_ID = "St02_D"
-COHORT_JSONL_FILENAME = "cohort_incremental_probs_first50tokens.jsonl"
-PHONEME_SURPRISAL_CSV_FILENAME = "phoneme_surprisal_incremental_first50tokens.csv"
+STORY_ID = "St01_D"
+COHORT_JSONL_FILENAME = "incremental_phonemic_cohorts_gpt_St01_D.jsonl"
+PHONEME_SURPRISAL_CSV_FILENAME = "phoneme_surprisal_St01_D.csv"
 
 MAX_WORDS_IN_GRID = 30
 SAVE_INDIVIDUAL_WORD_PLOTS = True
@@ -194,7 +194,7 @@ def create_plots(cohort_jsonl_path: Path, phoneme_surprisal_csv_path: Path, outp
 
 if __name__ == "__main__":
     project_root = Path(__file__).resolve().parents[2]
-    story_dir = project_root / "output_nlp" / OUTPUT_GROUP / STORY_ID
+    story_dir = project_root / "output_nlp" / OUTPUT_GROUP / STORY_ID / "phoneme_level"
 
     cohort_jsonl_path = story_dir / COHORT_JSONL_FILENAME
     phoneme_surprisal_csv_path = story_dir / PHONEME_SURPRISAL_CSV_FILENAME

@@ -13,13 +13,13 @@ import pandas as pd
 #   - OUTPUT_ROOT / OUTPUT_GROUP: cartella base output
 #   - PHONITALIA_PATH: percorso al file datasets/phonitalia.csv/xlsx
 # ---------------------------------------------------------------------------
-STORY_PATH = Path(r"data\phoneme_onset_D\St02_D.xlsx") #🦑
-STORY_ID = "St02_D" #🦑
+STORY_PATH = Path(r"data\phoneme_onset_D\St01_D.xlsx") #🦑
+STORY_ID = "St01_D" #🦑
 OUTPUT_ROOT = Path(r'output_nlp') 
 OUTPUT_GROUP = Path(r'output_D') #🦑
 PHONITALIA_PATH = Path(r"datasets\phonitalia.xlsx")
 COHORTS_FILENAME_TEMPLATE = "incremental_phonemic_cohorts_{story_id}.jsonl"
-MAX_TOKENS_FOR_TEST = None  # usa 50 per un test veloce; None processa tutta la storia
+MAX_TOKENS_FOR_TEST = 10  # usa 50 per un test veloce; None processa tutta la storia
 
 
 def load_story(story_path: Path) -> pd.DataFrame:
