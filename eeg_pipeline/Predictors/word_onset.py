@@ -29,7 +29,7 @@ for file in glob.glob(os.path.join(cartella1015, "*.xlsx")):
 #VERSIONE SINGOLO FILE
 import pandas as pd
 
-file = "data\\phoneme_onset_C\\St05_C.xlsx"
+file = r"C:\Users\schia\Downloads\St07_C_CORRETTO (1).xlsx"
 
 df = pd.read_excel(file)
 
@@ -116,8 +116,7 @@ import pandas as pd
 # =========================
 # FILE DI INPUT
 # =========================
-input_onset_file = r'C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\IMT\TESI\linguistic_pipeline_EEG\data\phoneme_onset_C\St02_C.xlsx'
-
+input_onset_file = r"C:\Users\schia\Downloads\St07_C_CORRETTO (1).xlsx"
 # =========================
 # 2. WORD ONSET
 # =========================
@@ -134,7 +133,7 @@ result = result.sort_values(by="TOKEN").reset_index(drop=True)
 # =========================
 # OUTPUT
 # =========================
-output_dir = "data/word_onset"
+output_dir = r"C:\Users\schia\Downloads"
 os.makedirs(output_dir, exist_ok=True)
 
 name_base = os.path.splitext(os.path.basename(input_onset_file))[0]

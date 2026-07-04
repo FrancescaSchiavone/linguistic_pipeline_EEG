@@ -39,7 +39,10 @@ Python modules that implement the feature extraction:
     at the word level. The function merges subword tokens (e.g., SentencePiece or BPE fragments) back into full words, computes the aggregated value for each word (mean or sum), and removes punctuation.
 
     *\phoneme_level*: this folder contrains:
-        - to add
+        - `compute_cohort.py`
+        - `compute_gpt_cohort.py`
+        - `compute_phoneme_surprisal_incremental.py`
+        -TO ADD
 
 - **\eeg_pipeline**
 -*\Predictors*: this folder contains:
@@ -64,7 +67,7 @@ All the subfolders in 'output' folder are structured in the following way: one s
     - `requirements.txt`= file lists all Python packages and their versions needed to run this project.
 
 
-All the stories, stored in the 'data' forlder, are divided into four groups based on the age.
+All the stories, stored in the 'data' folder, are divided into four groups based on the age.
 Titles and corresponding codes are listed below.
 
 ### **0 - 3 years `Group A`**

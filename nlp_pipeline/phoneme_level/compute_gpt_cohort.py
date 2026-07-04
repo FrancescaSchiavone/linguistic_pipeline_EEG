@@ -32,9 +32,9 @@ COHORTS_FILENAME_TEMPLATE = "incremental_phonemic_cohorts_{story_id}.jsonl"
 GPT_COHORTS_FILENAME_TEMPLATE = "incremental_phonemic_cohorts_gpt_{story_id}.jsonl"
 MODEL_BATCH_SIZE = 128
 GPU_BATCH_SIZE = 16
-MAX_TOKENS_FOR_TEST = 10  # usa 50 per un test veloce; None processa tutta la storia #🦑
+MAX_TOKENS_FOR_TEST = None # usa 50 per un test veloce; None processa tutta la storia #🦑
 PROBABILITY_THRESHOLD = 1e-8
-CPU_THREADS = os.cpu_count()  # metti un numero piu basso se il PC diventa poco responsivo
+CPU_THREADS = 8  # metti un numero piu basso se il PC diventa poco responsivo
 
 
 def load_story(story_path: Path) -> pd.DataFrame:
