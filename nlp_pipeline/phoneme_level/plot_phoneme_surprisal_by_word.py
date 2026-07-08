@@ -8,14 +8,10 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 # Fixed paths for the story and output files.
 # ---------------------------------------------------------------------------
-OUTPUT_GROUP = "output_D"
-STORY_ID = "St01_D"
-COHORT_JSONL_FILENAME = "incremental_phonemic_cohorts_gpt_St01_D.jsonl"
-PHONEME_SURPRISAL_CSV_FILENAME = "phoneme_surprisal_St01_D.csv"
-
-MAX_WORDS_IN_GRID = 30
-SAVE_INDIVIDUAL_WORD_PLOTS = True
-
+OUTPUT_GROUP = "output_C" #🦑
+STORY_ID = "St05_C" #🦑
+COHORT_JSONL_FILENAME = "incremental_phonemic_cohorts_gpt_St05_C.jsonl"#🦑
+PHONEME_SURPRISAL_CSV_FILENAME = "phoneme_surprisal_St05_C.csv"#🦑
 
 def load_cohort_metadata(cohort_jsonl_path: Path) -> pd.DataFrame:
     rows = []
@@ -98,95 +94,150 @@ def plot_overlay(data: pd.DataFrame, output_path: Path) -> None:
     plt.close(fig)
 
 
-def plot_word_grid(data: pd.DataFrame, output_path: Path, max_words: int = MAX_WORDS_IN_GRID) -> None:
-    grouped = list(data.groupby(["token_id", "target_word"], sort=True))[:max_words]
-    if not grouped:
+def assign_word_length_clusters(data: pd.DataFrame) -> pd.DataFrame:
+    word_lengths = (
+        data.groupby(["token_id", "target_word"], sort=False)["prefix_length"]
+        .max()
+        .rename("word_phoneme_length")
+        .reset_index()
+    )
+    data = data.merge(word_lengths, on=["token_id", "target_word"])
+
+    bins = [0, 3, 6, float("inf")]
+    labels = ["1-3 phonemes", "4-6 phonemes", "7+ phonemes"]
+    data["length_group"] = pd.cut(
+        data["word_phoneme_length"],
+        bins=bins,
+        labels=labels,
+        right=True,
+        include_lowest=True,
+    )
+    data["length_group"] = data["length_group"].astype(str)
+
+    return data
+
+
+def _sanitize_filename(value: str) -> str:
+    return value.replace("+", "plus").replace(" ", "_").replace("/", "_")
+
+
+def plot_overlay_by_length_group(data: pd.DataFrame, output_dir: Path) -> None:
+    if data.empty:
         return
 
-    n_cols = 3
-    n_rows = (len(grouped) + n_cols - 1) // n_cols
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=(4.2 * n_cols, 2.8 * n_rows), squeeze=False)
-    axes_flat = axes.ravel()
+    for length_group in sorted(data["length_group"].unique()):
+        if length_group == "nan":
+            continue
 
-    for ax, ((token_id, target_word), word_df) in zip(axes_flat, grouped):
-        word_df = word_df.sort_values("prefix_length")
-        ax.plot(
-            word_df["prefix_length"],
-            word_df["phoneme_surprisal"],
-            marker="o",
-            color="#006d77",
-            linewidth=2,
-        )
-        for _, row in word_df.iterrows():
-            ax.annotate(
-                row["phoneme"],
-                (row["prefix_length"], row["phoneme_surprisal"]),
-                textcoords="offset points",
-                xytext=(0, 5),
-                ha="center",
-                fontsize=8,
+        group_data = data[data["length_group"] == length_group]
+        if group_data.empty:
+            continue
+
+        fig, ax = plt.subplots(figsize=(11, 6))
+        for _, word_df in group_data.groupby(["token_id", "target_word"], sort=True):
+            word_df = word_df.sort_values("prefix_length")
+            ax.plot(
+                word_df["prefix_length"],
+                word_df["phoneme_surprisal"],
+                color="0.65",
+                linewidth=1,
+                alpha=0.35,
             )
 
-        ax.set_title(f"{token_id}: {target_word}", fontsize=10)
-        ax.set_xlabel("Position")
-        ax.set_ylabel("Surprisal")
-        ax.grid(True, alpha=0.25)
-
-    for ax in axes_flat[len(grouped):]:
-        ax.axis("off")
-
-    fig.suptitle("Phoneme Surprisal by Word", y=1.01, fontsize=14)
-    fig.tight_layout()
-    fig.savefig(output_path, dpi=200, bbox_inches="tight")
-    plt.close(fig)
-
-
-def plot_individual_words(data: pd.DataFrame, output_dir: Path) -> None:
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    for (token_id, target_word), word_df in data.groupby(["token_id", "target_word"], sort=True):
-        word_df = word_df.sort_values("prefix_length")
-        fig, ax = plt.subplots(figsize=(6, 3.5))
-        ax.plot(
-            word_df["prefix_length"],
-            word_df["phoneme_surprisal"],
-            marker="o",
-            color="#006d77",
-            linewidth=2,
+        mean_by_position = (
+            group_data.groupby("prefix_length", as_index=False)["phoneme_surprisal"]
+            .mean()
+            .sort_values("prefix_length")
         )
-        for _, row in word_df.iterrows():
-            ax.annotate(
-                row["phoneme"],
-                (row["prefix_length"], row["phoneme_surprisal"]),
-                textcoords="offset points",
-                xytext=(0, 6),
-                ha="center",
-                fontsize=9,
-            )
+        ax.plot(
+            mean_by_position["prefix_length"],
+            mean_by_position["phoneme_surprisal"],
+            color="#d62828",
+            linewidth=2.5,
+            marker="o",
+            label="Mean across words",
+        )
 
-        ax.set_title(f"{token_id}: {target_word}")
+        ax.set_title(
+            f"Phoneme Surprisal Trajectory for {length_group}"
+        )
         ax.set_xlabel("Phoneme position within word")
         ax.set_ylabel("Phoneme surprisal (-log2 probability)")
         ax.grid(True, alpha=0.25)
+        ax.legend(frameon=False)
         fig.tight_layout()
 
-        safe_word = "".join(ch if ch.isalnum() else "_" for ch in str(target_word))
-        fig.savefig(output_dir / f"{token_id:04d}_{safe_word}.png", dpi=200)
+        output_path = output_dir / f"phoneme_surprisal_overlay_{_sanitize_filename(length_group)}.png"
+        fig.savefig(output_path, dpi=200)
         plt.close(fig)
+
+
+def plot_mean_surprisal_for_length_groups(data: pd.DataFrame, output_path: Path) -> None:
+    if data.empty:
+        return
+
+    mean_by_group = (
+        data.groupby(["length_group", "prefix_length"], as_index=False)["phoneme_surprisal"]
+        .mean()
+    )
+    pivot = mean_by_group.pivot(index="prefix_length", columns="length_group", values="phoneme_surprisal")
+
+    fig, ax = plt.subplots(figsize=(11, 6))
+    for length_group in sorted(pivot.columns, key=lambda x: (x != "1-3 phonemes", x != "4-6 phonemes", x != "7+ phonemes")):
+        ax.plot(
+            pivot.index,
+            pivot[length_group],
+            linewidth=2,
+            marker="o",
+            label=length_group,
+        )
+
+    ax.set_title("Mean Phoneme Surprisal by Word Length Cluster")
+    ax.set_xlabel("Phoneme position within word")
+    ax.set_ylabel("Phoneme surprisal (-log2 probability)")
+    ax.grid(True, alpha=0.25)
+    ax.legend(frameon=False)
+    fig.tight_layout()
+    fig.savefig(output_path, dpi=200)
+    plt.close(fig)
+
+
+def plot_surprisal_series(data: pd.DataFrame, output_path: Path) -> None:
+    if data.empty:
+        return
+
+    x_positions = range(len(data))
+    fig, ax = plt.subplots(figsize=(12, 4.5))
+    ax.plot(
+        x_positions,
+        data["phoneme_surprisal"],
+        color="#4c78a8",
+        linewidth=1.5,
+    )
+
+    ax.set_title("Phoneme surprisal across the story")
+    ax.set_xlabel("")
+    ax.set_ylabel("Phoneme surprisal (-log2 probability)")
+    ax.set_xticks([])
+    ax.grid(True, alpha=0.25)
+    fig.tight_layout()
+    fig.savefig(output_path, dpi=200)
+    plt.close(fig)
 
 
 def create_plots(cohort_jsonl_path: Path, phoneme_surprisal_csv_path: Path, output_dir: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     data = load_plot_data(cohort_jsonl_path, phoneme_surprisal_csv_path)
 
+    data = assign_word_length_clusters(data)
+
     enriched_csv = output_dir / "phoneme_surprisal_with_word_metadata.csv"
     data.to_csv(enriched_csv, index=False)
 
     plot_overlay(data, output_dir / "phoneme_surprisal_overlay.png")
-    plot_word_grid(data, output_dir / "phoneme_surprisal_word_grid.png")
-
-    if SAVE_INDIVIDUAL_WORD_PLOTS:
-        plot_individual_words(data, output_dir / "individual_words")
+    plot_overlay_by_length_group(data, output_dir)
+    plot_mean_surprisal_for_length_groups(data, output_dir / "phoneme_surprisal_by_length_group.png")
+    plot_surprisal_series(data, output_dir / "phoneme_surprisal_series.png")
 
     print(f"Saved enriched CSV to {enriched_csv}")
     print(f"Saved plots to {output_dir}")

@@ -29,7 +29,7 @@ for file in glob.glob(os.path.join(cartella1015, "*.xlsx")):
 #VERSIONE SINGOLO FILE
 import pandas as pd
 
-file = r"C:\Users\schia\Downloads\St07_C_CORRETTO (1).xlsx"
+file = r"C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\IMT\TESI\linguistic_pipeline_EEG\data\phoneme_onset_D\St01_D.xlsx"
 
 df = pd.read_excel(file)
 

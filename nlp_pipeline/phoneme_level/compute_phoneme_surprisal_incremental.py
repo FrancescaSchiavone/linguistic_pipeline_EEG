@@ -64,7 +64,7 @@ def compute_phoneme_surprisal_incremental(input_jsonl, output_csv):
                     probability = 0.0
 
             # Numerical safety
-            probability = max(probability, 1e-12)
+            probability = max(probability, 1e-6)
 
             # Surprisal
             surprisal = -math.log2(probability)
@@ -100,19 +100,19 @@ def compute_phoneme_surprisal_incremental(input_jsonl, output_csv):
 if __name__ == "__main__":
     project_root = Path(__file__).resolve().parents[2]
 
-    # 🦑 CHANGE HERE: cambia output_D e St01_D per usare un'altra storia.
+    # 🦑 CHANGE HERE: cambia output_C e St05_C per usare un'altra storia.
     # Esempio: output_group = "output_B", story_id = "St03_B"
-    output_group = "output_D"
-    story_id = "St01_D"
+    output_group = "output_C"
+    story_id = "St05_C"
 
     # 🦑 CHANGE HERE: usa il prefisso del file senza estensione.
     # Il file completo per GPT dovrebbe essere:
-    # output_nlp/output_D/St01_D/phoneme_level/incremental_phonemic_cohorts_gpt_St01_D.jsonl
+    # output_nlp/output_C/St05_C/phoneme_level/incremental_phonemic_cohorts_gpt_St05_C.jsonl
     input_basename = "incremental_phonemic_cohorts_gpt"
 
     # 🦑 CHANGE HERE: cambia il nome dell'output se vuoi distinguere test/storia completa.
     # Il CSV sarà scritto come:
-    # output_nlp/output_D/St01_D/phoneme_level/phoneme_surprisal_St01_D.csv
+    # output_nlp/output_C/St05_C/phoneme_level/phoneme_surprisal_St05_C.csv
     output_basename = "phoneme_surprisal"
 
     input_file = project_root / "output_nlp" / output_group / story_id / "phoneme_level" / f"{input_basename}_{story_id}.jsonl"
