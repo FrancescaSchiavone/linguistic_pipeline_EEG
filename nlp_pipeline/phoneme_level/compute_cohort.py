@@ -13,10 +13,10 @@ import pandas as pd
 #   - OUTPUT_ROOT / OUTPUT_GROUP: base output folder.
 #   - PHONITALIA_PATH: lexicon file path, either datasets/phonitalia.csv or .xlsx.
 # ---------------------------------------------------------------------------
-STORY_PATH = Path(r"data\phoneme_onset_C\St05_C.xlsx")  # Story Excel file. 🦑
-STORY_ID = "St05_C"  # Story identifier used in file names.🦑
+STORY_PATH = Path(r"data\phoneme_onset_D\St10_D.xlsx")  # Story Excel file. 🦑
+STORY_ID = "St10_D"  # Story identifier used in file names.🦑
 OUTPUT_ROOT = Path(r'output_nlp') 
-OUTPUT_GROUP = Path(r'output_C')  # Output subgroup for this condition.🦑
+OUTPUT_GROUP = Path(r'output_D')  # Output subgroup for this condition.🦑
 PHONITALIA_PATH = Path(r"datasets\phonitalia.xlsx")
 COHORTS_FILENAME_TEMPLATE = "incremental_phonemic_cohorts_{story_id}.jsonl"
 MAX_TOKENS_FOR_TEST = None  # Use 50 for a quick test; None processes the full story. 🦑

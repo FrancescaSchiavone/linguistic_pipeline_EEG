@@ -8,10 +8,10 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 # Fixed paths for the story and output files.
 # ---------------------------------------------------------------------------
-OUTPUT_GROUP = "output_C" #🦑
-STORY_ID = "St05_C" #🦑
-COHORT_JSONL_FILENAME = "incremental_phonemic_cohorts_gpt_St05_C.jsonl"#🦑
-PHONEME_SURPRISAL_CSV_FILENAME = "phoneme_surprisal_St05_C.csv"#🦑
+OUTPUT_GROUP = "output_D" #🦑
+STORY_ID = "St10_D" #🦑
+COHORT_JSONL_FILENAME = "incremental_phonemic_cohorts_gpt_St10_D.jsonl"#🦑
+PHONEME_SURPRISAL_CSV_FILENAME = "phoneme_surprisal_St10_D.csv"#🦑
 
 def load_cohort_metadata(cohort_jsonl_path: Path) -> pd.DataFrame:
     rows = []

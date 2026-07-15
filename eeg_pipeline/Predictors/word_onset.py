@@ -29,8 +29,7 @@ for file in glob.glob(os.path.join(cartella1015, "*.xlsx")):
 #VERSIONE SINGOLO FILE
 import pandas as pd
 
-file = r"C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\IMT\TESI\linguistic_pipeline_EEG\data\phoneme_onset_D\St01_D.xlsx"
-
+file = r"C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\output_MAUS_Chiara_Finali_UsatiPerPaperFonemi\St10_D_CORRETTO.xlsx"
 df = pd.read_excel(file)
 
 # Crea il token ogni volta che cambia ORT
@@ -116,7 +115,8 @@ import pandas as pd
 # =========================
 # FILE DI INPUT
 # =========================
-input_onset_file = r"C:\Users\schia\Downloads\St07_C_CORRETTO (1).xlsx"
+input_onset_file =r"C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\output_MAUS_Chiara_Finali_UsatiPerPaperFonemi\St10_D_CORRETTO.xlsx"
+
 # =========================
 # 2. WORD ONSET
 # =========================
@@ -133,7 +133,7 @@ result = result.sort_values(by="TOKEN").reset_index(drop=True)
 # =========================
 # OUTPUT
 # =========================
-output_dir = r"C:\Users\schia\Downloads"
+output_dir = r"C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\output_MAUS_Chiara_Finali_UsatiPerPaperFonemi"
 os.makedirs(output_dir, exist_ok=True)
 
 name_base = os.path.splitext(os.path.basename(input_onset_file))[0]
