@@ -29,7 +29,7 @@ for file in glob.glob(os.path.join(cartella1015, "*.xlsx")):
 #VERSIONE SINGOLO FILE
 import pandas as pd
 
-file = r"C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\output_MAUS_Chiara_Finali_UsatiPerPaperFonemi\St10_D_CORRETTO.xlsx"
+file = r"C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\output_MAUS_Chiara_Finali_UsatiPerPaperFonemi\St01_C_CORRETTO.xlsx"
 df = pd.read_excel(file)
 
 # Crea il token ogni volta che cambia ORT
@@ -115,7 +115,7 @@ import pandas as pd
 # =========================
 # FILE DI INPUT
 # =========================
-input_onset_file =r"C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\output_MAUS_Chiara_Finali_UsatiPerPaperFonemi\St10_D_CORRETTO.xlsx"
+input_onset_file =r"C:\Users\schia\OneDrive - Alma Mater Studiorum Università di Bologna\Desktop\output_MAUS_Chiara_Finali_UsatiPerPaperFonemi\St01_C_CORRETTO.xlsx"
 
 # =========================
 # 2. WORD ONSET

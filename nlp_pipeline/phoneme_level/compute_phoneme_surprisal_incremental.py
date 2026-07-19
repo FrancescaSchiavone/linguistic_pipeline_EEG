@@ -102,8 +102,8 @@ if __name__ == "__main__":
 
     # 🦑 CHANGE HERE: cambia output_C e St05_C per usare un'altra storia.
     # Esempio: output_group = "output_B", story_id = "St03_B"
-    output_group = "output_D"
-    story_id = "St10_D"
+    output_group = "output_C"
+    story_id = "St07_C"
 
     # 🦑 CHANGE HERE: usa il prefisso del file senza estensione.
     # Il file completo per GPT dovrebbe essere:

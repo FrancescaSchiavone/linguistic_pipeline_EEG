@@ -22,10 +22,10 @@ except ImportError:
 #   - OUTPUT_ROOT / OUTPUT_GROUP: base output folder.
 #   - PRIORS_PATH: optional external prior file, not the cohort file.
 # ---------------------------------------------------------------------------
-STORY_PATH = Path(r"data\phoneme_onset_D\St01_D.xlsx")  # Story Excel file.🦑
-STORY_ID = "St01_D"  # Story identifier used in file names.🦑
+STORY_PATH = Path(r"data\phoneme_onset_C\St07_C.xlsx")  # Story Excel file.🦑
+STORY_ID = "St07_C"  # Story identifier used in file names.🦑
 OUTPUT_ROOT = Path("output_nlp")
-OUTPUT_GROUP = "output_D"  # Output subgroup for this condition.🦑
+OUTPUT_GROUP = "output_C"  # Output subgroup for this condition.🦑
 MODEL_NAME = "GroNLP/gpt2-small-italian"
 PRIORS_PATH = None  # Set a JSON path to reuse precomputed priors.
 COHORTS_FILENAME_TEMPLATE = "incremental_phonemic_cohorts_{story_id}.jsonl"
