@@ -23,7 +23,7 @@ BEGIN,Zipf_freq,type_of_words,word
 586530.0,5.522856403,function,qua
 598847.0,1.93128592,content,assalta
 620046.0,7.232814475,function,di
-628425.0,4.870227645,function,là
+628425.0,,function,là
 647388.0,3.866243213,content,ruba
 ,7.004335738,function,a
 665469.0,6.337855516,function,me
@@ -38,9 +38,9 @@ BEGIN,Zipf_freq,type_of_words,word
 804825.0,5.06372027,function,agli
 813645.0,4.740416943,content,ordini
 831726.0,7.232814475,function,di
-834813.0,3.652246341,content,capitan
-868329.0,3.814247991,content,gigi
-884646.0,1.000000000,content,trinciasquali
+834813.0,,content,capitan
+868329.0,,content,gigi
+884646.0,,content,trinciasquali
 948150.0,4.853444968,function,avevano
 970641.0,3.145165739,content,accumulato
 1012536.0,7.065833912,function,un
@@ -166,7 +166,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3531528.0,6.801817508,function,una
 3539466.0,5.820011577,content,volta
 3602529.0,5.792396528,function,dopo
-3613995.0,5.607871462,function,tre
+3613995.0,5.607871462,,tre
 3621051.0,5.860848812,content,anni
 3636927.0,7.232814475,function,di
 3641778.0,5.10433968,content,affari
@@ -174,8 +174,8 @@ BEGIN,Zipf_freq,type_of_words,word
 3681027.0,2.741151583,function,e
 3682350.0,2.561991092,content,stenti
 3719394.0,4.869305017,content,disse
-3746295.0,3.814247991,content,gigi
-3760848.0,1.000000000,content,trinciasquali
+3746295.0,,content,gigi
+3760848.0,,content,trinciasquali
 3843315.0,5.484893151,content,bella
 3859191.0,3.268291135,content,ciurma
 3891384.0,5.126858533,content,sapete
@@ -208,7 +208,7 @@ BEGIN,Zipf_freq,type_of_words,word
 4405149.0,7.039560886,function,il
 4410441.0,5.533168209,content,mondo
 4476150.0,5.657078795,content,giusto
-4497759.0,1.000000000,content,trinciasquali
+4497759.0,,content,trinciasquali
 4551120.0,2.03602127,content,gridarono
 4572288.0,6.584780852,function,i
 4576698.0,3.784209297,content,pirati
@@ -270,7 +270,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5662440.0,4.597293065,content,isola
 5676993.0,3.371335863,content,scava
 5691105.0,6.000068652,function,su
-5699925.0,5.996192947,function,due
+5699925.0,5.996192947,,due
 5731236.0,4.853444968,content,avevano
 5754168.0,6.584780852,function,i
 5759019.0,2.986803247,content,calli
@@ -311,7 +311,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6509160.0,7.039560886,function,il
 6514893.0,5.475037998,content,tesoro
 6532974.0,5.368733783,function,nemmeno
-6553260.0,4.888179750,function,lì
+6553260.0,,function,lì
 6608826.0,5.274174947,function,però
 6619410.0,3.475353964,content,trovarono
 6646311.0,6.108229139,function,dei
@@ -378,5 +378,5 @@ BEGIN,Zipf_freq,type_of_words,word
 8013411.0,6.553884221,function,si
 8023554.0,4.506053547,content,fece
 8035020.0,4.993662758,content,chiamare
-8072946.0,3.814247991,content,gigi
-8095437.0,1.000000000,content,zappatata
+8072946.0,,content,gigi
+8095437.0,,content,zappatata

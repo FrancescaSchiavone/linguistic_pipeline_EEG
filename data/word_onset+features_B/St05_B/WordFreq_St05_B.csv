@@ -60,7 +60,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1577016,4.55613033,content,buio
 1633464,3.545031669,content,piangeva
 1679769,6.553884221,function,si
-1692117,1.000000000,content,sconsolava
+1692117,,content,sconsolava
 1756944,2.741151583,function,e
 1763118,6.624997683,function,le
 1769733,5.238314932,content,altre
@@ -159,7 +159,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3980466,6.553884221,function,si
 3991050,3.188746311,content,videro
 4008690,1.19092323,content,beccucci
-4040442,1.301029996,content,becchettare
+4040442,,content,becchettare
 4099095,2.741151583,function,e
 4100859,6.584780852,function,i
 4106592,2.972678605,content,gusci
@@ -202,7 +202,7 @@ BEGIN,Zipf_freq,type_of_words,word
 4760154,5.522856403,function,qua
 4771620,2.741151583,function,e
 4775148,7.232814475,function,di
-4783968,4.823329902,function,là
+4783968,,function,là
 4813515,6.662005813,function,ma
 4818366,7.259198169,function,non
 4825422,6.553884221,function,si
@@ -242,7 +242,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5607187,6.584780852,function,i
 5614371,2.919277012,content,pulcini
 5643477,3.678061605,content,gialli
-5673906,1.000000000,content,pigolavano
+5673906,,content,pigolavano
 5709186,4.86047254,function,intorno
 5757255,3.683683619,content,chiamò
 5776659,6.624997683,function,le
@@ -319,7 +319,7 @@ BEGIN,Zipf_freq,type_of_words,word
 7386750,4.154474964,content,calore
 7450254,2.741151583,function,e
 7453341,5.792396528,function,dopo
-7466571,5.607871462,function,tre
+7466571,5.607871462,,tre
 7477155,5.382499987,content,giorni
 7497882,6.640107629,function,l
 7499205,4.054840607,content,uovo
@@ -376,7 +376,7 @@ BEGIN,Zipf_freq,type_of_words,word
 8513064,6.577812618,function,da
 8517915,1.367014489,content,oriente
 8547903,7.004335738,function,a
-8552754,4.345161101,content,occidente
+8552754,,content,occidente
 8599500,6.562704781,function,come
 8615376,6.640107629,function,l
 8619345,3.52336169,content,arcobaleno

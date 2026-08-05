@@ -81,7 +81,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1632141.0,4.506053547,content,fece
 1643166.0,7.055331658,function,la
 1647576.0,3.922108938,content,padrona
-1663452.0,1.000000000,content,riscuotendosi
+1663452.0,,content,riscuotendosi
 1733130.0,6.166704172,function,c
 1737981.0,7.249521761,content,è
 1739304.0,6.801817508,function,una
@@ -113,7 +113,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2192652.0,3.633402999,content,metteva
 ,7.004335738,function,a
 2214261.0,4.641018306,content,piangere
-2263212.0,6.430432922,function,sei
+2263212.0,6.430432922,,sei
 2272032.0,4.081344249,content,matta
 2303784.0,1.19092323,content,imprecò
 2321424.0,7.055331658,function,la
@@ -139,7 +139,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2609838.0,2.480957841,content,ragazzetta
 2647764.0,6.283626334,function,era
 2655261.0,6.015979163,function,già
-2659671.0,1.000000000,content,rincantucciata
+2659671.0,,content,rincantucciata
 2693628.0,5.502104716,function,sotto
 2704653.0,6.624997683,function,le
 2710386.0,3.915608618,content,coperte
@@ -353,7 +353,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6454917.0,4.393820039,function,poche
 6467706.0,5.317281957,content,ore
 6476967.0,6.042129583,function,prima
-6490858.0,1.000000000,content,sbigottiva
+6490858.0,,content,sbigottiva
 6561639.0,5.01764575,content,dormire
 6580716.0,6.797274494,function,in
 6585012.0,6.801817508,function,una

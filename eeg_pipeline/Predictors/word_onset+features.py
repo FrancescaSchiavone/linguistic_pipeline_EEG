@@ -5,7 +5,7 @@ import pandas as pd
 
 BASE_OUTPUT_NLP = "output_nlp"
 BASE_DATA = "data"
-GROUPS = ["A", "B", "C", "D"]
+GROUPS = ["D"]
 
 for group in GROUPS:
     group_root = os.path.join(BASE_OUTPUT_NLP, f"output_{group}")
@@ -85,7 +85,7 @@ import pandas as pd
 
 BASE_OUTPUT_NLP = "output_nlp"
 BASE_DATA = "data"
-GROUPS = ["A", "B", "C", "D"]
+GROUPS = ["D"]
 
 for group in GROUPS:
     group_root = os.path.join(BASE_OUTPUT_NLP, f"output_{group}")

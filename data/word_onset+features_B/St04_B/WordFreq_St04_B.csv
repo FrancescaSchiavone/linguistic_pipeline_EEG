@@ -31,7 +31,7 @@ BEGIN,Zipf_freq,type_of_words,word
 879795.0,6.640107629,function,l
 881559.0,2.502677091,content,ombrellino
 904932.0,6.283626334,function,era
-915516.0,4.870227645,function,là
+915516.0,,function,là
 954765.0,2.741151583,function,e
 960057.0,3.311497161,content,restava
 986076.0,5.921350175,function,sempre
@@ -78,7 +78,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1779435.0,6.640107629,function,l
 1782081.0,2.502677091,content,ombrellino
 1826181.0,6.283626334,function,era
-1835001.0,4.870227645,function,lì
+1835001.0,,function,lì
 1864989.0,4.844810788,content,chiuso
 1898064.0,2.52336169,content,accaldato
 1931580.0,2.741151583,function,e
@@ -97,7 +97,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2241162.0,6.768130002,function,sono
 2255715.0,4.739619679,content,triste
 2304225.0,5.965637226,function,perché
-2318778.0,6.430432922,function,sei
+2318778.0,6.430432922,,sei
 2331567.0,4.739619679,content,triste
 2392425.0,5.965637226,function,perché
 2405214.0,7.259198169,function,non
@@ -106,7 +106,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2434320.0,5.514886537,content,stare
 2451519.0,6.432892842,function,qui
 2485035.0,5.669092764,function,troppo
-2500470.0,4.889371768,content,sole
+2500470.0,,content,sole…
 2559564.0,2.741151583,function,e
 2565738.0,6.640107629,function,l
 2567943.0,2.502677091,content,ombrellino
@@ -119,7 +119,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2689218.0,5.498344383,function,suoi
 2701125.0,4.875454422,content,guai
 2759337.0,6.583110863,function,se
-2767716.0,6.430432922,function,sei
+2767716.0,6.430432922,,sei
 2777859.0,4.057210569,content,infelice
 2821077.0,5.965637226,function,perché
 2834307.0,7.259198169,function,non
@@ -156,7 +156,7 @@ BEGIN,Zipf_freq,type_of_words,word
 3621051.0,6.517126939,function,ci
 3624138.0,6.720262455,function,ho
 3626784.0,6.144963021,function,mai
-3634281.0,4.699577094,content,provato
+3634281.0,,content,provato…
 3694698.0,3.910668723,content,provaci
 3767463.0,6.640107629,function,l
 3771873.0,2.502677091,content,ombrellino
@@ -237,7 +237,7 @@ BEGIN,Zipf_freq,type_of_words,word
 5463108.0,2.722402147,content,sparendo
 5506326.0,6.069364593,function,nel
 5519115.0,4.98721997,content,cielo
-5533668.0,1.903089987,content,azzurrissimo
+5533668.0,,content,azzurrissimo
 5633775.0,6.640107629,function,l
 5637113.0,2.502677091,content,ombrellino
 5658471.0,2.997103204,content,restò
@@ -332,7 +332,7 @@ BEGIN,Zipf_freq,type_of_words,word
 7550802.0,7.250456545,function,che
 7560063.0,3.207956569,content,scese
 7626213.0,2.741151583,function,e
-7627536.0,4.870227645,function,lì
+7627536.0,,function,lì
 7636356.0,6.655915487,function,lo
 7640766.0,3.512107257,content,portarono
 7664139.0,6.797274494,function,in

@@ -2,12 +2,12 @@ BEGIN,Zipf_freq,type_of_words,word
 89082,6.801817508,function,una
 102753,3.934432995,content,viola
 124362,6.335583043,function,al
-133182,4.442489845,content,polo
+133182,,content,polo
 149058,4.692393302,content,nord
 246078,6.801817508,function,una
 258426,4.951684874,content,mattina
 298116,6.335583043,function,al
-308259,4.442489845,content,polo
+308259,,content,polo
 320607,4.692393302,content,nord
 354123,6.640107629,function,l
 358533,4.192007611,content,orso
@@ -73,7 +73,7 @@ BEGIN,Zipf_freq,type_of_words,word
 1625526,6.912435835,function,per
 1632141,6.306603623,function,tutto
 1644930,7.039560886,function,il
-1652868,4.442489845,content,polo
+1652868,,content,polo
 1663893,7.055331658,function,la
 1669626,4.773668196,content,notizia
 1726074,7.065833912,function,un
@@ -110,7 +110,7 @@ BEGIN,Zipf_freq,type_of_words,word
 2365965,2.145165739,content,trichechi
 2421090,3.731878039,content,vennero
 2442258,5.670836689,function,dalla
-2453283,3.348304863,content,siberia
+2453283,,content,siberia
 2477097,6.624997683,function,le
 2484130,2.972678605,content,renne
 2520756,5.35125668,function,dall
@@ -292,7 +292,7 @@ BEGIN,Zipf_freq,type_of_words,word
 6173559,6.912435835,function,per
 6180615,6.306603623,function,tutto
 6196491,7.039560886,function,il
-6204870,4.442489845,content,polo
+6204870,,content,polo
 6231771,7.065833912,function,un
 6243237,3.065984493,content,pauroso
 6271020,2.491953226,content,scricchiolio
